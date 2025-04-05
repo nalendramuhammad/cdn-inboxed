@@ -1,0 +1,9 @@
+// FUNCTION: Convert px to rem
+@function rem($px, $base: 16) {
+  @return ($px / $base) * 1rem;
+}
+
+// FUNCTION: Darken color by percentage
+@function darken-color($color, $percent) {
+  @return darken($color, $percent);
+}

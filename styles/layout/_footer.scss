@@ -1,0 +1,10 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+.footer {
+  background-color: $dark;
+  color: $light;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
