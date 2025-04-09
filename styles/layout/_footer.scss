@@ -2,9 +2,100 @@
 @import "../abstracts/mixins";
 
 .footer {
-  background-color: $dark;
-  color: $light;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
+  background-color: #194f9a;
+  color: white;
+  padding: 4rem 6rem;
+  font-size: 0.95rem;
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+    .footer-brand {
+      max-width: 300px;
+
+      p {
+        margin-top: 0.5rem;
+        color: #dbeafe;
+        font-size: 0.95rem;
+      }
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 4rem;
+      flex-wrap: wrap;
+
+      div {
+        h4 {
+          font-weight: 600;
+          margin-bottom: 1rem;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+
+          li {
+            margin-bottom: 0.5rem;
+            color: #cbd5e1;
+            cursor: pointer;
+
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    .contact-links {
+      margin-bottom: 2rem;
+
+      h4 {
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+      }
+
+      ul {
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+        padding: 0;
+        color: #cbd5e1;
+      }
+    }
+
+    .footer-divider {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-meta {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.85rem;
+      color: #cbd5e1;
+
+      .meta-links {
+        display: flex;
+        gap: 1.5rem;
+
+        a {
+          color: #cbd5e1;
+          text-decoration: none;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }

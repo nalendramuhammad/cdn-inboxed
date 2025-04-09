@@ -2,10 +2,26 @@
 @import "../abstracts/mixins";
 
 .navbar {
+  position: absolute; // atau fixed kalau kamu mau tetap di atas saat scroll
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
   display: flex;
-  gap: 20px;
-  padding: 15px 30px;
-  background-color: $primary;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  background: transparent;
+
+  .logo img {
+    height: 40px; /* Adjust the height of the logo */
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+
   a {
     color: $light;
     text-decoration: none;
@@ -13,6 +29,32 @@
     &:hover {
       text-decoration: underline;
       color: $secondary;
+    }
+  }
+
+  .extra-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .language-selector {
+      background-color: transparent;
+      color: $light;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+
+    .login-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      &:hover {
+        background-color: #0056b3;
+      }
     }
   }
 }

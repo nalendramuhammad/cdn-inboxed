@@ -4,6 +4,7 @@
 
 @import "layout/header";
 @import "layout/footer";
+@import "pages/hero";
 
 *,
 *::before,
@@ -20,7 +21,6 @@ body {
   color: $dark;
 }
 
-main {
-  padding: 20px;
-  height: 100vh;
-}
+// main {
+//   height: 100vh;
+// }
