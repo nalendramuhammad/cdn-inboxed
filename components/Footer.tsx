@@ -9,7 +9,7 @@ export default function Footer() {
           <p>
             We curate, recommend, and deliver software with the care of a
             boutique distributor and the depth of a strategic partner. What we
-            offer is not just what's available, but what&apos;s aligned.
+            offer is not just what&apos;s available, but what&apos;s aligned.
           </p>
         </div>
 
