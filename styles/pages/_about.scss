@@ -95,7 +95,7 @@
 
     .vision-text {
       flex: 1;
-      max-width: 400px;
+      max-width: 600px;
 
       h2 {
         color: #2563eb;
@@ -136,7 +136,7 @@
       align-items: center;
       gap: 1rem;
       position: absolute;
-      left: 72%;
+      left: 70%;
       top: 0;
 
       .main-image {
@@ -144,6 +144,7 @@
         img {
           width: 100%;
           object-fit: cover;
+          border-radius: 0.5rem;
         }
       }
 
@@ -154,8 +155,8 @@
 
         img {
           width: 250px;
-          //   height: 140px;
           object-fit: cover;
+          border-radius: 0.5rem;
         }
       }
     }

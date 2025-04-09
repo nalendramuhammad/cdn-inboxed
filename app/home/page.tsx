@@ -106,7 +106,7 @@ export default function HomePage() {
 
         <div className="industries-header">
           <div className="title-wrap">
-            <span className="industries-subtitle">Industries Solution</span>
+            <span className="industries-subtitle">Our Service</span>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
@@ -140,7 +140,7 @@ export default function HomePage() {
           </div>
           <div className="contact-content">
             <div className="contact-form">
-              <h2>Let’s Get In Touch</h2>
+              <h2>Let&apos;s Get In Touch</h2>
               <p>
                 or just reach us out at{" "}
                 <a href="mailto:service@inboxed.com">service@inboxed.com</a>

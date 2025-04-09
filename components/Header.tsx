@@ -8,7 +8,9 @@ export default function Header() {
     <header>
       <nav className="navbar">
         <div className="logo">
-          <Logo />
+          <Link href="/">
+            <Logo />
+          </Link>
         </div>
         <div className="nav-links">
           <Link href="/">Home</Link>

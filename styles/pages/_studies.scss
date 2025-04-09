@@ -1,0 +1,101 @@
+.studies-wrap {
+  position: relative;
+  height: 100vh;
+  background: url("../../public/image/Case Studies.jpg") no-repeat center center /
+    cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  //   padding-top: 15rem;
+  padding-left: 8rem;
+  padding-right: 5rem;
+  color: white;
+  overflow: hidden;
+
+  .studies-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6); // efek gelap seperti di gambar
+    z-index: 1;
+  }
+
+  .studies-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.our-studies-section {
+  color: $primary;
+  position: relative;
+  padding: 4rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .our-studies-section-header {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    // margin-bottom: 20rem;
+    .our-studies-section-title-wrap {
+      margin-bottom: 5rem;
+    }
+
+    .our-studies-section-subtitle {
+      color: #2563eb;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+
+    p {
+      color: #4b5563;
+      font-size: 1rem;
+    }
+  }
+
+  .our-studies-section-grid {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom sebaris */
+    gap: 1.5rem;
+    margin: 0 auto 3rem;
+    max-width: 100%; /* Memastikan grid bisa mengisi lebar penuh */
+
+    .our-studies-section-item {
+      background-color: #d1d5db;
+      border-radius: 0.5rem;
+      height: 18.125rem;
+      width: 18.125rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 50px;
+        height: 50px;
+        opacity: 0.6;
+      }
+    }
+  }
+}
