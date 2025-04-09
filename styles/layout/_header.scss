@@ -2,19 +2,18 @@
 @import "../abstracts/mixins";
 
 .navbar {
-  position: absolute; // atau fixed kalau kamu mau tetap di atas saat scroll
+  position: fixed; /* Sticky berubah menjadi fixed */
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 40px;
-  background: transparent;
 
   .logo img {
-    height: 40px; /* Adjust the height of the logo */
+    height: 40px;
   }
 
   .nav-links {
@@ -29,6 +28,7 @@
     &:hover {
       text-decoration: underline;
       color: $secondary;
+      mix-blend-mode: difference;
     }
   }
 

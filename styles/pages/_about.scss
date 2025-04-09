@@ -1,0 +1,215 @@
+.about-wrap {
+  position: relative;
+  height: 100vh;
+  background: url("../../public/image/About Us.jpg") no-repeat center center /
+    cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  //   padding-top: 15rem;
+  padding-left: 8rem;
+  padding-right: 5rem;
+  color: white;
+  overflow: hidden;
+
+  .about-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6); // efek gelap seperti di gambar
+    z-index: 1;
+  }
+
+  .about-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.about-about-us {
+  color: white;
+  position: relative;
+  padding: 4rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .about-header {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    .title-wrap {
+      margin-bottom: 5rem;
+    }
+
+    .about-subtitle {
+      color: #2563eb;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+
+    p {
+      color: #4b5563;
+      font-size: 1rem;
+    }
+  }
+
+  .about-us-image {
+    img {
+      width: 80%;
+    }
+  }
+}
+
+.vision-section {
+  //   background-color: #e9f2fc;
+  padding: 10rem 0;
+  position: relative;
+  height: 90vh;
+
+  .vision-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 10rem;
+    gap: 3rem;
+    position: relative;
+
+    .vision-text {
+      flex: 1;
+      max-width: 400px;
+
+      h2 {
+        color: #2563eb;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: #111827;
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+      }
+
+      .vision-list {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 1rem;
+          position: relative;
+          padding-left: 1.2rem;
+          font-size: 1rem;
+          color: #111827;
+
+          &::before {
+            content: "❯";
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+          }
+        }
+      }
+    }
+
+    .vision-images {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      position: absolute;
+      left: 72%;
+      top: 0;
+
+      .main-image {
+        width: 300px;
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .side-images {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        img {
+          width: 250px;
+          //   height: 140px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+.mission-section {
+  color: white;
+  position: relative;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .mission-section-header {
+    .mission-section-title-wrap {
+      margin-bottom: 5rem;
+    }
+
+    .mission-section-subtitle {
+      color: #2563eb;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+
+    p {
+      color: #4b5563;
+      font-size: 1rem;
+    }
+  }
+
+  .mission-section-grid {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+
+  .mission-section-item {
+    background-color: #d1d5db;
+    width: 18.125rem;
+    height: 18.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

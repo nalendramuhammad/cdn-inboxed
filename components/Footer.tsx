@@ -7,8 +7,9 @@ export default function Footer() {
         <div className="footer-brand">
           <Logo />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore.
+            We curate, recommend, and deliver software with the care of a
+            boutique distributor and the depth of a strategic partner. What we
+            offer is not just what's available, but what’s aligned.
           </p>
         </div>
 
