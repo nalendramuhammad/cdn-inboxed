@@ -8,12 +8,12 @@ export default function Header() {
     <header>
       <nav className="navbar">
         <div className="logo">
-          <Link href="/">
+          <Link href="/home">
             <Logo />
           </Link>
         </div>
         <div className="nav-links">
-          <Link href="/">Home</Link>
+          <Link href="/home">Home</Link>
           <Link href="/about">About Us</Link>
           <Link href="/our-service">Our Services</Link>
           <Link href="/our-partner">Our Partner</Link>
