@@ -78,23 +78,33 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="industries">
-        <div className="industries-header">
-          <div className="title-wrap">
-            <span className="industries-subtitle">Industries Solution</span>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+      <section className="industries-section">
+        <div className="wrap">
+          <div className="industries-section-header">
+            <div className="industries-section-title-wrap">
+              <span className="industries-section-subtitle">
+                Industreis Solution
+              </span>
+              <h2>
+                "We Don&apos;t Just Serve Industries — We Understand Their
+                Rhythms"
+              </h2>
+              <p>
+                Every industry has its own pace, language, and challenges. At
+                Inboxed, we don’t offer one-size-fits-all solutions. We listen,
+                observe, and design systems that match the natural flow of the
+                people who use them. From finance to education, healthcare to
+                logistics — we adapt thoughtfully, not generically.
+              </p>
+            </div>
           </div>
-          <div className="industries-grid">
+          <div className="industries-section-grid">
             {Array(6)
               .fill(0)
               .map((_, index) => (
                 <div
                   key={index}
-                  className="industry-item"
+                  className="industries-section-item"
                 >
                   <img
                     src="/image/placeholder.png"
@@ -104,23 +114,27 @@ export default function HomePage() {
               ))}
           </div>
         </div>
-
-        <div className="industries-header">
-          <div className="title-wrap">
-            <span className="industries-subtitle">Our Service</span>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+        <div className="wrap">
+          <div className="industries-section-header">
+            <div className="industries-section-title-wrap">
+              <span className="industries-section-subtitle">Our Service</span>
+              <h2>"Curated Solutions for Visionary Minds"</h2>
+              <p>
+                At Inboxed, we don&apos;t simply deliver technology — we curate
+                thoughtful, refined solutions for those who think ahead. Each
+                service we provide is a tailored response to your vision, shaped
+                with nuance, clarity, and quiet precision. This is technology,
+                matured.
+              </p>
+            </div>
           </div>
-          <div className="industries-grid">
+          <div className="industries-section-grid">
             {Array(6)
               .fill(0)
               .map((_, index) => (
                 <div
                   key={index}
-                  className="industry-item"
+                  className="industries-section-item"
                 >
                   <img
                     src="/image/placeholder.png"
@@ -131,94 +145,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      {/* <section className="contact">
-        <div className="contact-container">
-          <div className="contact-image">
-            <img
-              src="/image/CS CARD.jpg"
-              alt="Customer Service"
-            />
-          </div>
-          <div className="contact-content">
-            <div className="contact-form">
-              <h2>Let&apos;s Get In Touch</h2>
-              <p>
-                or just reach us out at{" "}
-                <a href="mailto:service@inboxed.com">service@inboxed.com</a>
-              </p>
 
-              <form>
-                <div className="form-row">
-                  <div className="form-group icon-left">
-                    <label>First Name</label>
-                    <input
-                      type="text"
-                      placeholder="Enter your first name"
-                    />
-                  </div>
-                  <div className="form-group icon-left">
-                    <label>Last Name</label>
-                    <input
-                      type="text"
-                      placeholder="Enter your last name"
-                    />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group icon-left">
-                    <label>Email Address</label>
-                    <input
-                      type="email"
-                      placeholder="Enter email address"
-                    />
-                  </div>
-                  <div className="form-group phone-group">
-                    <label>Phone Number</label>
-                    <div className="phone-input">
-                      <div className="country-code">
-                        <img
-                          src="/image/flag-id.png"
-                          alt="Indonesia Flag"
-                        />
-                        <span>+62</span>
-                      </div>
-                      <input
-                        type="tel"
-                        placeholder="(000) 000-0000"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group icon-left full">
-                    <label>Company Name</label>
-                    <input
-                      type="text"
-                      placeholder="Enter your company name"
-                    />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group full">
-                    <label>Message</label>
-                    <textarea></textarea>
-                  </div>
-                </div>
-
-                <button
-                  type="submit"
-                  className="submit-btn"
-                >
-                  Submit
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <ContactForm />
     </>
   );

@@ -1,3 +1,6 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
 .hero {
   position: relative;
   height: 100vh;
@@ -11,6 +14,10 @@
   padding-right: 5rem;
   color: white;
   overflow: hidden;
+
+  @include respond-to(sm) {
+    height: auto;
+  }
 
   .overlay {
     position: absolute;
@@ -177,11 +184,91 @@
   }
 }
 
-.industries {
+// .industries {
+//   background: url("/image/Home.jpg") no-repeat center center/cover;
+//   color: white;
+//   position: relative;
+//   padding: 4rem 2rem;
+//   text-align: center;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     inset: 0;
+//     background: linear-gradient(to bottom, #ffffff, #004c99);
+//     opacity: 0.95;
+//     z-index: 0;
+//   }
+
+//   .industries-wrap {
+//     display: flex;
+//     flex-direction: column;
+
+//     .industries-header {
+//       position: relative;
+//       z-index: 1;
+//       max-width: 800px;
+//       margin: 0 auto 3rem;
+
+//       .title-wrap {
+//         margin-bottom: 5rem;
+//       }
+
+//       .industries-subtitle {
+//         color: #2563eb;
+//         font-weight: 600;
+//         display: block;
+//         margin-bottom: 0.5rem;
+//       }
+
+//       h2 {
+//         font-size: 2rem;
+//         font-weight: 700;
+//         margin-bottom: 1rem;
+//         color: #1f2937;
+//       }
+
+//       p {
+//         color: #4b5563;
+//         font-size: 1rem;
+//       }
+//     }
+
+//     .industries-grid {
+//       max-width: 800px;
+//       display: grid;
+//       grid-template-columns: repeat(3, 1fr);
+//       gap: 1rem;
+//       justify-items: center;
+//     }
+
+//     .industry-item {
+//       background-color: #d1d5db;
+//       border-radius: 0.5rem;
+//       height: 15rem; // Mengurangi tinggi box agar lebih kompak
+//       width: 15rem; // Mengurangi lebar box agar lebih kompak
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       padding: 1rem;
+
+//       img {
+//         width: 50px;
+//         height: 50px;
+//         opacity: 0.6;
+//       }
+//     }
+//   }
+// }
+
+.industries-section {
   background: url("/image/Home.jpg") no-repeat center center/cover;
   color: white;
   position: relative;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -196,78 +283,62 @@
     z-index: 0;
   }
 
-  .industries-header {
-    position: relative;
-    z-index: 1;
-    max-width: 800px;
-    margin: 0 auto 3rem;
-    // margin-bottom: 20rem;
-    .title-wrap {
-      margin-bottom: 5rem;
+  .wrap {
+    .industries-section-header {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto 3rem;
+      .industries-section-title-wrap {
+        margin-bottom: 5rem;
+      }
+
+      .industries-section-subtitle {
+        color: #2563eb;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 0.5rem;
+        font-size: 1.25rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #1f2937;
+      }
+
+      p {
+        color: #4b5563;
+        font-size: 1rem;
+      }
     }
 
-    .industries-subtitle {
-      color: #2563eb;
-      font-weight: 600;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
+    .industries-section-grid {
+      max-width: 100px;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom sebaris */
+      gap: 1.5rem;
+      margin: 0 auto 10rem;
 
-    h2 {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      color: #1f2937;
-    }
+      .industries-section-item {
+        background-color: #d1d5db;
+        border-radius: 0.5rem;
+        height: 18.125rem;
+        width: 18.125rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-    p {
-      color: #4b5563;
-      font-size: 1rem;
-    }
-  }
-
-  .industries-grid {
-    position: relative;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
-    gap: 2rem;
-    justify-content: center;
-    max-width: 1000px;
-    margin: 0 auto 3rem;
-  }
-
-  .industry-item {
-    background-color: #d1d5db;
-    border-radius: 0.5rem;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      width: 50px;
-      height: 50px;
-      opacity: 0.6;
-    }
-  }
-
-  .industries-service {
-    position: relative;
-    z-index: 1;
-    max-width: 900px;
-    margin: 0 auto;
-
-    h3 {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-    }
-
-    p {
-      font-size: 1rem;
-      margin-bottom: 2rem;
-      color: #e5e5e5;
+        img {
+          width: 50px;
+          height: 50px;
+          opacity: 0.6;
+        }
+      }
     }
   }
 }

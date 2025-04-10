@@ -11,7 +11,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px 40px;
-  // mix-blend-mode: difference;
+  transition: backdrop-filter 0.3s ease-in-out;
+
+  &.scrolled {
+    backdrop-filter: blur(8px); /* Apply blur effect when scrolled */
+  }
 
   .logo img {
     height: 40px;
@@ -20,35 +24,49 @@
   .nav-links {
     display: flex;
     gap: 20px;
+
+    @include respond-to(sm) {
+      display: none;
+    }
   }
 
   a {
     color: $light;
     text-decoration: none;
     font-weight: bold;
+    mix-blend-mode: difference;
     &:hover {
       text-decoration: underline;
       color: $primary;
-      mix-blend-mode: difference;
     }
   }
 
-  .extra-actions {
+  .right {
     display: flex;
-    align-items: center;
-    gap: 15px;
+    gap: 2rem;
 
-    .language-selector {
-      background-color: transparent;
-      color: $light;
-      padding: 5px 10px;
-      font-size: 14px;
+    .extra-actions {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      .language-selector {
+        background-color: transparent;
+        color: $light;
+        padding: 5px 10px;
+        font-size: 14px;
+        border: none;
+      }
+
+      @include respond-to(sm) {
+        display: none;
+      }
     }
 
     .login-btn {
       background-color: #007bff;
       color: white;
-      padding: 8px 16px;
+      padding: 8px 12px;
       border-radius: 4px;
       border: none;
       cursor: pointer;
