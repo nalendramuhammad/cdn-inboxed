@@ -86,15 +86,16 @@ export default function HomePage() {
                 Industreis Solution
               </span>
               <h2>
-                "We Don&apos;t Just Serve Industries — We Understand Their
-                Rhythms"
+                We Don&apos;t Just Serve Industries — We Understand Their
+                Rhythms
               </h2>
               <p>
                 Every industry has its own pace, language, and challenges. At
-                Inboxed, we don’t offer one-size-fits-all solutions. We listen,
-                observe, and design systems that match the natural flow of the
-                people who use them. From finance to education, healthcare to
-                logistics — we adapt thoughtfully, not generically.
+                Inboxed, we don&apos;t offer one-size-fits-all solutions. We
+                listen, observe, and design systems that match the natural flow
+                of the people who use them. From finance to education,
+                healthcare to logistics — we adapt thoughtfully, not
+                generically.
               </p>
             </div>
           </div>
@@ -118,7 +119,7 @@ export default function HomePage() {
           <div className="industries-section-header">
             <div className="industries-section-title-wrap">
               <span className="industries-section-subtitle">Our Service</span>
-              <h2>"Curated Solutions for Visionary Minds"</h2>
+              <h2>Curated Solutions for Visionary Minds</h2>
               <p>
                 At Inboxed, we don&apos;t simply deliver technology — we curate
                 thoughtful, refined solutions for those who think ahead. Each
