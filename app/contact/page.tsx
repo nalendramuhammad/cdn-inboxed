@@ -1,9 +1,71 @@
-// File: frontend/app/home/page.tsx
+import ContactForm from "../../components/ContactForm";
 
 export default function ContactPage() {
   return (
-    <div>
-      <h1>Contact</h1>
-    </div>
+    <>
+      <section className="contact-page-wrap">
+        <div className="contact-page-overlay"></div>
+        <div className="contact-page-content">
+          <h1>We&apos;d Love to Hear From You</h1>
+        </div>
+      </section>
+      <ContactForm />
+      <section className="contact-address">
+        <p>Reach Out To Us</p>
+        <h1>We&apos;re Here to Help</h1>
+        <div className="contact-wrap">
+          <div className="contact-item">
+            <img
+              src="/icons/envelope.svg"
+              alt="Email Icon"
+              className="contact-icon"
+            />
+            <h2>Email Support</h2>
+            <p>
+              <a
+                href="mailto:service@inboxed.com"
+                className="contact-link"
+              >
+                service@inboxed.com
+              </a>
+            </p>
+          </div>
+          <div className="contact-item">
+            <img
+              src="/icons/phone.svg"
+              alt="Phone Icon"
+              className="contact-icon"
+            />
+            <h2>Call Us Directly</h2>
+            <p>
+              <a
+                href="tel:+628138123456"
+                className="contact-link"
+              >
+                +62 813 456 3456
+              </a>
+            </p>
+          </div>
+          <div className="contact-item">
+            <img
+              src="/icons/location.svg"
+              alt="Location Icon"
+              className="contact-icon"
+            />
+            <h2>Find Us on the Map</h2>
+            <p>
+              <a
+                href="https://maps.google.com?q=Jl.+Meruya+Selatan"
+                className="contact-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Jl. Meruya Selatan
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

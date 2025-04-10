@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactForm from "../../components/ContactForm";
 
 export default function HomePage() {
   const partners = [
@@ -130,7 +131,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="contact">
+      {/* <section className="contact">
         <div className="contact-container">
           <div className="contact-image">
             <img
@@ -217,7 +218,8 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <ContactForm />
     </>
   );
 }
