@@ -15,10 +15,10 @@
   transition: backdrop-filter 0.3s ease-in-out;
 
   &.scrolled {
-    backdrop-filter: blur(8px); /* Apply blur effect when scrolled */
+    background-color: v.$primary;
   }
 
-  .logo img {
+  .logo {
     height: 40px;
   }
 
@@ -35,10 +35,10 @@
     color: v.$light;
     text-decoration: none;
     font-weight: bold;
-    mix-blend-mode: difference;
+    // mix-blend-mode: difference;
     &:hover {
-      text-decoration: underline;
-      color: v.$primary;
+      // text-decoration: underline;
+      color: v.$dark;
     }
   }
 
@@ -65,15 +65,16 @@
     }
 
     .login-btn {
-      background-color: #007bff;
+      background-color: #2d30e5;
       color: white;
       padding: 8px 12px;
       border-radius: 4px;
       border: none;
       cursor: pointer;
       font-weight: bold;
+      filter: drop-shadow(0 0 0.2rem rgb(98, 142, 219));
       &:hover {
-        background-color: #0056b3;
+        background-color: v.$primary;
       }
     }
   }

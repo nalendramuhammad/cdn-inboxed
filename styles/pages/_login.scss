@@ -1,0 +1,133 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding: 2rem 2rem;
+  .left-section {
+    position: relative;
+    width: 50%;
+    background-image: url("/image/home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.6); // Overlay hitam transparan
+      z-index: 1;
+    }
+
+    .wrap-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 2rem 2rem;
+      z-index: 1;
+      justify-content: space-between;
+      .atas {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .back-button {
+          color: v.$light;
+          text-decoration: none;
+        }
+        .logo {
+          width: 100px;
+          height: auto;
+        }
+      }
+      .bawah {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          color: v.$light;
+          font-size: 2rem;
+          font-weight: 600;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  .right-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    .form-container {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      //   align-items: center;
+      .form-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+          text-align: center;
+          font-size: 2rem;
+        }
+      }
+
+      .logo {
+        width: 200px;
+        height: auto;
+      }
+
+      //   .form-title {
+      //     font-size: 2rem;
+      //     margin-bottom: 1.5rem;
+      //   }
+
+      .form-group {
+        margin-bottom: 1rem;
+
+        label {
+          display: block;
+          font-weight: 600;
+          margin-bottom: 0.5rem;
+        }
+
+        input {
+          width: 100%;
+          padding: 0.75rem;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+      }
+
+      .submit-button {
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #2d30e5;
+        filter: drop-shadow(0 0 0.2rem rgb(98, 142, 219));
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 1rem;
+
+        &:hover {
+          background-color: #005ac1;
+        }
+      }
+    }
+  }
+}

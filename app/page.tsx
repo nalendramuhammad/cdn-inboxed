@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
-export default function HomeRedirect() {
-  redirect("/home");
+export default function RootPage() {
+  redirect("/home"); // arahkan langsung ke /home (atau halaman utama kamu)
 }

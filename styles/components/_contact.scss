@@ -151,13 +151,14 @@
 
         .submit-btn {
           padding: 0.75rem;
-          background-color: #2563eb;
+          background-color: #2d30e5;
           color: white;
           border: none;
           border-radius: 9999px;
           font-weight: 600;
           cursor: pointer;
           transition: background 0.3s ease;
+          filter: drop-shadow(0 0 0.2rem rgb(98, 142, 219));
 
           &:hover {
             background-color: #1d4ed8;

@@ -28,7 +28,7 @@ export default function Header() {
       <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
         <div className="logo">
           <Link href="/home">
-            <Logo />
+            <Logo className="logo" />
           </Link>
         </div>
         <div className="nav-links">
