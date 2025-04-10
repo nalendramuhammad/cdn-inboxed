@@ -1,5 +1,6 @@
-@import "../abstracts/variables";
-@import "../abstracts/mixins";
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
 
 .navbar {
   position: fixed; /* Sticky berubah menjadi fixed */
@@ -25,19 +26,19 @@
     display: flex;
     gap: 20px;
 
-    @include respond-to(sm) {
+    @include m.respond-to(sm) {
       display: none;
     }
   }
 
   a {
-    color: $light;
+    color: v.$light;
     text-decoration: none;
     font-weight: bold;
     mix-blend-mode: difference;
     &:hover {
       text-decoration: underline;
-      color: $primary;
+      color: v.$primary;
     }
   }
 
@@ -52,13 +53,13 @@
 
       .language-selector {
         background-color: transparent;
-        color: $light;
+        color: v.$light;
         padding: 5px 10px;
         font-size: 14px;
         border: none;
       }
 
-      @include respond-to(sm) {
+      @include m.respond-to(sm) {
         display: none;
       }
     }

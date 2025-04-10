@@ -1,5 +1,6 @@
-@import "../abstracts/variables";
-@import "../abstracts/mixins";
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
 
 .hero {
   position: relative;
@@ -15,7 +16,7 @@
   color: white;
   overflow: hidden;
 
-  @include respond-to(sm) {
+  @include m.respond-to(sm) {
     height: auto;
   }
 

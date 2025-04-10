@@ -1,17 +1,18 @@
-@import "./abstracts/variables";
-@import "./abstracts/mixins";
-@import "./abstracts/functions";
+@use "./abstracts/variables" as *;
+@use "./abstracts/mixins" as *;
+@use "./abstracts/functions" as *;
 
-@import "layout/header";
-@import "layout/footer";
-@import "pages/hero";
-@import "pages/about";
-@import "pages/service";
-@import "pages/partner";
-@import "pages/studies";
-@import "pages/contact";
-@import "components/contact";
+@use "layout/header" as *;
+@use "layout/footer" as *;
+@use "pages/hero" as *;
+@use "pages/about" as *;
+@use "pages/service" as *;
+@use "pages/partner" as *;
+@use "pages/studies" as *;
+@use "pages/contact" as *;
+@use "components/contact" as *;
 
+// Global styles
 *,
 *::before,
 *::after {
@@ -26,7 +27,3 @@ body {
   background-color: $light;
   color: $dark;
 }
-
-// main {
-//   height: 100vh;
-// }

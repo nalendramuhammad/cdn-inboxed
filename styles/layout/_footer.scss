@@ -1,5 +1,6 @@
-@import "../abstracts/variables";
-@import "../abstracts/mixins";
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
 
 .footer {
   background-color: #194f9a;

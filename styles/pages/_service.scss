@@ -1,3 +1,7 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
+
 .service-wrap {
   position: relative;
   height: 100vh;
@@ -35,7 +39,7 @@
 }
 
 .our-service-section {
-  color: $primary;
+  color: v.$primary;
   position: relative;
   padding: 4rem 2rem;
   text-align: center;
