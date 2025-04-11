@@ -11,7 +11,7 @@ export default function RootLayout({
         <link
           rel="icon"
           href="/logo/inboxed2.svg"
-          type="image/png"
+          type="image/svg+xml" // Changed to svg format since the file is SVG
         />
         <title>Inboxed - Your Trusted Partner</title>
         <meta

@@ -1,4 +1,3 @@
-// app/login/layout.tsx
 import "../../styles/globals.scss";
 
 export default function LoginLayout({
@@ -6,11 +5,5 @@ export default function LoginLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body>
-        <main>{children}</main>
-      </body>
-    </html>
-  );
+  return <main>{children}</main>;
 }

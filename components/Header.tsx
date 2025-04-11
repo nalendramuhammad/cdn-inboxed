@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import Logo from "../public/logo/inboxed.svg";
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State for toggle menu
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +26,14 @@ export default function Header() {
     };
   }, []);
 
+  const getLinkClassName = (path: string) => {
+    return pathname === path ? "active" : "";
+  };
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen); // Toggle state for menu
+  };
+
   return (
     <header>
       <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
@@ -31,13 +42,51 @@ export default function Header() {
             <Logo className="logo" />
           </Link>
         </div>
-        <div className="nav-links">
-          <Link href="/home">Home</Link>
-          <Link href="/about">About Us</Link>
-          <Link href="/our-service">Our Services</Link>
-          <Link href="/our-partner">Our Partner</Link>
-          <Link href="/case-studies">Case Studies</Link>
-          <Link href="/contact">Contact</Link>
+        <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
+          <Link
+            href="/home"
+            className={getLinkClassName("/home")}
+          >
+            Home
+          </Link>
+          <Link
+            href="/about"
+            className={getLinkClassName("/about")}
+          >
+            About Us
+          </Link>
+          <Link
+            href="/our-service"
+            className={getLinkClassName("/our-service")}
+          >
+            Our Services
+          </Link>
+          <Link
+            href="/our-partner"
+            className={getLinkClassName("/our-partner")}
+          >
+            Our Partner
+          </Link>
+          <Link
+            href="/case-studies"
+            className={getLinkClassName("/case-studies")}
+          >
+            Case Studies
+          </Link>
+          <Link
+            href="/contact"
+            className={getLinkClassName("/contact")}
+          >
+            Contact
+          </Link>
+
+          {/* Language selector di dalam hamburger (Mobile) */}
+          <div className="extra-actions">
+            <select className="language-selector">
+              <option value="id">ID</option>
+              <option value="en">EN</option>
+            </select>
+          </div>
         </div>
         <div className="right">
           <div className="extra-actions">
@@ -49,6 +98,14 @@ export default function Header() {
           <Link href="/login">
             <button className="login-btn">Demo Login</button>
           </Link>
+          <div
+            className="hamburger"
+            onClick={toggleMenu}
+          >
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </div>
         </div>
       </nav>
     </header>

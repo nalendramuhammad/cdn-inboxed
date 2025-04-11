@@ -68,7 +68,7 @@ export default function LoginPage() {
           </form>
           <div className="foot">
             <p>
-              Any inquiries? <Link href="/Contact">Contact us</Link>
+              Any inquiries? <Link href="/contact">Contact us</Link>
             </p>
           </div>
         </div>
