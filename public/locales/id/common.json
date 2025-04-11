@@ -1,0 +1,88 @@
+{
+  "home": "Beranda",
+  "about": "Tentang Kami",
+  "services": "Layanan Kami",
+  "partner": "Mitra Kami",
+  "caseStudies": "Studi Kasus",
+  "contact": "Kontak",
+  "demoLogin": "Login Demo",
+
+  "homePage": {
+    "heroTitle": "Kami mengubah ide Anda menjadi solusi digital yang cerdas, efisien, dan siap untuk berkembang.",
+    "heroSubtitle": "Wujudkan Visi Anda bersama Inboxed",
+    "aboutButton": "Tentang Kami",
+
+    "ourPartner": "Mitra Kami",
+
+    "aboutUsTagline": "— Tentang Kami",
+    "aboutUsTitle": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
+    "aboutUsPara1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "aboutUsPara2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "learnMore": "Pelajari lebih lanjut",
+
+    "industryTagline": "Solusi Industri",
+    "industryTitle": "Kami Tidak Hanya Melayani Industri — Kami Memahami Ritmenya",
+    "industryDesc": "Setiap industri memiliki ritme, bahasa, dan tantangan tersendiri. Di Inboxed, kami tidak menawarkan solusi yang seragam. Kami mendengarkan, mengamati, dan merancang sistem yang sesuai dengan alur alami penggunanya. Dari keuangan hingga pendidikan, kesehatan hingga logistik — kami menyesuaikan diri dengan cermat, bukan secara umum.",
+
+    "serviceTagline": "Layanan Kami",
+    "serviceTitle": "Solusi Kurasi untuk Pemikir Visioner",
+    "serviceDesc": "Di Inboxed, kami tidak sekadar memberikan teknologi — kami merancang solusi yang matang dan tepat sasaran untuk Anda yang berpikiran maju. Setiap layanan adalah tanggapan yang disesuaikan dengan visi Anda, dibentuk dengan ketelitian, kejelasan, dan presisi. Inilah teknologi yang telah matang."
+  },
+
+  "contactForm": {
+    "title": "Mari Terhubung",
+    "subtitle": "atau hubungi kami di",
+    "firstName": "Nama Depan",
+    "lastName": "Nama Belakang",
+    "email": "Alamat Email",
+    "phone": "Nomor Telepon",
+    "companyName": "Nama Perusahaan",
+    "message": "Pesan",
+    "submit": "Kirim",
+    "firstNamePlaceholder": "Masukkan nama depan Anda",
+    "lastNamePlaceholder": "Masukkan nama belakang Anda",
+    "emailPlaceholder": "Masukkan alamat email",
+    "companyNamePlaceholder": "Masukkan nama perusahaan Anda"
+  },
+
+  "aboutPage": {
+    "heroTitle": "Menyelesaikan Tantangan Industri, Bersama.",
+    "subtitle": "Tentang Kami",
+    "sectionTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "sectionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "visionTitle": "Visi Kami",
+    "visionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "visionList": ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
+    "missionSubtitle": "Misi Kami"
+  },
+
+  "ourService": {
+    "header": "Layanan yang Mendukung Bisnis Anda",
+    "subtitle": "Layanan Kami",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "ourPartner": {
+    "header": "Jaringan Keunggulan Kami",
+    "subtitle": "Mitra Kami",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "caseStudiesPage": {
+    "header": "Bagaimana Solusi Kami Cocok dengan Alur Kerja Anda",
+    "subtitle": "Studi Kasus",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "contactPage": {
+    "heroTitle": "Kami Senang Mendengar dari Anda",
+    "reachOut": "Hubungi Kami",
+    "addressTitle": "Kami Siap Membantu",
+    "emailTitle": "Dukungan Email",
+    "phoneTitle": "Hubungi Kami Langsung",
+    "locationTitle": "Temukan Kami di Peta"
+  }
+}

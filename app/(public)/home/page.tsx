@@ -1,7 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import ContactForm from "../../../components/ContactForm";
+import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
+  const { t } = useTranslation();
+
   const partners = [
     "/image/leantime_logo.png",
     "/image/leantime_logo.png",
@@ -16,18 +21,16 @@ export default function HomePage() {
       <section className="hero">
         <div className="overlay"></div>
         <div className="content">
-          <h1>
-            We turn your ideas into digital solutions that are smart, efficient,
-            and ready to scale.
-          </h1>
-          <p>Bring your Vision into Inboxed Reality</p>
+          <h1>{t("homePage.heroTitle")}</h1>
+          <p>{t("homePage.heroSubtitle")}</p>
           <Link href="/about">
-            <button className="ctaButton">About Us</button>
+            <button className="ctaButton">{t("homePage.aboutButton")}</button>
           </Link>
         </div>
       </section>
+
       <section className="partner">
-        <h3>Our Partner</h3>
+        <h3>{t("homePage.ourPartner")}</h3>
         <div className="marquee">
           <div className="marquee-content">
             {partners.map((logo, index) => (
@@ -38,7 +41,26 @@ export default function HomePage() {
                 className="partner-logo"
               />
             ))}
-            {/* Duplicate logos for seamless loop */}
+            {partners.map((logo, index) => (
+              <img
+                key={`duplicate-${index}`}
+                src={logo}
+                alt="Partner Logo"
+                className="partner-logo"
+              />
+            ))}
+          </div>
+        </div>
+        <div className="marquee">
+          <div className="marquee-content">
+            {partners.map((logo, index) => (
+              <img
+                key={index}
+                src={logo}
+                alt="Partner Logo"
+                className="partner-logo"
+              />
+            ))}
             {partners.map((logo, index) => (
               <img
                 key={`duplicate-${index}`}
@@ -50,25 +72,18 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       <section className="about">
         <div className="about-overlay" />
         <div className="about-container">
           <div className="about-text">
-            <span className="about-subtitle">— About Us</span>
-            <h2>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
-            </p>
-            <button className="about-button">Learn more</button>
+            <span className="about-subtitle">
+              {t("homePage.aboutUsTagline")}
+            </span>
+            <h2>{t("homePage.aboutUsTitle")}</h2>
+            <p>{t("homePage.aboutUsPara1")}</p>
+            <p>{t("homePage.aboutUsPara2")}</p>
+            <button className="about-button">{t("homePage.learnMore")}</button>
           </div>
           <div className="about-image">
             <img
@@ -78,25 +93,16 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       <section className="industries-section">
         <div className="wrap">
           <div className="industries-section-header">
             <div className="industries-section-title-wrap">
               <span className="industries-section-subtitle">
-                Industreis Solution
+                {t("homePage.industryTagline")}
               </span>
-              <h2>
-                We Don&apos;t Just Serve Industries — We Understand Their
-                Rhythms
-              </h2>
-              <p>
-                Every industry has its own pace, language, and challenges. At
-                Inboxed, we don&apos;t offer one-size-fits-all solutions. We
-                listen, observe, and design systems that match the natural flow
-                of the people who use them. From finance to education,
-                healthcare to logistics — we adapt thoughtfully, not
-                generically.
-              </p>
+              <h2>{t("homePage.industryTitle")}</h2>
+              <p>{t("homePage.industryDesc")}</p>
             </div>
           </div>
           <div className="industries-section-grid">
@@ -115,18 +121,15 @@ export default function HomePage() {
               ))}
           </div>
         </div>
+
         <div className="wrap">
           <div className="industries-section-header">
             <div className="industries-section-title-wrap">
-              <span className="industries-section-subtitle">Our Service</span>
-              <h2>Curated Solutions for Visionary Minds</h2>
-              <p>
-                At Inboxed, we don&apos;t simply deliver technology — we curate
-                thoughtful, refined solutions for those who think ahead. Each
-                service we provide is a tailored response to your vision, shaped
-                with nuance, clarity, and quiet precision. This is technology,
-                matured.
-              </p>
+              <span className="industries-section-subtitle">
+                {t("homePage.serviceTagline")}
+              </span>
+              <h2>{t("homePage.serviceTitle")}</h2>
+              <p>{t("homePage.serviceDesc")}</p>
             </div>
           </div>
           <div className="industries-section-grid">
@@ -139,7 +142,7 @@ export default function HomePage() {
                 >
                   <img
                     src="/image/placeholder.png"
-                    alt={`Industry ${index + 1}`}
+                    alt={`Service ${index + 1}`}
                   />
                 </div>
               ))}

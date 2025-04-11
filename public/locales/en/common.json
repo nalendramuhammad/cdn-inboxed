@@ -1,0 +1,88 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "services": "Our Services",
+  "partner": "Our Partner",
+  "caseStudies": "Case Studies",
+  "contact": "Contact",
+  "demoLogin": "Demo Login",
+
+  "homePage": {
+    "heroTitle": "We turn your ideas into digital solutions that are smart, efficient, and ready to scale.",
+    "heroSubtitle": "Bring your Vision into Inboxed Reality",
+    "aboutButton": "About Us",
+
+    "ourPartner": "Our Partner",
+
+    "aboutUsTagline": "— About Us",
+    "aboutUsTitle": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
+    "aboutUsPara1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "aboutUsPara2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "learnMore": "Learn more",
+
+    "industryTagline": "Industries Solution",
+    "industryTitle": "We Don't Just Serve Industries — We Understand Their Rhythms",
+    "industryDesc": "Every industry has its own pace, language, and challenges. At Inboxed, we don't offer one-size-fits-all solutions. We listen, observe, and design systems that match the natural flow of the people who use them. From finance to education, healthcare to logistics — we adapt thoughtfully, not generically.",
+
+    "serviceTagline": "Our Service",
+    "serviceTitle": "Curated Solutions for Visionary Minds",
+    "serviceDesc": "At Inboxed, we don't simply deliver technology — we curate thoughtful, refined solutions for those who think ahead. Each service we provide is a tailored response to your vision, shaped with nuance, clarity, and quiet precision. This is technology, matured."
+  },
+
+  "contactForm": {
+    "title": "Let's Get In Touch",
+    "subtitle": "or just reach us out at",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "companyName": "Company Name",
+    "message": "Message",
+    "submit": "Submit",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastNamePlaceholder": "Enter your last name",
+    "emailPlaceholder": "Enter email address",
+    "companyNamePlaceholder": "Enter your company name"
+  },
+
+  "aboutPage": {
+    "heroTitle": "Solving Industry Challenges, Together.",
+    "subtitle": "About Us",
+    "sectionTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "sectionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "visionTitle": "Our Vision",
+    "visionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "visionList": ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
+    "missionSubtitle": "Our Mission"
+  },
+
+  "ourService": {
+    "header": "Services That Empower Your Business",
+    "subtitle": "Our Service",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "ourPartner": {
+    "header": "Our Network of Excellence",
+    "subtitle": "Our Partner",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "caseStudiesPage": {
+    "header": "How Our Solutions Fit Your Workflow",
+    "subtitle": "Case Studies",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "contactPage": {
+    "heroTitle": "We'd Love to Hear From You",
+    "reachOut": "Reach Out To Us",
+    "addressTitle": "We're Here to Help",
+    "emailTitle": "Email Support",
+    "phoneTitle": "Call Us Directly",
+    "locationTitle": "Find Us on the Map"
+  }
+}

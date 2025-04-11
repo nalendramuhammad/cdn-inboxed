@@ -1,4 +1,5 @@
 import "../styles/globals.scss";
+import { I18nProvider } from "./i18n-provider";
 
 export default function RootLayout({
   children,
@@ -11,7 +12,7 @@ export default function RootLayout({
         <link
           rel="icon"
           href="/logo/inboxed2.svg"
-          type="image/svg+xml" // Changed to svg format since the file is SVG
+          type="image/svg+xml"
         />
         <title>Inboxed - Your Trusted Partner</title>
         <meta
@@ -23,7 +24,9 @@ export default function RootLayout({
           content="width=device-width, initial-scale=1.0"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <I18nProvider>{children}</I18nProvider>
+      </body>
     </html>
   );
 }

@@ -1,11 +1,14 @@
-"use client"; // Add this directive to ensure client-side rendering
+"use client";
 
 import React, { useState } from "react";
 import PhoneInput from "react-phone-number-input";
-import "react-phone-number-input/style.css"; // Import the default styling
+import "react-phone-number-input/style.css";
+import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
-  const [value, setValue] = useState<string>(""); // Phone number
+  const { t } = useTranslation();
+  const [value, setValue] = useState<string>("");
+
   const [firstName, setFirstName] = useState<string>("");
   const [lastName, setLastName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
@@ -40,13 +43,12 @@ const ContactForm = () => {
       phone: !value,
     };
     setErrors(newErrors);
-    return !Object.values(newErrors).includes(true); // Return true if no errors
+    return !Object.values(newErrors).includes(true);
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (validateForm()) {
-      // Handle form submission (e.g., send to API)
       console.log("Form submitted!");
     } else {
       console.log("Form has errors.");
@@ -64,9 +66,9 @@ const ContactForm = () => {
         </div>
         <div className="contact-content">
           <div className="contact-form">
-            <h2>Let&apos;s Get In Touch</h2>
+            <h2>{t("contactForm.title")}</h2>
             <p>
-              or just reach us out at{" "}
+              {t("contactForm.subtitle")}{" "}
               <a href="mailto:service@inboxed.com">service@inboxed.com</a>
             </p>
 
@@ -75,19 +77,19 @@ const ContactForm = () => {
                 <div
                   className={`form-group ${errors.firstName ? "error" : ""}`}
                 >
-                  <label>First Name</label>
+                  <label>{t("contactForm.firstName")}</label>
                   <input
                     type="text"
-                    placeholder="Enter your first name"
+                    placeholder={t("contactForm.firstNamePlaceholder")}
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                   />
                 </div>
                 <div className={`form-group ${errors.lastName ? "error" : ""}`}>
-                  <label>Last Name</label>
+                  <label>{t("contactForm.lastName")}</label>
                   <input
                     type="text"
-                    placeholder="Enter your last name"
+                    placeholder={t("contactForm.lastNamePlaceholder")}
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
                   />
@@ -96,10 +98,10 @@ const ContactForm = () => {
 
               <div className="form-row">
                 <div className={`form-group ${errors.email ? "error" : ""}`}>
-                  <label>Email Address</label>
+                  <label>{t("contactForm.email")}</label>
                   <input
                     type="email"
-                    placeholder="Enter email address"
+                    placeholder={t("contactForm.emailPlaceholder")}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
@@ -109,7 +111,7 @@ const ContactForm = () => {
                     errors.phone ? "error" : ""
                   }`}
                 >
-                  <label>Phone Number</label>
+                  <label>{t("contactForm.phone")}</label>
                   <div className="phone-input">
                     <PhoneInput
                       international
@@ -128,10 +130,10 @@ const ContactForm = () => {
                     errors.companyName ? "error" : ""
                   }`}
                 >
-                  <label>Company Name</label>
+                  <label>{t("contactForm.companyName")}</label>
                   <input
                     type="text"
-                    placeholder="Enter your company name"
+                    placeholder={t("contactForm.companyNamePlaceholder")}
                     value={companyName}
                     onChange={(e) => setCompanyName(e.target.value)}
                   />
@@ -142,7 +144,7 @@ const ContactForm = () => {
                 <div
                   className={`form-group full ${errors.message ? "error" : ""}`}
                 >
-                  <label>Message</label>
+                  <label>{t("contactForm.message")}</label>
                   <textarea
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
@@ -154,7 +156,7 @@ const ContactForm = () => {
                 type="submit"
                 className="submit-btn"
               >
-                Submit
+                {t("contactForm.submit")}
               </button>
             </form>
           </div>

@@ -1,21 +1,25 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+
 export default function AboutPage() {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className="about-wrap">
         <div className="about-overlay"></div>
         <div className="about-content">
-          <h1>Solving Industry Challenges, Together.</h1>
+          <h1>{t("aboutPage.heroTitle")}</h1>
         </div>
       </section>
+
       <section className="about-about-us">
         <div className="about-header">
           <div className="title-wrap">
-            <span className="about-subtitle">About Us</span>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <span className="about-subtitle">{t("aboutPage.subtitle")}</span>
+            <h2>{t("aboutPage.sectionTitle")}</h2>
+            <p>{t("aboutPage.sectionParagraph")}</p>
           </div>
         </div>
         <div className="about-us-image">
@@ -25,21 +29,18 @@ export default function AboutPage() {
           />
         </div>
       </section>
+
       <section className="vision-section">
         <div className="vision-container">
           <div className="vision-text">
-            <h2>Our Vision</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <h2>{t("aboutPage.visionTitle")}</h2>
+            <p>{t("aboutPage.visionParagraph")}</p>
             <ul className="vision-list">
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
+              {(
+                t("aboutPage.visionList", { returnObjects: true }) as string[]
+              ).map((item: string, index: number) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </div>
           <div className="vision-images">
@@ -62,10 +63,13 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
       <section className="mission-section">
         <div className="mission-section-header">
           <div className="mission-section-title-wrap">
-            <span className="mission-section-subtitle">Our Mission</span>
+            <span className="mission-section-subtitle">
+              {t("aboutPage.missionSubtitle")}
+            </span>
           </div>
         </div>
         <div className="mission-section-grid">

@@ -1,18 +1,25 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
 import ContactForm from "../../../components/ContactForm";
 
 export default function ContactPage() {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className="contact-page-wrap">
         <div className="contact-page-overlay"></div>
         <div className="contact-page-content">
-          <h1>We&apos;d Love to Hear From You</h1>
+          <h1>{t("contactPage.heroTitle")}</h1>
         </div>
       </section>
+
       <ContactForm />
+
       <section className="contact-address">
-        <p>Reach Out To Us</p>
-        <h1>We&apos;re Here to Help</h1>
+        <p>{t("contactPage.reachOut")}</p>
+        <h1>{t("contactPage.addressTitle")}</h1>
         <div className="contact-wrap">
           <div className="contact-item">
             <img
@@ -20,7 +27,7 @@ export default function ContactPage() {
               alt="Email Icon"
               className="contact-icon"
             />
-            <h2>Email Support</h2>
+            <h2>{t("contactPage.emailTitle")}</h2>
             <p>
               <a
                 href="mailto:service@inboxed.com"
@@ -30,13 +37,14 @@ export default function ContactPage() {
               </a>
             </p>
           </div>
+
           <div className="contact-item">
             <img
               src="/icons/phone.svg"
               alt="Phone Icon"
               className="contact-icon"
             />
-            <h2>Call Us Directly</h2>
+            <h2>{t("contactPage.phoneTitle")}</h2>
             <p>
               <a
                 href="tel:+628138123456"
@@ -46,13 +54,14 @@ export default function ContactPage() {
               </a>
             </p>
           </div>
+
           <div className="contact-item">
             <img
               src="/icons/location.svg"
               alt="Location Icon"
               className="contact-icon"
             />
-            <h2>Find Us on the Map</h2>
+            <h2>{t("contactPage.locationTitle")}</h2>
             <p>
               <a
                 href="https://maps.google.com?q=Jl.+Meruya+Selatan"
