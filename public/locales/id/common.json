@@ -53,7 +53,8 @@
     "visionTitle": "Visi Kami",
     "visionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "visionList": ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
-    "missionSubtitle": "Misi Kami"
+    "missionSubtitle": "Misi Kami",
+    "visionSubtitle": "Visi Kami"
   },
 
   "ourService": {

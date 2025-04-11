@@ -30,16 +30,19 @@ export default function LoginPage() {
       {/* Right Section with Login Form */}
       <div className="right-section">
         <div className="form-container">
-          <div className="form-title">
+          <Link
+            href="/"
+            className="form-logo"
+          >
             <img
               src="/logo/inboxed-black.svg"
               alt="Logo"
               className="logo"
             />
-            <h2>
-              Your next great idea starts here <br /> Sign in Now
-            </h2>
-            {/* <h1 className="form-title">Sign in Now</h1> */}
+          </Link>
+          <div className="form-title">
+            {" "}
+            <h2>Your next great idea starts here Sign in Now</h2>
           </div>
           <form>
             <div className="form-group">
@@ -67,7 +70,13 @@ export default function LoginPage() {
           </form>
           <div className="foot">
             <p>
-              Any inquiries? <Link href="/contact">Contact us</Link>
+              Any inquiries?{" "}
+              <Link
+                href="/contact"
+                className="inquiries"
+              >
+                Contact us
+              </Link>
             </p>
           </div>
         </div>

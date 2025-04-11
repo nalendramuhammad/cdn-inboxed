@@ -10,11 +10,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  //   padding-top: 15rem;
-  padding-left: 8rem;
-  padding-right: 5rem;
+  padding: 8rem;
   color: white;
   overflow: hidden;
+
+  @include m.respond-to(sm) {
+    width: 100%;
+    padding: 3rem;
+  }
 
   .about-overlay {
     position: absolute;
@@ -34,6 +37,9 @@
       margin-bottom: 1rem;
       line-height: 1.2;
       text-transform: capitalize;
+      @include m.respond-to(sm) {
+        font-size: 1.5rem;
+      }
     }
   }
 }
@@ -54,6 +60,9 @@
     margin: 0 auto 3rem;
     .title-wrap {
       margin-bottom: 5rem;
+      @include m.respond-to(sm) {
+        margin-bottom: 0;
+      }
     }
 
     .about-subtitle {
@@ -79,6 +88,10 @@
   .about-us-image {
     img {
       width: 80%;
+
+      @include m.respond-to(sm) {
+        width: 100%;
+      }
     }
   }
 }
@@ -88,6 +101,10 @@
   padding: 10rem 0;
   position: relative;
   height: 90vh;
+
+  @include m.respond-to(sm) {
+    display: none;
+  }
 
   .vision-container {
     display: flex;
@@ -167,6 +184,72 @@
   }
 }
 
+.vision-section-mobile {
+  color: white;
+  position: relative;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+
+  @include m.respond-to(sm) {
+    display: flex;
+  }
+
+  .vision-section-header-mobile {
+    .vision-section-title-wrap-mobile {
+      margin-bottom: 5rem;
+    }
+
+    .vision-section-subtitle-mobile {
+      color: #2563eb;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+
+    p {
+      color: #4b5563;
+      font-size: 1rem;
+    }
+  }
+
+  .vision-section-grid {
+    max-width: 100px;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 0 auto 10rem;
+
+    @include m.respond-to(sm) {
+      grid-template-columns: 1fr;
+      margin: 0 auto 5rem;
+    }
+  }
+
+  .vision-section-item-mobile {
+    background-color: #d1d5db;
+    width: 18.125rem;
+    height: 18.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .mission-section {
   color: white;
   position: relative;
@@ -203,10 +286,19 @@
   }
 
   .mission-section-grid {
+    max-width: 100px;
+    justify-content: center;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    gap: 1.25rem;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 0 auto 10rem;
+
+    @include m.respond-to(sm) {
+      grid-template-columns: 1fr;
+      margin: 0 auto 5rem;
+    }
   }
 
   .mission-section-item {

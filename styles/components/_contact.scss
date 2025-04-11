@@ -43,7 +43,7 @@
 
     @include m.respond-to(sm) {
       margin: 0;
-      padding: 0 1rem;
+      padding: 0 0.5rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -59,6 +59,7 @@
         font-weight: 700;
         color: #111827;
         margin-bottom: 0.5rem;
+        text-align: center;
       }
 
       p {

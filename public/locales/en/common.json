@@ -53,7 +53,8 @@
     "visionTitle": "Our Vision",
     "visionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "visionList": ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
-    "missionSubtitle": "Our Mission"
+    "missionSubtitle": "Our Mission",
+    "visionSubtitle": "Our Vision"
   },
 
   "ourService": {

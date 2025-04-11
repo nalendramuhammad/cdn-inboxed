@@ -10,11 +10,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  //   padding-top: 15rem;
-  padding-left: 8rem;
-  padding-right: 5rem;
+  padding: 8rem;
   color: white;
   overflow: hidden;
+
+  @include m.respond-to(sm) {
+    width: 100%;
+    padding: 3rem;
+  }
 
   .partner-overlay {
     position: absolute;
@@ -34,6 +37,9 @@
       margin-bottom: 1rem;
       line-height: 1.2;
       text-transform: capitalize;
+      @include m.respond-to(sm) {
+        font-size: 1.5rem;
+      }
     }
   }
 }
@@ -81,10 +87,13 @@
     position: relative;
     z-index: 1;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom sebaris */
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin: 0 auto 3rem;
-    max-width: 100%; /* Memastikan grid bisa mengisi lebar penuh */
+    max-width: 100%;
+    @include m.respond-to(sm) {
+      grid-template-columns: 1fr;
+    }
 
     .our-partner-section-item {
       background-color: #d1d5db;

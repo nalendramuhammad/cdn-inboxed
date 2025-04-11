@@ -64,6 +64,31 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="vision-section-mobile">
+        <div className="vision-section-header-mobile">
+          <div className="vision-section-title-wrap-mobile">
+            <span className="vision-section-subtitle-mobile">
+              {t("aboutPage.visionSubtitle")}
+            </span>
+          </div>
+        </div>
+        <div className="vision-section-grid">
+          {Array(3)
+            .fill(0)
+            .map((_, index) => (
+              <div
+                key={index}
+                className="vision-section-item-mobile"
+              >
+                <img
+                  src="/image/placeholder.png"
+                  alt={`Industry ${index + 1}`}
+                />
+              </div>
+            ))}
+        </div>
+      </section>
+
       <section className="mission-section">
         <div className="mission-section-header">
           <div className="mission-section-title-wrap">
