@@ -2,20 +2,40 @@
 
 import Link from "next/link";
 import Logo from "../public/logo/inboxed.svg";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
+  const menuRef = useRef<HTMLDivElement>(null);
+  const hamburgerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 0);
+      setIsMenuOpen(false);
     };
+
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target as Node) &&
+        hamburgerRef.current &&
+        !hamburgerRef.current.contains(event.target as Node)
+      ) {
+        setIsMenuOpen(false);
+      }
+    };
+
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
   const getLinkClassName = (path: string) => {
@@ -35,7 +55,10 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
+        <div
+          ref={menuRef}
+          className={`nav-links ${isMenuOpen ? "open" : ""}`}
+        >
           <Link
             href="/home"
             className={getLinkClassName("/home")}
@@ -73,7 +96,6 @@ export default function Header() {
             Contact
           </Link>
 
-          {/* Language selector for mobile */}
           <div className="extra-actions mobile-lang">
             <select className="language-selector">
               <option value="id">ID</option>
@@ -83,7 +105,6 @@ export default function Header() {
         </div>
 
         <div className="right">
-          {/* Language selector for desktop */}
           <div className="extra-actions desktop-lang">
             <select className="language-selector">
               <option value="id">ID</option>
@@ -96,8 +117,9 @@ export default function Header() {
           </Link>
 
           <div
-            className="hamburger"
+            className={`hamburger ${isMenuOpen ? "open" : ""}`}
             onClick={toggleMenu}
+            ref={hamburgerRef}
           >
             <span className="bar"></span>
             <span className="bar"></span>

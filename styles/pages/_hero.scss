@@ -45,11 +45,10 @@
       font-size: 3rem;
       font-weight: 800;
       margin-bottom: 1rem;
-      line-height: 1.2;
       text-transform: capitalize;
 
       @include m.respond-to(sm) {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
       }
     }
 
@@ -76,7 +75,7 @@
       filter: drop-shadow(0 0 0.2rem rgb(98, 142, 219));
 
       @include m.respond-to(sm) {
-        padding: 0.35rem 0.75rem;
+        padding: 0.5rem 1rem;
         border-radius: 0;
         font-size: 0.75rem;
       }
