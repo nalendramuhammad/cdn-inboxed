@@ -1,8 +1,16 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
+
 .contact {
   position: relative;
   background-color: #f1f7ff;
   padding: 10rem 2rem;
   overflow: hidden;
+
+  @include m.respond-to(sm) {
+    padding: 3rem 2rem;
+  }
 
   .contact-image {
     position: absolute;
@@ -11,6 +19,10 @@
     width: 45%;
     height: 80%;
     z-index: 1;
+
+    @include m.respond-to(sm) {
+      display: none;
+    }
 
     img {
       width: 100%;
@@ -29,6 +41,14 @@
     align-items: center;
     justify-content: center;
 
+    @include m.respond-to(sm) {
+      margin: 0;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .contact-form {
       width: 100%;
       margin-top: auto;
@@ -45,6 +65,10 @@
         margin-bottom: 2rem;
         font-size: 0.95rem;
         color: #4b5563;
+
+        @include m.respond-to(sm) {
+          text-align: center;
+        }
 
         a {
           color: #2563eb;

@@ -31,44 +31,46 @@ export default function HomePage() {
 
       <section className="partner">
         <h3>{t("homePage.ourPartner")}</h3>
-        <div className="marquee">
-          <div className="marquee-content">
-            {partners.map((logo, index) => (
-              <img
-                key={index}
-                src={logo}
-                alt="Partner Logo"
-                className="partner-logo"
-              />
-            ))}
-            {partners.map((logo, index) => (
-              <img
-                key={`duplicate-${index}`}
-                src={logo}
-                alt="Partner Logo"
-                className="partner-logo"
-              />
-            ))}
+        <div className="marquee-wrap">
+          <div className="marquee">
+            <div className="marquee-content">
+              {partners.map((logo, index) => (
+                <img
+                  key={index}
+                  src={logo}
+                  alt="Partner Logo"
+                  className="partner-logo"
+                />
+              ))}
+              {partners.map((logo, index) => (
+                <img
+                  key={`duplicate-${index}`}
+                  src={logo}
+                  alt="Partner Logo"
+                  className="partner-logo"
+                />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="marquee">
-          <div className="marquee-content">
-            {partners.map((logo, index) => (
-              <img
-                key={index}
-                src={logo}
-                alt="Partner Logo"
-                className="partner-logo"
-              />
-            ))}
-            {partners.map((logo, index) => (
-              <img
-                key={`duplicate-${index}`}
-                src={logo}
-                alt="Partner Logo"
-                className="partner-logo"
-              />
-            ))}
+          <div className="marquee-2">
+            <div className="marquee-content">
+              {partners.map((logo, index) => (
+                <img
+                  key={index}
+                  src={logo}
+                  alt="Partner Logo"
+                  className="partner-logo"
+                />
+              ))}
+              {partners.map((logo, index) => (
+                <img
+                  key={`duplicate-${index}`}
+                  src={logo}
+                  alt="Partner Logo"
+                  className="partner-logo"
+                />
+              ))}
+            </div>
           </div>
         </div>
       </section>

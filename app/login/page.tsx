@@ -14,13 +14,12 @@ export default function LoginPage() {
               href="/"
               className="back-button"
             >
-              Back to Home
+              <img
+                src="/logo/inboxed.svg"
+                alt="Logo"
+                className="logo"
+              />
             </Link>
-            <img
-              src="/logo/inboxed.svg"
-              alt="Logo"
-              className="logo"
-            />
           </div>
           <div className="bawah">
             <p>You bring the vision, we bring the code</p>
