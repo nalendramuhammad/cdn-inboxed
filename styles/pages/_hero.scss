@@ -11,13 +11,15 @@
   align-items: center;
   justify-content: flex-start;
   //   padding-top: 15rem;
-  padding-left: 8rem;
-  padding-right: 5rem;
+  // padding-left: 8rem;
+  // padding-right: 5rem;
+  padding: 8rem;
   color: white;
   overflow: hidden;
 
   @include m.respond-to(sm) {
-    height: auto;
+    width: 100%;
+    padding: 3rem;
   }
 
   .overlay {
@@ -32,12 +34,23 @@
     z-index: 2;
     max-width: 1000px;
 
+    @include m.respond-to(sm) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
     h1 {
       font-size: 3rem;
       font-weight: 800;
       margin-bottom: 1rem;
       line-height: 1.2;
       text-transform: capitalize;
+
+      @include m.respond-to(sm) {
+        font-size: 1.25rem;
+      }
     }
 
     p {
@@ -45,6 +58,9 @@
       margin-bottom: 2rem;
       color: #e5e5e5;
       font-style: italic;
+      @include m.respond-to(sm) {
+        font-size: 0.75rem;
+      }
     }
 
     .ctaButton {
@@ -58,6 +74,12 @@
       cursor: pointer;
       transition: background 0.3s ease;
       filter: drop-shadow(0 0 0.2rem rgb(98, 142, 219));
+
+      @include m.respond-to(sm) {
+        padding: 0.35rem 0.75rem;
+        border-radius: 0;
+        font-size: 0.75rem;
+      }
 
       &:hover {
         background-color: #1e40af;
@@ -188,86 +210,6 @@
     }
   }
 }
-
-// .industries {
-//   background: url("/image/Home.jpg") no-repeat center center/cover;
-//   color: white;
-//   position: relative;
-//   padding: 4rem 2rem;
-//   text-align: center;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     inset: 0;
-//     background: linear-gradient(to bottom, #ffffff, #004c99);
-//     opacity: 0.95;
-//     z-index: 0;
-//   }
-
-//   .industries-wrap {
-//     display: flex;
-//     flex-direction: column;
-
-//     .industries-header {
-//       position: relative;
-//       z-index: 1;
-//       max-width: 800px;
-//       margin: 0 auto 3rem;
-
-//       .title-wrap {
-//         margin-bottom: 5rem;
-//       }
-
-//       .industries-subtitle {
-//         color: #2563eb;
-//         font-weight: 600;
-//         display: block;
-//         margin-bottom: 0.5rem;
-//       }
-
-//       h2 {
-//         font-size: 2rem;
-//         font-weight: 700;
-//         margin-bottom: 1rem;
-//         color: #1f2937;
-//       }
-
-//       p {
-//         color: #4b5563;
-//         font-size: 1rem;
-//       }
-//     }
-
-//     .industries-grid {
-//       max-width: 800px;
-//       display: grid;
-//       grid-template-columns: repeat(3, 1fr);
-//       gap: 1rem;
-//       justify-items: center;
-//     }
-
-//     .industry-item {
-//       background-color: #d1d5db;
-//       border-radius: 0.5rem;
-//       height: 15rem; // Mengurangi tinggi box agar lebih kompak
-//       width: 15rem; // Mengurangi lebar box agar lebih kompak
-//       display: flex;
-//       align-items: center;
-//       justify-content: center;
-//       padding: 1rem;
-
-//       img {
-//         width: 50px;
-//         height: 50px;
-//         opacity: 0.6;
-//       }
-//     }
-//   }
-// }
 
 .industries-section {
   background: url("/image/Home.jpg") no-repeat center center/cover;

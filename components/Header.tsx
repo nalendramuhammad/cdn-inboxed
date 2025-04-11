@@ -7,23 +7,15 @@ import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State for toggle menu
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 0);
     };
-
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const getLinkClassName = (path: string) => {
@@ -31,7 +23,7 @@ export default function Header() {
   };
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen); // Toggle state for menu
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
@@ -42,6 +34,7 @@ export default function Header() {
             <Logo className="logo" />
           </Link>
         </div>
+
         <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
           <Link
             href="/home"
@@ -80,24 +73,28 @@ export default function Header() {
             Contact
           </Link>
 
-          {/* Language selector di dalam hamburger (Mobile) */}
-          <div className="extra-actions">
+          {/* Language selector for mobile */}
+          <div className="extra-actions mobile-lang">
             <select className="language-selector">
               <option value="id">ID</option>
               <option value="en">EN</option>
             </select>
           </div>
         </div>
+
         <div className="right">
-          <div className="extra-actions">
+          {/* Language selector for desktop */}
+          <div className="extra-actions desktop-lang">
             <select className="language-selector">
               <option value="id">ID</option>
               <option value="en">EN</option>
             </select>
           </div>
+
           <Link href="/login">
             <button className="login-btn">Demo Login</button>
           </Link>
+
           <div
             className="hamburger"
             onClick={toggleMenu}
