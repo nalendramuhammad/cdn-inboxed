@@ -24,6 +24,10 @@
     flex-direction: row;
     border-radius: 0.5rem;
 
+    @include m.respond-to(md) {
+      display: none;
+    }
+
     @include m.respond-to(sm) {
       display: none;
     }
@@ -77,6 +81,11 @@
     align-items: center;
     justify-content: center;
     background: #fff;
+
+    @include m.respond-to(md) {
+      display: flex;
+      width: 100%;
+    }
 
     @include m.respond-to(sm) {
       display: flex;

@@ -15,9 +15,8 @@
     "ourPartner": "Our Partner",
 
     "aboutUsTagline": "— About Us",
-    "aboutUsTitle": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
-    "aboutUsPara1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "aboutUsPara2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "aboutUsTitle": "A Digital Space for Reflective Work",
+    "aboutUsPara1": "Inboxed is more than a studio. It’s a space to slow down, reflect, and create systems that truly matter. We craft software through dialogue and intentionality — because when thought leads, technology follows with purpose.",
     "learnMore": "Learn more",
 
     "industryTagline": "Industries Solution",
@@ -85,5 +84,9 @@
     "emailTitle": "Email Support",
     "phoneTitle": "Call Us Directly",
     "locationTitle": "Find Us on the Map"
+  },
+
+  "contactButton": {
+    "contactText": "Contact Us"
   }
 }

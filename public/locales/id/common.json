@@ -85,5 +85,9 @@
     "emailTitle": "Dukungan Email",
     "phoneTitle": "Hubungi Kami Langsung",
     "locationTitle": "Temukan Kami di Peta"
+  },
+
+  "contactButton": {
+    "contactText": "Hubungi Kami"
   }
 }

@@ -18,6 +18,11 @@
     padding: 1.25rem 1.5rem;
   }
 
+  @include m.respond-to(xxxxl) {
+    width: 100vw;
+    padding: 5rem 4rem;
+  }
+
   &.scrolled {
     background-color: rgba(25, 79, 154, 0.9);
     backdrop-filter: blur(8px);
@@ -31,11 +36,18 @@
     display: flex;
     gap: 20px;
 
+    @include m.respond-to(xxxxl) {
+      gap: 50px;
+    }
+
     a {
       color: v.$light;
       text-decoration: none;
       font-weight: bold;
       transition: color 0.3s ease-in-out;
+      @include m.respond-to(xxxxl) {
+        font-size: 2rem;
+      }
 
       &:hover {
         color: v.$gray;
@@ -50,10 +62,10 @@
       display: none;
     }
 
-    @include m.respond-to(sm) {
+    @include m.respond-to(lg) {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 20px;
       position: absolute;
       top: 100%;
       left: 0;
@@ -71,6 +83,116 @@
       a {
         width: 100%;
         text-align: left;
+        padding-left: 1.5rem;
+      }
+
+      &.open {
+        padding: 20px;
+        max-height: 500px;
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .extra-actions.mobile-lang {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.3s ease-in-out;
+
+        .language-selector {
+          background-color: transparent;
+          color: v.$light;
+          padding: 5px 10px;
+          font-size: 14px;
+          border: none;
+        }
+      }
+
+      &.open .extra-actions.mobile-lang {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @include m.respond-to(md) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100vw;
+      background-color: rgba(25, 79, 154, 0.9);
+      backdrop-filter: blur(8px);
+      padding: 0;
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.4s ease-in-out;
+      z-index: 99;
+
+      a {
+        width: 100%;
+        text-align: left;
+        padding-left: 1.5rem;
+      }
+
+      &.open {
+        padding: 20px;
+        max-height: 500px;
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .extra-actions.mobile-lang {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.3s ease-in-out;
+
+        .language-selector {
+          background-color: transparent;
+          color: v.$light;
+          padding: 5px 10px;
+          font-size: 14px;
+          border: none;
+        }
+      }
+
+      &.open .extra-actions.mobile-lang {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @include m.respond-to(sm) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100vw;
+      background-color: rgba(25, 79, 154, 0.9);
+      backdrop-filter: blur(8px);
+      padding: 0;
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.4s ease-in-out;
+      z-index: 99;
+
+      a {
+        width: 100%;
+        text-align: left;
+        font-size: 1rem;
+        padding: 0;
       }
 
       &.open {
@@ -109,6 +231,14 @@
     align-items: center;
     gap: 2rem;
 
+    @include m.respond-to(lg) {
+      gap: 1rem;
+    }
+
+    @include m.respond-to(md) {
+      gap: 1rem;
+    }
+
     @include m.respond-to(sm) {
       gap: 1rem;
     }
@@ -125,6 +255,14 @@
         font-size: 14px;
         border: none;
         transition: color 0.3s ease-in-out;
+      }
+
+      @include m.respond-to(lg) {
+        display: none;
+      }
+
+      @include m.respond-to(md) {
+        display: none;
       }
 
       @include m.respond-to(sm) {
@@ -179,6 +317,14 @@
       .bar:nth-child(3) {
         transform: rotate(-45deg) translate(6px, -6px);
       }
+    }
+
+    @include m.respond-to(lg) {
+      display: flex;
+    }
+
+    @include m.respond-to(md) {
+      display: flex;
     }
 
     @include m.respond-to(sm) {

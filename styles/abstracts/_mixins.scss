@@ -28,6 +28,10 @@
     @media (min-width: 1401px) {
       @content;
     }
+  } @else if $breakpoint == xxxxl {
+    @media (min-width: 2560px) {
+      @content;
+    }
   }
 }
 

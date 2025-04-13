@@ -4,9 +4,16 @@
 
 .contact {
   position: relative;
-  // background-color: #f1f7ff;
-  padding: 10rem 2rem;
+  padding: 6rem;
   overflow: hidden;
+
+  @include m.respond-to(lg) {
+    padding: 3rem 2rem;
+  }
+
+  @include m.respond-to(md) {
+    padding: 3rem 2rem;
+  }
 
   @include m.respond-to(sm) {
     padding: 3rem 2rem;
@@ -16,9 +23,17 @@
     position: absolute;
     top: 10%;
     left: 0;
-    width: 45%;
+    width: 35%;
     height: 80%;
     z-index: 1;
+
+    @include m.respond-to(lg) {
+      display: none;
+    }
+
+    @include m.respond-to(md) {
+      display: none;
+    }
 
     @include m.respond-to(sm) {
       display: none;
@@ -32,14 +47,30 @@
   }
 
   .contact-content {
-    margin-left: 55%;
+    margin-left: 40%;
     height: 100%;
     display: flex;
-    padding: 3rem 4rem;
+    // padding: 3rem 4rem;
     z-index: 2;
     position: relative;
     align-items: center;
     justify-content: center;
+
+    @include m.respond-to(lg) {
+      margin: 0;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @include m.respond-to(md) {
+      margin: 0;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
     @include m.respond-to(sm) {
       margin: 0;
@@ -59,7 +90,6 @@
         font-weight: 700;
         color: #111827;
         margin-bottom: 0.5rem;
-        text-align: center;
       }
 
       p {
@@ -162,14 +192,13 @@
               }
             }
 
-            // Styling untuk form group error
             &.error input,
             &.error textarea {
-              border: 1px solid red; // Menambahkan border merah untuk input dan textarea error
+              border: 1px solid red;
             }
 
             &.error label {
-              color: red; // Mengubah warna label menjadi merah ketika terjadi error pada field
+              color: red;
             }
           }
         }

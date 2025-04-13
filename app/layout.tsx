@@ -1,5 +1,6 @@
 import "../styles/globals.scss";
 import { I18nProvider } from "./i18n-provider";
+import TransitionWrapper from "../components/TransitionWrapper";
 
 export default function RootLayout({
   children,
@@ -25,7 +26,9 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <I18nProvider>{children}</I18nProvider>
+        <I18nProvider>
+          <TransitionWrapper>{children}</TransitionWrapper>
+        </I18nProvider>
       </body>
     </html>
   );

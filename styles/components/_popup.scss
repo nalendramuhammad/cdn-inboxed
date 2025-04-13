@@ -1,0 +1,38 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
+
+.contact-button {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #2d30e5;
+  color: white;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: v.$primary;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+
+  .button-text {
+    @include m.respond-to(sm) {
+      display: none;
+    }
+  }
+}

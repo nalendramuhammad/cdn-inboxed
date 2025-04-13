@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import ContactButton from "../../components/ui/ContactButton";
 
 export default function PublicLayout({
   children,
@@ -10,6 +11,7 @@ export default function PublicLayout({
     <>
       <Header />
       <main>{children}</main>
+      <ContactButton />
       <Footer />
     </>
   );

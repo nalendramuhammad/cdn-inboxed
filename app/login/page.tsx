@@ -46,11 +46,11 @@ export default function LoginPage() {
           </div>
           <form>
             <div className="form-group">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="username">Username</label>
               <input
-                type="email"
-                id="email"
-                placeholder="Enter your email"
+                type="text"
+                id="username"
+                placeholder="Enter your username"
               />
             </div>
             <div className="form-group">

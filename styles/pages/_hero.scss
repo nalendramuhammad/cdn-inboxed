@@ -14,6 +14,16 @@
   color: white;
   overflow: hidden;
 
+  @include m.respond-to(lg) {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  @include m.respond-to(md) {
+    width: 100%;
+    padding: 3rem;
+  }
+
   @include m.respond-to(sm) {
     width: 100%;
     padding: 3rem;
@@ -31,6 +41,18 @@
     z-index: 2;
     max-width: 1000px;
 
+    @include m.respond-to(lg) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @include m.respond-to(md) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
     @include m.respond-to(sm) {
       display: flex;
       flex-direction: column;
@@ -44,6 +66,10 @@
       margin-bottom: 1rem;
       text-transform: capitalize;
 
+      @include m.respond-to(md) {
+        font-size: 2.5rem;
+      }
+
       @include m.respond-to(sm) {
         font-size: 1.5rem;
       }
@@ -54,6 +80,10 @@
       margin-bottom: 2rem;
       color: #e5e5e5;
       font-style: italic;
+      @include m.respond-to(md) {
+        font-size: 1rem;
+      }
+
       @include m.respond-to(sm) {
         font-size: 0.75rem;
       }
@@ -98,6 +128,10 @@
     line-height: 0;
     // margin-bottom: 5rem;
     padding: 2rem 3rem;
+
+    @include m.respond-to(md) {
+      font-size: 2rem;
+    }
 
     @include m.respond-to(sm) {
       font-size: 1.5rem;
@@ -192,15 +226,24 @@
   .about-container {
     position: relative;
     display: flex;
-    align-items: center; /* Memastikan teks dan gambar sejajar */
+    align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
+    // max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 0;
+    padding: 6rem;
     position: relative;
     z-index: 2;
     flex-wrap: wrap;
     gap: 2rem;
+
+    @include m.respond-to(lg) {
+      max-width: 900px;
+      padding: 3rem;
+    }
+
+    @include m.respond-to(md) {
+      padding: 2rem 4rem;
+    }
 
     @include m.respond-to(sm) {
       padding: 2rem 1rem;
@@ -209,7 +252,7 @@
 
   .about-text {
     flex: 1;
-    max-width: 700px;
+    max-width: 600px;
     padding: 1rem;
 
     .about-subtitle {
@@ -255,13 +298,19 @@
   .about-image {
     position: absolute;
     left: 50%;
-    width: 80%;
-    top: 5%;
+    width: 50%;
+    top: 0;
 
     img {
       height: auto;
       width: 100%;
       object-fit: contain;
+      @include m.respond-to(lg) {
+        display: none;
+      }
+      @include m.respond-to(md) {
+        display: none;
+      }
       @include m.respond-to(sm) {
         display: none;
       }
@@ -277,10 +326,14 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+  @include m.respond-to(md) {
+    padding: 2rem;
+  }
 
   @include m.respond-to(sm) {
     padding: 2rem 3rem;
+    gap: 5rem;
   }
 
   &::before {
@@ -296,10 +349,20 @@
     .industries-section-header {
       position: relative;
       z-index: 1;
-      max-width: 800px;
-      margin: 0 auto 3rem;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      margin: 0 4rem;
+      @include m.respond-to(md) {
+        margin: 0 1rem;
+      }
+      @include m.respond-to(sm) {
+        margin: 0;
+      }
       .industries-section-title-wrap {
-        margin-bottom: 5rem;
+        @include m.respond-to(md) {
+          margin: 0 3rem;
+        }
       }
 
       .industries-section-subtitle {
@@ -313,7 +376,6 @@
       h2 {
         font-size: 2rem;
         font-weight: 700;
-        margin-bottom: 1rem;
         color: #1f2937;
       }
 
@@ -324,28 +386,64 @@
     }
 
     .industries-section-grid {
-      max-width: 100px;
+      padding: 4rem;
       justify-content: center;
       position: relative;
       z-index: 1;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      display: flex;
+      flex-wrap: wrap;
       gap: 1.5rem;
-      margin: 0 auto 10rem;
+      margin: 0 auto 2rem;
+
+      @include m.respond-to(xl) {
+        gap: 1rem;
+        padding: 1rem;
+        justify-content: space-between;
+        margin: 0;
+      }
+
+      @include m.respond-to(lg) {
+        gap: 1rem;
+        padding: 1rem;
+        justify-content: space-between;
+        margin: 0;
+      }
+
+      @include m.respond-to(md) {
+        gap: 1rem;
+        padding: 1rem;
+        justify-content: space-between;
+        margin: 0;
+      }
 
       @include m.respond-to(sm) {
-        grid-template-columns: 1fr;
-        margin: 0 auto 5rem;
+        gap: 1rem;
+        padding: 0;
+        justify-content: center;
       }
 
       .industries-section-item {
         background-color: #d1d5db;
         border-radius: 0.5rem;
         height: 18.125rem;
-        width: 18.125rem;
+        width: calc(33.333% - 1rem); // 3 per row (default)
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include m.respond-to(lg) {
+          height: 15rem;
+          width: calc(33.333% - 1rem); // still 3 per row
+        }
+
+        @include m.respond-to(md) {
+          width: calc(50% - 1rem);
+        }
+
+        @include m.respond-to(sm) {
+          width: 100%;
+          // max-width: 18rem;
+        }
 
         img {
           width: 50px;

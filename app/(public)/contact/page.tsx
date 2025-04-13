@@ -15,7 +15,9 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <ContactForm />
+      <section id="contact-form">
+        <ContactForm />
+      </section>
 
       <section className="contact-address">
         <p>{t("contactPage.reachOut")}</p>

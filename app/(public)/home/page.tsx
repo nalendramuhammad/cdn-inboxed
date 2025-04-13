@@ -84,7 +84,6 @@ export default function HomePage() {
             </span>
             <h2>{t("homePage.aboutUsTitle")}</h2>
             <p>{t("homePage.aboutUsPara1")}</p>
-            <p>{t("homePage.aboutUsPara2")}</p>
             <button className="about-button">{t("homePage.learnMore")}</button>
           </div>
           <div className="about-image">

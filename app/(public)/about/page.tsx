@@ -32,17 +32,31 @@ export default function AboutPage() {
 
       <section className="vision-section">
         <div className="vision-container">
-          <div className="vision-text">
-            <h2>{t("aboutPage.visionTitle")}</h2>
-            <p>{t("aboutPage.visionParagraph")}</p>
-            <ul className="vision-list">
-              {(
-                t("aboutPage.visionList", { returnObjects: true }) as string[]
-              ).map((item: string, index: number) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+          <div className="vision-text-wrap">
+            <div className="vision-text">
+              <h2>{t("aboutPage.visionTitle")}</h2>
+              <p>{t("aboutPage.visionParagraph")}</p>
+              <ul className="vision-list">
+                {(
+                  t("aboutPage.visionList", { returnObjects: true }) as string[]
+                ).map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="vision-text">
+              <h2>{t("aboutPage.missionSubtitle")}</h2>
+              <p>{t("aboutPage.visionParagraph")}</p>
+              <ul className="vision-list">
+                {(
+                  t("aboutPage.visionList", { returnObjects: true }) as string[]
+                ).map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
           </div>
+
           <div className="vision-images">
             <div className="main-image">
               <img

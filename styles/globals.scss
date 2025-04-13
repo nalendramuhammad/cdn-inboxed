@@ -12,6 +12,7 @@
 @use "pages/studies" as *;
 @use "pages/contact" as *;
 @use "components/contact" as *;
+@use "components/popup" as *;
 
 // Global styles
 *,
@@ -28,4 +29,5 @@ body {
   background-color: $light;
   color: $dark;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
