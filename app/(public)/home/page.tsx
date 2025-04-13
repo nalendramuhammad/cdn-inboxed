@@ -2,19 +2,13 @@
 
 import Link from "next/link";
 import ContactForm from "../../../components/ContactForm";
+import partnersData from "../../../public/data/partners.json";
 import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
   const { t } = useTranslation();
 
-  const partners = [
-    "/image/leantime_logo.png",
-    "/image/leantime_logo.png",
-    "/image/leantime_logo.png",
-    "/image/leantime_logo.png",
-    "/image/leantime_logo.png",
-    "/image/leantime_logo.png",
-  ];
+  const { partners, partners2 } = partnersData;
 
   return (
     <>
@@ -54,7 +48,7 @@ export default function HomePage() {
           </div>
           <div className="marquee-2">
             <div className="marquee-content">
-              {partners.map((logo, index) => (
+              {partners2.map((logo, index) => (
                 <img
                   key={index}
                   src={logo}
@@ -62,7 +56,7 @@ export default function HomePage() {
                   className="partner-logo"
                 />
               ))}
-              {partners.map((logo, index) => (
+              {partners2.map((logo, index) => (
                 <img
                   key={`duplicate-${index}`}
                   src={logo}

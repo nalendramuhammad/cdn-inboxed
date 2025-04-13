@@ -118,7 +118,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // padding: 4rem 3rem;
+  padding: 4rem;
   background-color: #f0f8ff;
   text-align: center;
 
@@ -126,7 +126,7 @@
     font-size: 2.75rem;
     font-weight: 600;
     line-height: 0;
-    // margin-bottom: 5rem;
+    margin-bottom: 5rem;
     padding: 2rem 3rem;
 
     @include m.respond-to(md) {
@@ -141,7 +141,7 @@
   .marquee-wrap {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 7rem;
     margin-bottom: 5rem;
 
     .marquee {
@@ -152,11 +152,12 @@
       .marquee-content {
         display: flex;
         gap: 4rem;
-        animation: scroll 20s linear infinite;
+        animation: scroll 15s linear infinite;
         width: max-content;
 
         .partner-logo {
-          height: 50px;
+          max-height: 100px;
+          max-width: 200px;
           object-fit: contain;
           flex-shrink: 0;
 
@@ -175,11 +176,12 @@
       .marquee-content {
         display: flex;
         gap: 4rem;
-        animation: scroll2 20s linear infinite;
+        animation: scroll2 15s linear infinite;
         width: max-content;
 
         .partner-logo {
-          height: 50px;
+          max-height: 100px;
+          max-width: 200px;
           object-fit: contain;
           flex-shrink: 0;
 

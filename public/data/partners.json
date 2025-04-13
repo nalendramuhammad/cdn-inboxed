@@ -1,0 +1,33 @@
+{
+  "partners": [
+    "/partner/akaunting-logo-horizontal.svg",
+    "/partner/Librehealth.svg",
+    "/partner/open-edx.png",
+    "/partner/openehr.png",
+    "/partner/leantime_logo.png",
+    "/partner/orangehrm.png",
+    "/partner/suitecrm.png",
+    "/partner/tidio.png",
+    "/partner/bigblue.png",
+    "/partner/isams.svg",
+    "/partner/DHIS2.png",
+    "/partner/chamilo.png",
+    "/partner/hospitalrun.png",
+    "/partner/xerte.png",
+    "/partner/cliniccases.png"
+  ],
+  "partners2": [
+    "/partner/opensupports.png",
+    "/partner/Frappe.png",
+    "/partner/bahmni.png",
+    "/partner/openproject.png",
+    "/partner/openmrs.png",
+    "/partner/navit.png",
+    "/partner/fleetops.png",
+    "/partner/openemr.png",
+    "/partner/nextgen.png",
+    "/partner/orthanc.png",
+    "/partner/traccar.png",
+    "/partner/Mattermost.png"
+  ]
+}
