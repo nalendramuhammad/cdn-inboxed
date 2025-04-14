@@ -1,6 +1,7 @@
 import "../styles/globals.scss";
 import { I18nProvider } from "./i18n-provider";
 import TransitionWrapper from "../components/TransitionWrapper";
+import TawkToWidget from "../components/ui/TawkToWidget";
 
 export default function RootLayout({
   children,
@@ -27,6 +28,7 @@ export default function RootLayout({
       </head>
       <body>
         <I18nProvider>
+          <TawkToWidget />
           <TransitionWrapper>{children}</TransitionWrapper>
         </I18nProvider>
       </body>

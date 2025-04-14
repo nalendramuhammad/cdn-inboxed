@@ -4,19 +4,19 @@
 
 .contact-button {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
   background-color: #2d30e5;
   color: white;
   border: none;
-  border-radius: 10px 0 0 10px;
+  border-radius: 0 10px 10px 0;
   padding: 12px 20px;
   display: flex;
   align-items: center;
   gap: 8px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
