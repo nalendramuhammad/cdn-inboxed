@@ -46,10 +46,41 @@ const ContactForm = () => {
     return !Object.values(newErrors).includes(true);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (validateForm()) {
-      console.log("Form submitted!");
+      try {
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            firstName,
+            lastName,
+            email,
+            phone: value,
+            companyName,
+            message,
+          }),
+        });
+
+        const data = await res.json();
+        if (data.success) {
+          alert("Message sent successfully!");
+          setFirstName("");
+          setLastName("");
+          setEmail("");
+          setValue("");
+          setCompanyName("");
+          setMessage("");
+        } else {
+          alert("Failed to send message.");
+        }
+      } catch (error) {
+        console.error("Submit error:", error);
+        alert("An error occurred. Please try again later.");
+      }
     } else {
       console.log("Form has errors.");
     }
