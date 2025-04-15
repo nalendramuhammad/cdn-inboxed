@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
   }
 
   const transporter = nodemailer.createTransport({
-    service: "gmail", // atau sesuaikan dengan provider kamu (contoh: outlook, smtp custom, dsb)
+    service: "gmail",
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
   });
 
   const mailOptions = {
-    from: `"Inboxed Mail" <${process.env.EMAIL_USER}>`,
+    from: `${firstName} ${lastName} <${email}>`,
     to: process.env.EMAIL_USER,
     subject: "📬 Inboxed Mail - New Contact Form Submission",
     html: generateEmailTemplate({
@@ -33,6 +33,7 @@ export async function POST(req: NextRequest) {
       companyName,
       message,
     }),
+    replyTo: email,
   };
 
   try {
