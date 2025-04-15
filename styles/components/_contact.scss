@@ -221,4 +221,35 @@
       }
     }
   }
+  .popup-message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+
+    &.success {
+      background-color: #4caf50; // Green
+    }
+
+    &.error {
+      background-color: #f44336; // Red
+    }
+
+    // Optional: Fade out the message after a few seconds
+    &.fade-out {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
 }

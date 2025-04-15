@@ -24,6 +24,10 @@ const ContactForm = () => {
     phone: false,
   });
 
+  const [popupMessage, setPopupMessage] = useState<string>(""); // New state for popup message
+  const [popupType, setPopupType] = useState<"success" | "error" | "">(""); // To differentiate between success and error messages
+  const [popupClass, setPopupClass] = useState<string>(""); // New state for the fade-out class
+
   const handlePhoneChange = (phone: string | undefined) => {
     if (phone) {
       setValue(phone);
@@ -67,7 +71,9 @@ const ContactForm = () => {
 
         const data = await res.json();
         if (data.success) {
-          alert("Message sent successfully!");
+          setPopupMessage("Message sent successfully!"); // Success message
+          setPopupType("success");
+          setPopupClass(""); // Reset popup fade-out class
           setFirstName("");
           setLastName("");
           setEmail("");
@@ -75,11 +81,24 @@ const ContactForm = () => {
           setCompanyName("");
           setMessage("");
         } else {
-          alert("Failed to send message.");
+          setPopupMessage("Failed to send message.");
+          setPopupType("error");
+          setPopupClass(""); // Reset popup fade-out class
         }
+
+        // After 3 seconds, make the popup fade out
+        setTimeout(() => {
+          setPopupClass("fade-out");
+        }, 3000);
       } catch (error) {
         console.error("Submit error:", error);
-        alert("An error occurred. Please try again later.");
+        setPopupMessage("An error occurred. Please try again later.");
+        setPopupType("error");
+        setPopupClass(""); // Reset popup fade-out class
+
+        setTimeout(() => {
+          setPopupClass("fade-out");
+        }, 3000);
       }
     } else {
       console.log("Form has errors.");
@@ -193,6 +212,17 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
+
+      {/* Pop-up message */}
+      {popupMessage && (
+        <div
+          className={`popup-message ${
+            popupType === "success" ? "success" : "error"
+          } ${popupClass}`}
+        >
+          {popupMessage}
+        </div>
+      )}
     </section>
   );
 };
