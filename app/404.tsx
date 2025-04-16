@@ -14,7 +14,7 @@ const NotFound = () => {
     <div className="error-page">
       <Header />
       <h1>404</h1>
-      <p>Oops! The page you are looking for doesn't exist.</p>
+      <p>Oops! The page you are looking for doesn&apos;t exist.</p>
       <div className="error-content">
         <button
           onClick={handleRedirect}
