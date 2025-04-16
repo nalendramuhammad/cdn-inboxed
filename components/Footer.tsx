@@ -20,6 +20,7 @@ export default function Footer() {
               <li>About Us</li>
               <li>Our Service</li>
               <li>Our Partner</li>
+              <li>Case Studies</li>
               <li>Contact</li>
             </ul>
           </div>

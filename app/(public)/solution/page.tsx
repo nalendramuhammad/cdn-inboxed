@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import Service from "../../../components/ServiceGrid";
+import Solution from "../../../components/IndustriesGrid";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -14,7 +14,7 @@ export default function HomePage() {
           <h1>{t("ourService.header")}</h1>
         </div>
       </section>
-      <Service />
+      <Solution />
     </>
   );
 }

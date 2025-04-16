@@ -3,6 +3,8 @@
 import Link from "next/link";
 import ContactForm from "../../../components/ContactForm";
 import partnersData from "../../../public/data/partners.json";
+import Solution from "../../../components/IndustriesGrid";
+import Service from "../../../components/ServiceGrid";
 import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
@@ -89,7 +91,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="industries-section">
+      {/* <section className="industries-section">
         <div className="wrap">
           <div className="industries-section-header">
             <div className="industries-section-title-wrap">
@@ -143,6 +145,12 @@ export default function HomePage() {
               ))}
           </div>
         </div>
+      </section> */}
+
+      <section className="industries-section">
+        <Solution />
+
+        <Service />
       </section>
 
       <ContactForm />

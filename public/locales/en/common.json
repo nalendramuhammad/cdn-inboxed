@@ -1,6 +1,7 @@
 {
   "home": "Home",
   "about": "About Us",
+  "solution": "Industries Solution",
   "services": "Our Services",
   "partner": "Our Partner",
   "caseStudies": "Case Studies",
@@ -74,7 +75,31 @@
     "header": "How Our Solutions Fit Your Workflow",
     "subtitle": "Case Studies",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "os": {
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio."
+    },
+    "security": {
+      "title": "Dolor Sit Amet",
+      "description": "Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet."
+    },
+    "cloud": {
+      "title": "Consectetur Adipiscing",
+      "description": "Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta."
+    },
+    "network": {
+      "title": "Integer Nec Odio",
+      "description": "Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora."
+    },
+    "devops": {
+      "title": "Fusce Nec Tellus",
+      "description": "Curabitur sodales ligula in libero. Sed dignissim lacinia nunc."
+    },
+    "support": {
+      "title": "Vestibulum Lacinia",
+      "description": "Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor."
+    }
   },
 
   "contactPage": {

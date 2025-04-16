@@ -324,7 +324,6 @@
   background: url("/image/Home.jpg") no-repeat center center/cover;
   color: white;
   position: relative;
-  padding: 6rem 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -345,114 +344,5 @@
     background: linear-gradient(to bottom, #ffffff, #004c99);
     opacity: 0.95;
     z-index: 0;
-  }
-
-  .wrap {
-    .industries-section-header {
-      position: relative;
-      z-index: 1;
-      justify-content: center;
-      display: flex;
-      align-items: center;
-      margin: 0 4rem;
-      @include m.respond-to(md) {
-        margin: 0 1rem;
-      }
-      @include m.respond-to(sm) {
-        margin: 0;
-      }
-      .industries-section-title-wrap {
-        @include m.respond-to(md) {
-          margin: 0 3rem;
-        }
-      }
-
-      .industries-section-subtitle {
-        color: #2563eb;
-        font-weight: 600;
-        display: block;
-        margin-bottom: 0.5rem;
-        font-size: 1.25rem;
-      }
-
-      h2 {
-        font-size: 2rem;
-        font-weight: 700;
-        color: #1f2937;
-      }
-
-      p {
-        color: #4b5563;
-        font-size: 1rem;
-      }
-    }
-
-    .industries-section-grid {
-      padding: 4rem;
-      justify-content: center;
-      position: relative;
-      z-index: 1;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      margin: 0 auto 2rem;
-
-      @include m.respond-to(xl) {
-        gap: 1rem;
-        padding: 1rem;
-        justify-content: space-between;
-        margin: 0;
-      }
-
-      @include m.respond-to(lg) {
-        gap: 1rem;
-        padding: 1rem;
-        justify-content: space-between;
-        margin: 0;
-      }
-
-      @include m.respond-to(md) {
-        gap: 1rem;
-        padding: 1rem;
-        justify-content: space-between;
-        margin: 0;
-      }
-
-      @include m.respond-to(sm) {
-        gap: 1rem;
-        padding: 0;
-        justify-content: center;
-      }
-
-      .industries-section-item {
-        background-color: #d1d5db;
-        border-radius: 0.5rem;
-        height: 18.125rem;
-        width: calc(33.333% - 1rem); // 3 per row (default)
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        @include m.respond-to(lg) {
-          height: 15rem;
-          width: calc(33.333% - 1rem); // still 3 per row
-        }
-
-        @include m.respond-to(md) {
-          width: calc(50% - 1rem);
-        }
-
-        @include m.respond-to(sm) {
-          width: 100%;
-          // max-width: 18rem;
-        }
-
-        img {
-          width: 50px;
-          height: 50px;
-          opacity: 0.6;
-        }
-      }
-    }
   }
 }

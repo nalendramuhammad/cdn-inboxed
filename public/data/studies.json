@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "/icons/education-white.svg",
+    "titleKey": "caseStudiesPage.os.title",
+    "descriptionKey": "caseStudiesPage.os.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/education-white.svg",
+    "titleKey": "caseStudiesPage.security.title",
+    "descriptionKey": "caseStudiesPage.security.description",
+    "link": "/dolor/sit",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/education-white.svg",
+    "titleKey": "caseStudiesPage.cloud.title",
+    "descriptionKey": "caseStudiesPage.cloud.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/education-white.svg",
+    "titleKey": "caseStudiesPage.network.title",
+    "descriptionKey": "caseStudiesPage.network.description",
+    "link": "/integer/nec",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/education-white.svg",
+    "titleKey": "caseStudiesPage.devops.title",
+    "descriptionKey": "caseStudiesPage.devops.description",
+    "link": "/fusce/nec",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/education-white.svg",
+    "titleKey": "caseStudiesPage.support.title",
+    "descriptionKey": "caseStudiesPage.support.description",
+    "link": "/vestibulum/lacinia",
+    "background": "/image/Home.jpg"
+  }
+]

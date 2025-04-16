@@ -1,0 +1,44 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.error-page h1 {
+  font-size: 12rem;
+  color: #333;
+  margin: 0;
+}
+
+.error-page p {
+  font-size: 1.5rem;
+  color: #777;
+  margin: 10px 0;
+}
+
+.error-content {
+  margin-top: 20px;
+
+  .go-home-btn {
+    padding: 15px 30px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #005bb5;
+    }
+  }
+}
