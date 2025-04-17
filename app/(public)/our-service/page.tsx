@@ -12,6 +12,7 @@ export default function HomePage() {
         <div className="service-overlay"></div>
         <div className="service-content">
           <h1>{t("ourService.header")}</h1>
+          <p>{t("ourService.subHeader")}</p>
         </div>
       </section>
       <Service />

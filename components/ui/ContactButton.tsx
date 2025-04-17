@@ -18,8 +18,8 @@ export default function ContactButton() {
         <Image
           src="/icons/chat.png"
           alt="chat"
-          width={30}
-          height={30}
+          width={25}
+          height={25}
         />
       </span>
       <span className="button-text">{t("contactButton.contactText")}</span>

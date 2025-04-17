@@ -15,9 +15,10 @@ export default function Footer() {
 
         <div className="footer-links">
           <div>
-            <h4>Home</h4>
-            <ul>
+            <ul className="navigation-footer">
+              <li>Home</li>
               <li>About Us</li>
+              <li>Industries Solution</li>
               <li>Our Service</li>
               <li>Our Partner</li>
               <li>Case Studies</li>
@@ -27,21 +28,28 @@ export default function Footer() {
           <div>
             <h4>Services</h4>
             <ul>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
+              <li>Automation & AI/ML Services</li>
+              <li>Business Solutions & Digital Transformation</li>
+              <li>Maintenance & Support Services</li>
+              <li>Open Source Solutions & Distribution</li>
+              <li>Platform Development & SaaS Solutions</li>
+              <li>Software Development Services</li>
             </ul>
           </div>
           <div>
-            <h4>Solution</h4>
+            <h4>Industries</h4>
             <ul>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
+              <li>Education & E-Learning</li>
+              <li>Energy & Utilities</li>
+              <li>Financial Services & Banking</li>
+              <li>Fleet & Logistics</li>
+              <li>Government & Public Sector</li>
+              <li>Healthcare & Life Sciences</li>
+              <li>Legal & Compliance</li>
+              <li>Manufacturing & Supply Chain</li>
+              <li>Media & Entertainment</li>
+              <li>Retail & E-Commerce</li>
+              <li>Telecommunications</li>
             </ul>
           </div>
         </div>

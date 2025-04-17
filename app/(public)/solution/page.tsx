@@ -11,7 +11,8 @@ export default function HomePage() {
       <section className="solution-wrap">
         <div className="solution-overlay"></div>
         <div className="solution-content">
-          <h1>{t("ourService.header")}</h1>
+          <h1>{t("industriesSolution.header")}</h1>
+          <p>{t("industriesSolution.subHeader")}</p>
         </div>
       </section>
       <Solution />

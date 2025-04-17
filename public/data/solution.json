@@ -68,5 +68,12 @@
     "descriptionKey": "industriesSolutionPage.media.description",
     "link": "/consectetur/adipiscing",
     "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/media.png",
+    "titleKey": "industriesSolutionPage.media.title",
+    "descriptionKey": "industriesSolutionPage.media.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/Home.jpg"
   }
 ]

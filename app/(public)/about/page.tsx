@@ -11,6 +11,7 @@ export default function AboutPage() {
         <div className="about-overlay"></div>
         <div className="about-content">
           <h1>{t("aboutPage.heroTitle")}</h1>
+          <p>{t("aboutPage.heroSubtitle")}</p>
         </div>
       </section>
 

@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 6rem;
+  padding: 8rem;
   color: white;
 
   @include m.respond-to(lg) {
@@ -40,7 +40,7 @@
     max-width: 1000px;
 
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       font-weight: 800;
       margin-bottom: 1rem;
       line-height: 1.2;
@@ -54,6 +54,10 @@
       @include m.respond-to(sm) {
         font-size: 1.5rem;
       }
+    }
+    p {
+      font-size: 1.75rem;
+      font-style: italic;
     }
   }
 }

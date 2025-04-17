@@ -45,8 +45,14 @@
     "companyNamePlaceholder": "Enter your company name"
   },
 
+  "industriesSolution": {
+    "header": "Discover customized software solutions that drive transformation across industries.",
+    "subHeader": "Tailored Solutions, Real-World Impact."
+  },
+
   "aboutPage": {
-    "heroTitle": "Solving Industry Challenges, Together.",
+    "heroTitle": "We are dedicated to delivering innovative software solutions tailored to your business needs.",
+    "heroSubtitle": "Empowering Your Success with Cutting-Edge Software.",
     "subtitle": "About Us",
     "sectionTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "sectionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -134,28 +140,32 @@
   },
 
   "ourService": {
-    "header": "Services That Empower Your Business",
+    "header": "Our expert team offers comprehensive software services from development to deployment.",
+    "subHeader": "Building Solutions, Delivering Excellence.",
     "subtitle": "Our Service",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
 
   "ourPartner": {
-    "header": "Our Network of Excellence",
+    "header": "We collaborate with trusted partners to provide top-tier solutions for your business.",
+    "subHeader": "Stronger Together, Leading the Way.",
     "subtitle": "Our Partner",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
 
   "caseStudiesPage": {
-    "header": "How Our Solutions Fit Your Workflow",
+    "header": "See how our solutions have helped businesses achieve their goals with proven results.",
+    "subHeader": "Success Stories, Inspired by Innovation.",
     "subtitle": "Case Studies",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
 
   "contactPage": {
-    "heroTitle": "We'd Love to Hear From You",
+    "heroTitle": "Get in touch with us today to start your journey towards smarter solutions.",
+    "heroSubTitle": "Let's Create Something Amazing Together.",
     "reachOut": "Reach Out To Us",
     "addressTitle": "We're Here to Help",
     "emailTitle": "Email Support",

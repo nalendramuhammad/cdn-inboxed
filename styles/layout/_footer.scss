@@ -74,6 +74,20 @@
             }
           }
         }
+
+        ul:nth-child(1) {
+          font-weight: 600;
+          margin-bottom: 1rem;
+          li {
+            margin-bottom: 0.5rem;
+            color: white;
+            cursor: pointer;
+
+            &:hover {
+              color: #cbd5e1;
+            }
+          }
+        }
       }
     }
   }

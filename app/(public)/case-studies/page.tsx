@@ -29,6 +29,7 @@ export default function CaseStudiesPage() {
         <div className="studies-overlay"></div>
         <div className="studies-content">
           <h1>{t("caseStudiesPage.header")}</h1>
+          <p>{t("caseStudiesPage.subHeader")}</p>
         </div>
       </section>
 

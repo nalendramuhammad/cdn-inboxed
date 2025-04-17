@@ -12,6 +12,7 @@ export default function ContactPage() {
         <div className="contact-page-overlay"></div>
         <div className="contact-page-content">
           <h1>{t("contactPage.heroTitle")}</h1>
+          <p>{t("contactPage.heroSubTitle")}</p>
         </div>
       </section>
 
