@@ -13,7 +13,7 @@ export default function PartnerPage() {
           <h1>{t("ourPartner.header")}</h1>
         </div>
       </section>
-      <section className="our-partner-section">
+      {/* <section className="our-partner-section">
         <div className="our-partner-section-header">
           <div className="our-partner-section-title-wrap">
             <span className="our-partner-section-subtitle">
@@ -38,7 +38,7 @@ export default function PartnerPage() {
               </div>
             ))}
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

@@ -15,8 +15,7 @@
 @use "pages/404" as *;
 @use "components/contact" as *;
 @use "components/popup" as *;
-@use "components/industries-grid" as *;
-@use "components/service-grid" as *;
+@use "components/grid" as *;
 
 // Global styles
 *,

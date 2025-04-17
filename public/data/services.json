@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "/icons/software.png",
+    "titleKey": "servicesPage.software.title",
+    "descriptionKey": "servicesPage.software.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/open.png",
+    "titleKey": "servicesPage.open.title",
+    "descriptionKey": "servicesPage.open.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/business.png",
+    "titleKey": "servicesPage.business.title",
+    "descriptionKey": "servicesPage.business.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/platform.png",
+    "titleKey": "servicesPage.platform.title",
+    "descriptionKey": "servicesPage.platform.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/ai.png",
+    "titleKey": "servicesPage.ai.title",
+    "descriptionKey": "servicesPage.ai.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/Home.jpg"
+  },
+  {
+    "icon": "/icons/maintenance.png",
+    "titleKey": "servicesPage.maintenance.title",
+    "descriptionKey": "servicesPage.maintenance.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/Home.jpg"
+  }
+]

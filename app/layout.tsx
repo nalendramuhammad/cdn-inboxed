@@ -28,7 +28,7 @@ export default function RootLayout({
       </head>
       <body>
         <I18nProvider>
-          <TawkToWidget />
+          {/* <TawkToWidget /> */}
           <TransitionWrapper>{children}</TransitionWrapper>
         </I18nProvider>
       </body>

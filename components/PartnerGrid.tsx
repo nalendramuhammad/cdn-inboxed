@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-interface SolutionItem {
+interface PartnerItem {
   icon: string;
   titleKey: string;
   descriptionKey: string;
@@ -13,15 +13,15 @@ interface SolutionItem {
   background: string;
 }
 
-export default function IndustriesGrid() {
+export default function ServiceGrid() {
   const { t } = useTranslation();
 
-  const [solutions, setSolutions] = useState<SolutionItem[]>([]);
+  const [service, setService] = useState<PartnerItem[]>([]);
 
   useEffect(() => {
-    fetch("/data/solution.json")
+    fetch("/data/partners-grid.json")
       .then((res) => res.json())
-      .then((data) => setSolutions(data));
+      .then((data) => setService(data));
   }, []);
 
   return (
@@ -29,15 +29,13 @@ export default function IndustriesGrid() {
       <section className="grid">
         <div className="grid-header">
           <div className="grid-title-wrap">
-            <span className="grid-subtitle">
-              {t("industriesSolutionPage.Header")}
-            </span>
-            <h2>{t("industriesSolutionPage.Title")}</h2>
-            <p>{t("industriesSolutionPage.Subtitle")}</p>
+            <span className="grid-subtitle">{t("ourService.subtitle")}</span>
+            <h2>{t("ourService.title")}</h2>
+            <p>{t("ourService.description")}</p>
           </div>
         </div>
         <div className="grid-grid">
-          {solutions.map((item, index) => (
+          {service.map((item, index) => (
             <div
               className="our-grid-section-item custom-box"
               key={index}

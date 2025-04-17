@@ -57,6 +57,82 @@
     "visionSubtitle": "Our Vision"
   },
 
+  "industriesSolutionPage": {
+    "Header": "Industries Solution",
+    "Title": "We Don’t Just Serve Industries — We Understand Their Rhythms",
+    "Subtitle": "Every industry has its own pace, language, and challenges. At Inboxed, we don’t offer one-size-fits-all solutions. We listen, observe, and design systems that match the natural flow of the people who use them. From finance to education, healthcare to logistics — we adapt thoughtfully, not generically.",
+    "shop": {
+      "title": "Retail & E-Commerce",
+      "description": "Enhance agility and customer experience with open-source e-commerce platforms, inventory management, and CRM. Scale your business cost-effectively while optimizing workflows and leveraging data analytics for smarter marketing."
+    },
+    "manufacturing": {
+      "title": "Manufacturing & Supply Chain",
+      "description": "Optimize production, inventory, and logistics with open-source ERP, IoT integration, and supply chain management tools. Automate processes, reduce inefficiencies, and make smarter decisions with full visibility."
+    },
+    "healthcare": {
+      "title": "Healthcare & Life Sciences",
+      "description": "Manage patient data securely and ensure compliance with open-source solutions for EHR, patient management, and medical data analytics, driving better patient care and operational cost savings."
+    },
+    "financiial": {
+      "title": "Financial Services & Banking",
+      "description": "Leverage open-source core banking, fraud detection, and regulatory reporting tools that provide flexibility, scalability, and transparency, while meeting compliance and driving innovation."
+    },
+    "education": {
+      "title": "Education & E-Learning",
+      "description": "Build flexible and cost-effective learning platforms with open-source LMS, student information systems, and collaboration tools, enabling personalized learning and progress tracking."
+    },
+    "government": {
+      "title": "Government & Public Sector",
+      "description": "Streamline operations and ensure compliance with open-source document management, workflow automation, and ERP solutions, improving efficiency and transparency in public services."
+    },
+    "telecommunications": {
+      "title": "Telecommunications",
+      "description": "Manage networks and customer services with scalable, open-source tools for network monitoring, service assurance, and customer support, optimizing performance and reducing costs."
+    },
+    "legal": {
+      "title": "Legal & Compliance",
+      "description": "Provide law firms with cost-effective open-source solutions for case management, document storage, and compliance tracking, ensuring security and regulatory adherence."
+    },
+    "energy": {
+      "title": "Energy & Utilities",
+      "description": "Optimize resource management and sustainability efforts with open-source solutions for asset management, energy data analytics, and supply chain optimization in the energy sector."
+    },
+    "media": {
+      "title": "Media & Entertainment",
+      "description": "Manage digital assets, content distribution, and audience engagement with open-source content management, DRM, and video streaming solutions, enabling rapid innovation and secure delivery."
+    }
+  },
+
+  "servicesPage": {
+    "header": "Our Service",
+    "title": "Curated Solutions for Visionary Minds",
+    "subtitle": "At Inboxed, we don’t simply deliver technology — we curate thoughtful, refined solutions for those who think ahead. Each service we provide is a tailored response to your vision, shaped with nuance, clarity, and quiet precision. This is technology, matured.",
+    "software": {
+      "title": "Software Development Services",
+      "description": "Delivering value-driven, resilient, and future-ready solutions."
+    },
+    "open": {
+      "title": "Open Source Solutions & Distribution",
+      "description": "Empowering innovation through transparency, flexibility, and long-term sustainability."
+    },
+    "business": {
+      "title": "Business Solutions & Digital Transformation",
+      "description": "Building smarter, leaner, and future-proof organizations through open innovation."
+    },
+    "platform": {
+      "title": "Platform Development & SaaS Solutions",
+      "description": "Turning bold ideas into high-performance platforms—secure, scalable, and cloud-native by design."
+    },
+    "ai": {
+      "title": "Automation & AI/ML Services",
+      "description": "Unlock efficiency and intelligence at scale—one process, one prediction, one insight at a time."
+    },
+    "maintenance": {
+      "title": "Maintenance & Support Services",
+      "description": "Ensuring performance, stability, and continuity—so your systems evolve, not just survive."
+    }
+  },
+
   "ourService": {
     "header": "Services That Empower Your Business",
     "subtitle": "Our Service",
@@ -75,31 +151,7 @@
     "header": "How Our Solutions Fit Your Workflow",
     "subtitle": "Case Studies",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "os": {
-      "title": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio."
-    },
-    "security": {
-      "title": "Dolor Sit Amet",
-      "description": "Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet."
-    },
-    "cloud": {
-      "title": "Consectetur Adipiscing",
-      "description": "Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta."
-    },
-    "network": {
-      "title": "Integer Nec Odio",
-      "description": "Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora."
-    },
-    "devops": {
-      "title": "Fusce Nec Tellus",
-      "description": "Curabitur sodales ligula in libero. Sed dignissim lacinia nunc."
-    },
-    "support": {
-      "title": "Vestibulum Lacinia",
-      "description": "Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor."
-    }
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
 
   "contactPage": {

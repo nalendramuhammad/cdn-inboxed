@@ -21,10 +21,6 @@
     "aboutUsPara2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "learnMore": "Pelajari lebih lanjut",
 
-    "industryTagline": "Solusi Industri",
-    "industryTitle": "Kami Tidak Hanya Melayani Industri — Kami Memahami Ritmenya",
-    "industryDesc": "Setiap industri memiliki ritme, bahasa, dan tantangan tersendiri. Di Inboxed, kami tidak menawarkan solusi yang seragam. Kami mendengarkan, mengamati, dan merancang sistem yang sesuai dengan alur alami penggunanya. Dari keuangan hingga pendidikan, kesehatan hingga logistik — kami menyesuaikan diri dengan cermat, bukan secara umum.",
-
     "serviceTagline": "Layanan Kami",
     "serviceTitle": "Solusi Kurasi untuk Pemikir Visioner",
     "serviceDesc": "Di Inboxed, kami tidak sekadar memberikan teknologi — kami merancang solusi yang matang dan tepat sasaran untuk Anda yang berpikiran maju. Setiap layanan adalah tanggapan yang disesuaikan dengan visi Anda, dibentuk dengan ketelitian, kejelasan, dan presisi. Inilah teknologi yang telah matang."
@@ -56,6 +52,82 @@
     "visionList": ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
     "missionSubtitle": "Misi Kami",
     "visionSubtitle": "Visi Kami"
+  },
+
+  "industriesSolutionPage": {
+    "Header": "Solusi Industri",
+    "Title": "Kami Tidak Hanya Melayani Industri — Kami Memahami Ritmenya",
+    "Subtitle": "Setiap industri memiliki ritme, bahasa, dan tantangan tersendiri. Di Inboxed, kami tidak menawarkan solusi yang seragam. Kami mendengarkan, mengamati, dan merancang sistem yang sesuai dengan alur alami penggunanya. Dari keuangan hingga pendidikan, kesehatan hingga logistik — kami menyesuaikan diri dengan cermat, bukan secara umum.",
+    "shop": {
+      "title": "Retail & E-Commerce",
+      "description": "Tingkatkan kelincahan dan pengalaman pelanggan dengan platform e-commerce open-source, manajemen inventaris, dan CRM. Skalakan bisnis Anda secara biaya-efektif sambil mengoptimalkan alur kerja dan memanfaatkan analitik data untuk pemasaran yang lebih cerdas."
+    },
+    "manufacturing": {
+      "title": "Manufacturing & Supply Chain",
+      "description": "Optimalkan produksi, inventaris, dan logistik dengan ERP open-source, integrasi IoT, dan alat manajemen rantai pasokan. Automasi proses, kurangi ketidakefisienan, dan buat keputusan yang lebih cerdas dengan visibilitas penuh."
+    },
+    "healthcare": {
+      "title": "Healthcare & Life Sciences",
+      "description": "Kelola data pasien dengan aman dan pastikan kepatuhan dengan solusi open-source untuk EHR, manajemen pasien, dan analitik data medis, mendorong perawatan pasien yang lebih baik dan penghematan biaya operasional."
+    },
+    "financiial": {
+      "title": "Financial Services & Banking",
+      "description": "Manfaatkan alat perbankan inti open-source, deteksi penipuan, dan pelaporan regulasi yang menyediakan fleksibilitas, skalabilitas, dan transparansi, sambil memenuhi kepatuhan dan mendorong inovasi."
+    },
+    "education": {
+      "title": "Education & E-Learning",
+      "description": "Bangun platform pembelajaran yang fleksibel dan biaya-efektif dengan LMS open-source, sistem informasi siswa, dan alat kolaborasi, memungkinkan pembelajaran yang dipersonalisasi dan pelacakan kemajuan."
+    },
+    "government": {
+      "title": "Government & Public Sector",
+      "description": "Permudah operasi dan pastikan kepatuhan dengan manajemen dokumen open-source, automasi alur kerja, dan solusi ERP, meningkatkan efisiensi dan transparansi dalam layanan publik."
+    },
+    "telecommunications": {
+      "title": "Telecommunications",
+      "description": "Kelola jaringan dan layanan pelanggan dengan alat open-source yang dapat diskalakan untuk pemantauan jaringan, jaminan layanan, dan dukungan pelanggan, mengoptimalkan kinerja dan mengurangi biaya."
+    },
+    "legal": {
+      "title": "Legal & Compliance",
+      "description": "Berikan firma hukum solusi open-source yang biaya-efektif untuk manajemen kasus, penyimpanan dokumen, dan pelacakan kepatuhan, memastikan keamanan dan kepatuhan regulasi."
+    },
+    "energy": {
+      "title": "Energy & Utilities",
+      "description": "Optimalkan manajemen sumber daya dan upaya keberlanjutan dengan solusi open-source untuk manajemen aset, analitik data energi, dan optimasi rantai pasokan di sektor energi."
+    },
+    "media": {
+      "title": "Media & Entertainment",
+      "description": "Kelola aset digital, distribusi konten, dan keterlibatan audiens dengan manajemen konten open-source, DRM, dan solusi streaming video, memungkinkan inovasi cepat dan pengiriman yang aman."
+    }
+  },
+
+  "servicesPage": {
+    "header": "Layanan Kami",
+    "title": "Solusi Terpilih untuk Pikiran Visioner",
+    "subtitle": "Di Inboxed, kami tidak sekadar menyediakan teknologi — kami menyusun solusi yang bijaksana dan terperinci untuk mereka yang berpikir ke depan. Setiap layanan yang kami berikan adalah respons yang disesuaikan dengan visi Anda, dibentuk dengan nuansa, kejelasan, dan presisi yang tenang. Inilah teknologi yang telah matang.",
+    "software": {
+      "title": "Layanan Pengembangan Perangkat Lunak",
+      "description": "Memberikan solusi yang bernilai, tangguh, dan siap menghadapi masa depan."
+    },
+    "open": {
+      "title": "Solusi & Distribusi Open Source",
+      "description": " Memberdayakan inovasi melalui transparansi, fleksibilitas, dan keberlanjutan jangka panjang."
+    },
+    "business": {
+      "title": "Solusi Bisnis & Transformasi Digital",
+      "description": "Membangun organisasi yang lebih cerdas, lebih ramping, dan siap menghadapi masa depan melalui inovasi terbuka."
+    },
+    "platform": {
+      "title": "Pengembangan Platform & Solusi SaaS",
+      "description": "Mengubah ide berani menjadi platform berkinerja tinggi—aman, skalabel, dan cloud-native secara desain."
+    },
+    "ai": {
+      "title": "Layanan Automasi & AI/ML",
+      "description": "Membuka efisiensi dan kecerdasan dalam skala besar—satu proses, satu prediksi, satu wawasan pada satu waktu."
+    },
+    "maintenance": {
+      "title": "Layanan Pemeliharaan & Dukungan",
+      "description": " Menjamin kinerja, stabilitas, dan kesinambungan—agar sistem Anda berkembang, bukan hanya bertahan."
+    }
   },
 
   "ourService": {

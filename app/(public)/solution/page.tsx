@@ -8,9 +8,9 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="service-wrap">
-        <div className="service-overlay"></div>
-        <div className="service-content">
+      <section className="solution-wrap">
+        <div className="solution-overlay"></div>
+        <div className="solution-content">
           <h1>{t("ourService.header")}</h1>
         </div>
       </section>
