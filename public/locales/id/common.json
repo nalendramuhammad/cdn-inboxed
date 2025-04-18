@@ -97,6 +97,10 @@
     "media": {
       "title": "Media & Entertainment",
       "description": "Kelola aset digital, distribusi konten, dan keterlibatan audiens dengan manajemen konten open-source, DRM, dan solusi streaming video, memungkinkan inovasi cepat dan pengiriman yang aman."
+    },
+    "fleet": {
+      "title": "Armada & Logistik",
+      "description": "Tingkatkan manajemen armada dan permudah operasi logistik dengan solusi open-source untuk pelacakan kendaraan, optimasi rute, dan manajemen rantai pasok. Tingkatkan efisiensi operasional, kurangi biaya bahan bakar, dan pastikan pengiriman tepat waktu dengan pemantauan real-time dan wawasan berbasis data."
     }
   },
 

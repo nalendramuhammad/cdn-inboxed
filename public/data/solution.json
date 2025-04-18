@@ -70,9 +70,9 @@
     "background": "/image/Home.jpg"
   },
   {
-    "icon": "/icons/media.png",
-    "titleKey": "industriesSolutionPage.media.title",
-    "descriptionKey": "industriesSolutionPage.media.description",
+    "icon": "/icons/fleet.png",
+    "titleKey": "industriesSolutionPage.fleet.title",
+    "descriptionKey": "industriesSolutionPage.fleet.description",
     "link": "/consectetur/adipiscing",
     "background": "/image/Home.jpg"
   }

@@ -8,8 +8,10 @@ export default function Footer() {
           <Logo />
           <p>
             We curate, recommend, and deliver software with the care of a
-            boutique distributor and the depth of a strategic partner. What we
-            offer is not just what&apos;s available, but what&apos;s aligned.
+            boutique service provider and the insight of a strategic partner.
+            What we offer is not just what's available, but what's aligned.
+            Every solution is selected with purpose — tailored to your business
+            goals, scalable for growth, and supported with genuine expertise.
           </p>
         </div>
 

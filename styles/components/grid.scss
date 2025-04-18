@@ -84,6 +84,23 @@
       position: relative;
       overflow: hidden;
       z-index: 0;
+      overflow: hidden;
+
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: inherit;
+        transition: transform 0.4s ease;
+        z-index: 0;
+      }
+
+      &:hover::before {
+        transform: scale(1.1);
+      }
 
       @include m.respond-to(lg) {
         max-width: calc(33.33% - 1rem);
@@ -116,7 +133,7 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      z-index: 0;
+      z-index: 1;
 
       .overlay {
         position: absolute;
