@@ -416,5 +416,1696 @@
       "caseStudiesPage.fleet2.benefit.benefit5"
     ],
     "future": "caseStudiesPage.fleet2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fleet3.title",
+    "slug": "fleet3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fleet3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fleet3.challenge",
+    "solution": "caseStudiesPage.fleet3.solution",
+    "benefit": [
+      "caseStudiesPage.fleet3.benefit.benefit1",
+      "caseStudiesPage.fleet3.benefit.benefit2",
+      "caseStudiesPage.fleet3.benefit.benefit3",
+      "caseStudiesPage.fleet3.benefit.benefit4",
+      "caseStudiesPage.fleet3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fleet3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fleet4.title",
+    "slug": "fleet4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fleet4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fleet4.challenge",
+    "solution": "caseStudiesPage.fleet4.solution",
+    "benefit": [
+      "caseStudiesPage.fleet4.benefit.benefit1",
+      "caseStudiesPage.fleet4.benefit.benefit2",
+      "caseStudiesPage.fleet4.benefit.benefit3",
+      "caseStudiesPage.fleet4.benefit.benefit4",
+      "caseStudiesPage.fleet4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fleet4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fleet5.title",
+    "slug": "fleet5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fleet5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fleet5.challenge",
+    "solution": "caseStudiesPage.fleet5.solution",
+    "benefit": [
+      "caseStudiesPage.fleet5.benefit.benefit1",
+      "caseStudiesPage.fleet5.benefit.benefit2",
+      "caseStudiesPage.fleet5.benefit.benefit3",
+      "caseStudiesPage.fleet5.benefit.benefit4",
+      "caseStudiesPage.fleet5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fleet5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fleet6.title",
+    "slug": "fleet6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fleet6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fleet6.challenge",
+    "solution": "caseStudiesPage.fleet6.solution",
+    "benefit": [
+      "caseStudiesPage.fleet6.benefit.benefit1",
+      "caseStudiesPage.fleet6.benefit.benefit2",
+      "caseStudiesPage.fleet6.benefit.benefit3",
+      "caseStudiesPage.fleet6.benefit.benefit4",
+      "caseStudiesPage.fleet6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fleet6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fleet7.title",
+    "slug": "fleet7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fleet7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fleet7.challenge",
+    "solution": "caseStudiesPage.fleet7.solution",
+    "benefit": [
+      "caseStudiesPage.fleet7.benefit.benefit1",
+      "caseStudiesPage.fleet7.benefit.benefit2",
+      "caseStudiesPage.fleet7.benefit.benefit3",
+      "caseStudiesPage.fleet7.benefit.benefit4",
+      "caseStudiesPage.fleet7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fleet7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fleet8.title",
+    "slug": "fleet8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fleet8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fleet8.challenge",
+    "solution": "caseStudiesPage.fleet8.solution",
+    "benefit": [
+      "caseStudiesPage.fleet8.benefit.benefit1",
+      "caseStudiesPage.fleet8.benefit.benefit2",
+      "caseStudiesPage.fleet8.benefit.benefit3",
+      "caseStudiesPage.fleet8.benefit.benefit4",
+      "caseStudiesPage.fleet8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fleet8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fleet9.title",
+    "slug": "fleet9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fleet9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fleet9.challenge",
+    "solution": "caseStudiesPage.fleet9.solution",
+    "benefit": [
+      "caseStudiesPage.fleet9.benefit.benefit1",
+      "caseStudiesPage.fleet9.benefit.benefit2",
+      "caseStudiesPage.fleet9.benefit.benefit3",
+      "caseStudiesPage.fleet9.benefit.benefit4",
+      "caseStudiesPage.fleet9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fleet9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fleet10.title",
+    "slug": "fleet10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fleet10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fleet10.challenge",
+    "solution": "caseStudiesPage.fleet10.solution",
+    "benefit": [
+      "caseStudiesPage.fleet10.benefit.benefit1",
+      "caseStudiesPage.fleet10.benefit.benefit2",
+      "caseStudiesPage.fleet10.benefit.benefit3",
+      "caseStudiesPage.fleet10.benefit.benefit4",
+      "caseStudiesPage.fleet10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fleet10.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi.title",
+    "slug": "fsi",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi.challenge",
+    "solution": "caseStudiesPage.fsi.solution",
+    "benefit": [
+      "caseStudiesPage.fsi.benefit.benefit1",
+      "caseStudiesPage.fsi.benefit.benefit2",
+      "caseStudiesPage.fsi.benefit.benefit3",
+      "caseStudiesPage.fsi.benefit.benefit4",
+      "caseStudiesPage.fsi.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi2.title",
+    "slug": "fsi2",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi2.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi2.challenge",
+    "solution": "caseStudiesPage.fsi2.solution",
+    "benefit": [
+      "caseStudiesPage.fsi2.benefit.benefit1",
+      "caseStudiesPage.fsi2.benefit.benefit2",
+      "caseStudiesPage.fsi2.benefit.benefit3",
+      "caseStudiesPage.fsi2.benefit.benefit4",
+      "caseStudiesPage.fsi2.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi3.title",
+    "slug": "fsi3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi3.challenge",
+    "solution": "caseStudiesPage.fsi3.solution",
+    "benefit": [
+      "caseStudiesPage.fsi3.benefit.benefit1",
+      "caseStudiesPage.fsi3.benefit.benefit2",
+      "caseStudiesPage.fsi3.benefit.benefit3",
+      "caseStudiesPage.fsi3.benefit.benefit4",
+      "caseStudiesPage.fsi3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi4.title",
+    "slug": "fsi4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi4.challenge",
+    "solution": "caseStudiesPage.fsi4.solution",
+    "benefit": [
+      "caseStudiesPage.fsi4.benefit.benefit1",
+      "caseStudiesPage.fsi4.benefit.benefit2",
+      "caseStudiesPage.fsi4.benefit.benefit3",
+      "caseStudiesPage.fsi4.benefit.benefit4",
+      "caseStudiesPage.fsi4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi5.title",
+    "slug": "fsi5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi5.challenge",
+    "solution": "caseStudiesPage.fsi5.solution",
+    "benefit": [
+      "caseStudiesPage.fsi5.benefit.benefit1",
+      "caseStudiesPage.fsi5.benefit.benefit2",
+      "caseStudiesPage.fsi5.benefit.benefit3",
+      "caseStudiesPage.fsi5.benefit.benefit4",
+      "caseStudiesPage.fsi5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi6.title",
+    "slug": "fsi6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi6.challenge",
+    "solution": "caseStudiesPage.fsi6.solution",
+    "benefit": [
+      "caseStudiesPage.fsi6.benefit.benefit1",
+      "caseStudiesPage.fsi6.benefit.benefit2",
+      "caseStudiesPage.fsi6.benefit.benefit3",
+      "caseStudiesPage.fsi6.benefit.benefit4",
+      "caseStudiesPage.fsi6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi7.title",
+    "slug": "fsi7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi7.challenge",
+    "solution": "caseStudiesPage.fsi7.solution",
+    "benefit": [
+      "caseStudiesPage.fsi7.benefit.benefit1",
+      "caseStudiesPage.fsi7.benefit.benefit2",
+      "caseStudiesPage.fsi7.benefit.benefit3",
+      "caseStudiesPage.fsi7.benefit.benefit4",
+      "caseStudiesPage.fsi7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi8.title",
+    "slug": "fsi8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi8.challenge",
+    "solution": "caseStudiesPage.fsi8.solution",
+    "benefit": [
+      "caseStudiesPage.fsi8.benefit.benefit1",
+      "caseStudiesPage.fsi8.benefit.benefit2",
+      "caseStudiesPage.fsi8.benefit.benefit3",
+      "caseStudiesPage.fsi8.benefit.benefit4",
+      "caseStudiesPage.fsi8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi9.title",
+    "slug": "fsi9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi9.challenge",
+    "solution": "caseStudiesPage.fsi9.solution",
+    "benefit": [
+      "caseStudiesPage.fsi9.benefit.benefit1",
+      "caseStudiesPage.fsi9.benefit.benefit2",
+      "caseStudiesPage.fsi9.benefit.benefit3",
+      "caseStudiesPage.fsi9.benefit.benefit4",
+      "caseStudiesPage.fsi9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.fsi10.title",
+    "slug": "fsi10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.fsi10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.fsi10.challenge",
+    "solution": "caseStudiesPage.fsi10.solution",
+    "benefit": [
+      "caseStudiesPage.fsi10.benefit.benefit1",
+      "caseStudiesPage.fsi10.benefit.benefit2",
+      "caseStudiesPage.fsi10.benefit.benefit3",
+      "caseStudiesPage.fsi10.benefit.benefit4",
+      "caseStudiesPage.fsi10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.fsi10.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government.title",
+    "slug": "government",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government.challenge",
+    "solution": "caseStudiesPage.government.solution",
+    "benefit": [
+      "caseStudiesPage.government.benefit.benefit1",
+      "caseStudiesPage.government.benefit.benefit2",
+      "caseStudiesPage.government.benefit.benefit3",
+      "caseStudiesPage.government.benefit.benefit4",
+      "caseStudiesPage.government.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government2.title",
+    "slug": "government2",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government2.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government2.challenge",
+    "solution": "caseStudiesPage.government2.solution",
+    "benefit": [
+      "caseStudiesPage.government2.benefit.benefit1",
+      "caseStudiesPage.government2.benefit.benefit2",
+      "caseStudiesPage.government2.benefit.benefit3",
+      "caseStudiesPage.government2.benefit.benefit4",
+      "caseStudiesPage.government2.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government3.title",
+    "slug": "government3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government3.challenge",
+    "solution": "caseStudiesPage.government3.solution",
+    "benefit": [
+      "caseStudiesPage.government3.benefit.benefit1",
+      "caseStudiesPage.government3.benefit.benefit2",
+      "caseStudiesPage.government3.benefit.benefit3",
+      "caseStudiesPage.government3.benefit.benefit4",
+      "caseStudiesPage.government3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government4.title",
+    "slug": "government4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government4.challenge",
+    "solution": "caseStudiesPage.government4.solution",
+    "benefit": [
+      "caseStudiesPage.government4.benefit.benefit1",
+      "caseStudiesPage.government4.benefit.benefit2",
+      "caseStudiesPage.government4.benefit.benefit3",
+      "caseStudiesPage.government4.benefit.benefit4",
+      "caseStudiesPage.government4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government5.title",
+    "slug": "government5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government5.challenge",
+    "solution": "caseStudiesPage.government5.solution",
+    "benefit": [
+      "caseStudiesPage.government5.benefit.benefit1",
+      "caseStudiesPage.government5.benefit.benefit2",
+      "caseStudiesPage.government5.benefit.benefit3",
+      "caseStudiesPage.government5.benefit.benefit4",
+      "caseStudiesPage.government5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government6.title",
+    "slug": "government6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government6.challenge",
+    "solution": "caseStudiesPage.government6.solution",
+    "benefit": [
+      "caseStudiesPage.government6.benefit.benefit1",
+      "caseStudiesPage.government6.benefit.benefit2",
+      "caseStudiesPage.government6.benefit.benefit3",
+      "caseStudiesPage.government6.benefit.benefit4",
+      "caseStudiesPage.government6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government7.title",
+    "slug": "government7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government7.challenge",
+    "solution": "caseStudiesPage.government7.solution",
+    "benefit": [
+      "caseStudiesPage.government7.benefit.benefit1",
+      "caseStudiesPage.government7.benefit.benefit2",
+      "caseStudiesPage.government7.benefit.benefit3",
+      "caseStudiesPage.government7.benefit.benefit4",
+      "caseStudiesPage.government7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government8.title",
+    "slug": "government8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government8.challenge",
+    "solution": "caseStudiesPage.government8.solution",
+    "benefit": [
+      "caseStudiesPage.government8.benefit.benefit1",
+      "caseStudiesPage.government8.benefit.benefit2",
+      "caseStudiesPage.government8.benefit.benefit3",
+      "caseStudiesPage.government8.benefit.benefit4",
+      "caseStudiesPage.government8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government9.title",
+    "slug": "government9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government9.challenge",
+    "solution": "caseStudiesPage.government9.solution",
+    "benefit": [
+      "caseStudiesPage.government9.benefit.benefit1",
+      "caseStudiesPage.government9.benefit.benefit2",
+      "caseStudiesPage.government9.benefit.benefit3",
+      "caseStudiesPage.government9.benefit.benefit4",
+      "caseStudiesPage.government9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.government10.title",
+    "slug": "government10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.government10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.government10.challenge",
+    "solution": "caseStudiesPage.government10.solution",
+    "benefit": [
+      "caseStudiesPage.government10.benefit.benefit1",
+      "caseStudiesPage.government10.benefit.benefit2",
+      "caseStudiesPage.government10.benefit.benefit3",
+      "caseStudiesPage.government10.benefit.benefit4",
+      "caseStudiesPage.government10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.government10.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare.title",
+    "slug": "healthcare",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare.challenge",
+    "solution": "caseStudiesPage.healthcare.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare.benefit.benefit1",
+      "caseStudiesPage.healthcare.benefit.benefit2",
+      "caseStudiesPage.healthcare.benefit.benefit3",
+      "caseStudiesPage.healthcare.benefit.benefit4",
+      "caseStudiesPage.healthcare.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare2.title",
+    "slug": "healthcare2",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare2.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare2.challenge",
+    "solution": "caseStudiesPage.healthcare2.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare2.benefit.benefit1",
+      "caseStudiesPage.healthcare2.benefit.benefit2",
+      "caseStudiesPage.healthcare2.benefit.benefit3",
+      "caseStudiesPage.healthcare2.benefit.benefit4",
+      "caseStudiesPage.healthcare2.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare3.title",
+    "slug": "healthcare3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare3.challenge",
+    "solution": "caseStudiesPage.healthcare3.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare3.benefit.benefit1",
+      "caseStudiesPage.healthcare3.benefit.benefit2",
+      "caseStudiesPage.healthcare3.benefit.benefit3",
+      "caseStudiesPage.healthcare3.benefit.benefit4",
+      "caseStudiesPage.healthcare3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare4.title",
+    "slug": "healthcare4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare4.challenge",
+    "solution": "caseStudiesPage.healthcare4.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare4.benefit.benefit1",
+      "caseStudiesPage.healthcare4.benefit.benefit2",
+      "caseStudiesPage.healthcare4.benefit.benefit3",
+      "caseStudiesPage.healthcare4.benefit.benefit4",
+      "caseStudiesPage.healthcare4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare5.title",
+    "slug": "healthcare5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare5.challenge",
+    "solution": "caseStudiesPage.healthcare5.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare5.benefit.benefit1",
+      "caseStudiesPage.healthcare5.benefit.benefit2",
+      "caseStudiesPage.healthcare5.benefit.benefit3",
+      "caseStudiesPage.healthcare5.benefit.benefit4",
+      "caseStudiesPage.healthcare5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare6.title",
+    "slug": "healthcare6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare6.challenge",
+    "solution": "caseStudiesPage.healthcare6.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare6.benefit.benefit1",
+      "caseStudiesPage.healthcare6.benefit.benefit2",
+      "caseStudiesPage.healthcare6.benefit.benefit3",
+      "caseStudiesPage.healthcare6.benefit.benefit4",
+      "caseStudiesPage.healthcare6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare7.title",
+    "slug": "healthcare7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare7.challenge",
+    "solution": "caseStudiesPage.healthcare7.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare7.benefit.benefit1",
+      "caseStudiesPage.healthcare7.benefit.benefit2",
+      "caseStudiesPage.healthcare7.benefit.benefit3",
+      "caseStudiesPage.healthcare7.benefit.benefit4",
+      "caseStudiesPage.healthcare7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare8.title",
+    "slug": "healthcare8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare8.challenge",
+    "solution": "caseStudiesPage.healthcare8.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare8.benefit.benefit1",
+      "caseStudiesPage.healthcare8.benefit.benefit2",
+      "caseStudiesPage.healthcare8.benefit.benefit3",
+      "caseStudiesPage.healthcare8.benefit.benefit4",
+      "caseStudiesPage.healthcare8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare9.title",
+    "slug": "healthcare9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare9.challenge",
+    "solution": "caseStudiesPage.healthcare9.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare9.benefit.benefit1",
+      "caseStudiesPage.healthcare9.benefit.benefit2",
+      "caseStudiesPage.healthcare9.benefit.benefit3",
+      "caseStudiesPage.healthcare9.benefit.benefit4",
+      "caseStudiesPage.healthcare9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.healthcare10.title",
+    "slug": "healthcare10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.healthcare10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.healthcare10.challenge",
+    "solution": "caseStudiesPage.healthcare10.solution",
+    "benefit": [
+      "caseStudiesPage.healthcare10.benefit.benefit1",
+      "caseStudiesPage.healthcare10.benefit.benefit2",
+      "caseStudiesPage.healthcare10.benefit.benefit3",
+      "caseStudiesPage.healthcare10.benefit.benefit4",
+      "caseStudiesPage.healthcare10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.healthcare10.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal.title",
+    "slug": "legal",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal.challenge",
+    "solution": "caseStudiesPage.legal.solution",
+    "benefit": [
+      "caseStudiesPage.legal.benefit.benefit1",
+      "caseStudiesPage.legal.benefit.benefit2",
+      "caseStudiesPage.legal.benefit.benefit3",
+      "caseStudiesPage.legal.benefit.benefit4",
+      "caseStudiesPage.legal.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal2.title",
+    "slug": "legal2",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal2.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal2.challenge",
+    "solution": "caseStudiesPage.legal2.solution",
+    "benefit": [
+      "caseStudiesPage.legal2.benefit.benefit1",
+      "caseStudiesPage.legal2.benefit.benefit2",
+      "caseStudiesPage.legal2.benefit.benefit3",
+      "caseStudiesPage.legal2.benefit.benefit4",
+      "caseStudiesPage.legal2.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal3.title",
+    "slug": "legal3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal3.challenge",
+    "solution": "caseStudiesPage.legal3.solution",
+    "benefit": [
+      "caseStudiesPage.legal3.benefit.benefit1",
+      "caseStudiesPage.legal3.benefit.benefit2",
+      "caseStudiesPage.legal3.benefit.benefit3",
+      "caseStudiesPage.legal3.benefit.benefit4",
+      "caseStudiesPage.legal3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal4.title",
+    "slug": "legal4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal4.challenge",
+    "solution": "caseStudiesPage.legal4.solution",
+    "benefit": [
+      "caseStudiesPage.legal4.benefit.benefit1",
+      "caseStudiesPage.legal4.benefit.benefit2",
+      "caseStudiesPage.legal4.benefit.benefit3",
+      "caseStudiesPage.legal4.benefit.benefit4",
+      "caseStudiesPage.legal4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal5.title",
+    "slug": "legal5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal5.challenge",
+    "solution": "caseStudiesPage.legal5.solution",
+    "benefit": [
+      "caseStudiesPage.legal5.benefit.benefit1",
+      "caseStudiesPage.legal5.benefit.benefit2",
+      "caseStudiesPage.legal5.benefit.benefit3",
+      "caseStudiesPage.legal5.benefit.benefit4",
+      "caseStudiesPage.legal5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal6.title",
+    "slug": "legal6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal6.challenge",
+    "solution": "caseStudiesPage.legal6.solution",
+    "benefit": [
+      "caseStudiesPage.legal6.benefit.benefit1",
+      "caseStudiesPage.legal6.benefit.benefit2",
+      "caseStudiesPage.legal6.benefit.benefit3",
+      "caseStudiesPage.legal6.benefit.benefit4",
+      "caseStudiesPage.legal6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal7.title",
+    "slug": "legal7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal7.challenge",
+    "solution": "caseStudiesPage.legal7.solution",
+    "benefit": [
+      "caseStudiesPage.legal7.benefit.benefit1",
+      "caseStudiesPage.legal7.benefit.benefit2",
+      "caseStudiesPage.legal7.benefit.benefit3",
+      "caseStudiesPage.legal7.benefit.benefit4",
+      "caseStudiesPage.legal7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal8.title",
+    "slug": "legal8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal8.challenge",
+    "solution": "caseStudiesPage.legal8.solution",
+    "benefit": [
+      "caseStudiesPage.legal8.benefit.benefit1",
+      "caseStudiesPage.legal8.benefit.benefit2",
+      "caseStudiesPage.legal8.benefit.benefit3",
+      "caseStudiesPage.legal8.benefit.benefit4",
+      "caseStudiesPage.legal8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal9.title",
+    "slug": "legal9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal9.challenge",
+    "solution": "caseStudiesPage.legal9.solution",
+    "benefit": [
+      "caseStudiesPage.legal9.benefit.benefit1",
+      "caseStudiesPage.legal9.benefit.benefit2",
+      "caseStudiesPage.legal9.benefit.benefit3",
+      "caseStudiesPage.legal9.benefit.benefit4",
+      "caseStudiesPage.legal9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.legal10.title",
+    "slug": "legal10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.legal10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.legal10.challenge",
+    "solution": "caseStudiesPage.legal10.solution",
+    "benefit": [
+      "caseStudiesPage.legal10.benefit.benefit1",
+      "caseStudiesPage.legal10.benefit.benefit2",
+      "caseStudiesPage.legal10.benefit.benefit3",
+      "caseStudiesPage.legal10.benefit.benefit4",
+      "caseStudiesPage.legal10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.legal10.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing.title",
+    "slug": "manufacturing",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing.challenge",
+    "solution": "caseStudiesPage.manufacturing.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing.benefit.benefit1",
+      "caseStudiesPage.manufacturing.benefit.benefit2",
+      "caseStudiesPage.manufacturing.benefit.benefit3",
+      "caseStudiesPage.manufacturing.benefit.benefit4",
+      "caseStudiesPage.manufacturing.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing2.title",
+    "slug": "manufacturing2",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing2.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing2.challenge",
+    "solution": "caseStudiesPage.manufacturing2.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing2.benefit.benefit1",
+      "caseStudiesPage.manufacturing2.benefit.benefit2",
+      "caseStudiesPage.manufacturing2.benefit.benefit3",
+      "caseStudiesPage.manufacturing2.benefit.benefit4",
+      "caseStudiesPage.manufacturing2.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing3.title",
+    "slug": "manufacturing3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing3.challenge",
+    "solution": "caseStudiesPage.manufacturing3.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing3.benefit.benefit1",
+      "caseStudiesPage.manufacturing3.benefit.benefit2",
+      "caseStudiesPage.manufacturing3.benefit.benefit3",
+      "caseStudiesPage.manufacturing3.benefit.benefit4",
+      "caseStudiesPage.manufacturing3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing4.title",
+    "slug": "manufacturing4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing4.challenge",
+    "solution": "caseStudiesPage.manufacturing4.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing4.benefit.benefit1",
+      "caseStudiesPage.manufacturing4.benefit.benefit2",
+      "caseStudiesPage.manufacturing4.benefit.benefit3",
+      "caseStudiesPage.manufacturing4.benefit.benefit4",
+      "caseStudiesPage.manufacturing4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing5.title",
+    "slug": "manufacturing5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing5.challenge",
+    "solution": "caseStudiesPage.manufacturing5.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing5.benefit.benefit1",
+      "caseStudiesPage.manufacturing5.benefit.benefit2",
+      "caseStudiesPage.manufacturing5.benefit.benefit3",
+      "caseStudiesPage.manufacturing5.benefit.benefit4",
+      "caseStudiesPage.manufacturing5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing6.title",
+    "slug": "manufacturing6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing6.challenge",
+    "solution": "caseStudiesPage.manufacturing6.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing6.benefit.benefit1",
+      "caseStudiesPage.manufacturing6.benefit.benefit2",
+      "caseStudiesPage.manufacturing6.benefit.benefit3",
+      "caseStudiesPage.manufacturing6.benefit.benefit4",
+      "caseStudiesPage.manufacturing6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing7.title",
+    "slug": "manufacturing7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing7.challenge",
+    "solution": "caseStudiesPage.manufacturing7.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing7.benefit.benefit1",
+      "caseStudiesPage.manufacturing7.benefit.benefit2",
+      "caseStudiesPage.manufacturing7.benefit.benefit3",
+      "caseStudiesPage.manufacturing7.benefit.benefit4",
+      "caseStudiesPage.manufacturing7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing8.title",
+    "slug": "manufacturing8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing8.challenge",
+    "solution": "caseStudiesPage.manufacturing8.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing8.benefit.benefit1",
+      "caseStudiesPage.manufacturing8.benefit.benefit2",
+      "caseStudiesPage.manufacturing8.benefit.benefit3",
+      "caseStudiesPage.manufacturing8.benefit.benefit4",
+      "caseStudiesPage.manufacturing8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing9.title",
+    "slug": "manufacturing9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing9.challenge",
+    "solution": "caseStudiesPage.manufacturing9.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing9.benefit.benefit1",
+      "caseStudiesPage.manufacturing9.benefit.benefit2",
+      "caseStudiesPage.manufacturing9.benefit.benefit3",
+      "caseStudiesPage.manufacturing9.benefit.benefit4",
+      "caseStudiesPage.manufacturing9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.manufacturing10.title",
+    "slug": "manufacturing10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.manufacturing10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.manufacturing10.challenge",
+    "solution": "caseStudiesPage.manufacturing10.solution",
+    "benefit": [
+      "caseStudiesPage.manufacturing10.benefit.benefit1",
+      "caseStudiesPage.manufacturing10.benefit.benefit2",
+      "caseStudiesPage.manufacturing10.benefit.benefit3",
+      "caseStudiesPage.manufacturing10.benefit.benefit4",
+      "caseStudiesPage.manufacturing10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.manufacturing10.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media.title",
+    "slug": "media",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media.challenge",
+    "solution": "caseStudiesPage.media.solution",
+    "benefit": [
+      "caseStudiesPage.media.benefit.benefit1",
+      "caseStudiesPage.media.benefit.benefit2",
+      "caseStudiesPage.media.benefit.benefit3",
+      "caseStudiesPage.media.benefit.benefit4",
+      "caseStudiesPage.media.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media2.title",
+    "slug": "media2",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media2.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media2.challenge",
+    "solution": "caseStudiesPage.media2.solution",
+    "benefit": [
+      "caseStudiesPage.media2.benefit.benefit1",
+      "caseStudiesPage.media2.benefit.benefit2",
+      "caseStudiesPage.media2.benefit.benefit3",
+      "caseStudiesPage.media2.benefit.benefit4",
+      "caseStudiesPage.media2.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media3.title",
+    "slug": "media3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media3.challenge",
+    "solution": "caseStudiesPage.media3.solution",
+    "benefit": [
+      "caseStudiesPage.media3.benefit.benefit1",
+      "caseStudiesPage.media3.benefit.benefit2",
+      "caseStudiesPage.media3.benefit.benefit3",
+      "caseStudiesPage.media3.benefit.benefit4",
+      "caseStudiesPage.media3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media4.title",
+    "slug": "media4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media4.challenge",
+    "solution": "caseStudiesPage.media4.solution",
+    "benefit": [
+      "caseStudiesPage.media4.benefit.benefit1",
+      "caseStudiesPage.media4.benefit.benefit2",
+      "caseStudiesPage.media4.benefit.benefit3",
+      "caseStudiesPage.media4.benefit.benefit4",
+      "caseStudiesPage.media4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media5.title",
+    "slug": "media5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media5.challenge",
+    "solution": "caseStudiesPage.media5.solution",
+    "benefit": [
+      "caseStudiesPage.media5.benefit.benefit1",
+      "caseStudiesPage.media5.benefit.benefit2",
+      "caseStudiesPage.media5.benefit.benefit3",
+      "caseStudiesPage.media5.benefit.benefit4",
+      "caseStudiesPage.media5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media6.title",
+    "slug": "media6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media6.challenge",
+    "solution": "caseStudiesPage.media6.solution",
+    "benefit": [
+      "caseStudiesPage.media6.benefit.benefit1",
+      "caseStudiesPage.media6.benefit.benefit2",
+      "caseStudiesPage.media6.benefit.benefit3",
+      "caseStudiesPage.media6.benefit.benefit4",
+      "caseStudiesPage.media6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media7.title",
+    "slug": "media7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media7.challenge",
+    "solution": "caseStudiesPage.media7.solution",
+    "benefit": [
+      "caseStudiesPage.media7.benefit.benefit1",
+      "caseStudiesPage.media7.benefit.benefit2",
+      "caseStudiesPage.media7.benefit.benefit3",
+      "caseStudiesPage.media7.benefit.benefit4",
+      "caseStudiesPage.media7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media8.title",
+    "slug": "media8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media8.challenge",
+    "solution": "caseStudiesPage.media8.solution",
+    "benefit": [
+      "caseStudiesPage.media8.benefit.benefit1",
+      "caseStudiesPage.media8.benefit.benefit2",
+      "caseStudiesPage.media8.benefit.benefit3",
+      "caseStudiesPage.media8.benefit.benefit4",
+      "caseStudiesPage.media8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media9.title",
+    "slug": "media9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media9.challenge",
+    "solution": "caseStudiesPage.media9.solution",
+    "benefit": [
+      "caseStudiesPage.media9.benefit.benefit1",
+      "caseStudiesPage.media9.benefit.benefit2",
+      "caseStudiesPage.media9.benefit.benefit3",
+      "caseStudiesPage.media9.benefit.benefit4",
+      "caseStudiesPage.media9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.media10.title",
+    "slug": "media10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.media10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.media10.challenge",
+    "solution": "caseStudiesPage.media10.solution",
+    "benefit": [
+      "caseStudiesPage.media10.benefit.benefit1",
+      "caseStudiesPage.media10.benefit.benefit2",
+      "caseStudiesPage.media10.benefit.benefit3",
+      "caseStudiesPage.media10.benefit.benefit4",
+      "caseStudiesPage.media10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.media10.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail.title",
+    "slug": "retail",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail.challenge",
+    "solution": "caseStudiesPage.retail.solution",
+    "benefit": [
+      "caseStudiesPage.retail.benefit.benefit1",
+      "caseStudiesPage.retail.benefit.benefit2",
+      "caseStudiesPage.retail.benefit.benefit3",
+      "caseStudiesPage.retail.benefit.benefit4",
+      "caseStudiesPage.retail.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail2.title",
+    "slug": "retail2",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail2.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail2.challenge",
+    "solution": "caseStudiesPage.retail2.solution",
+    "benefit": [
+      "caseStudiesPage.retail2.benefit.benefit1",
+      "caseStudiesPage.retail2.benefit.benefit2",
+      "caseStudiesPage.retail2.benefit.benefit3",
+      "caseStudiesPage.retail2.benefit.benefit4",
+      "caseStudiesPage.retail2.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail3.title",
+    "slug": "retail3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail3.challenge",
+    "solution": "caseStudiesPage.retail3.solution",
+    "benefit": [
+      "caseStudiesPage.retail3.benefit.benefit1",
+      "caseStudiesPage.retail3.benefit.benefit2",
+      "caseStudiesPage.retail3.benefit.benefit3",
+      "caseStudiesPage.retail3.benefit.benefit4",
+      "caseStudiesPage.retail3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail4.title",
+    "slug": "retail4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail4.challenge",
+    "solution": "caseStudiesPage.retail4.solution",
+    "benefit": [
+      "caseStudiesPage.retail4.benefit.benefit1",
+      "caseStudiesPage.retail4.benefit.benefit2",
+      "caseStudiesPage.retail4.benefit.benefit3",
+      "caseStudiesPage.retail4.benefit.benefit4",
+      "caseStudiesPage.retail4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail5.title",
+    "slug": "retail5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail5.challenge",
+    "solution": "caseStudiesPage.retail5.solution",
+    "benefit": [
+      "caseStudiesPage.retail5.benefit.benefit1",
+      "caseStudiesPage.retail5.benefit.benefit2",
+      "caseStudiesPage.retail5.benefit.benefit3",
+      "caseStudiesPage.retail5.benefit.benefit4",
+      "caseStudiesPage.retail5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail6.title",
+    "slug": "retail6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail6.challenge",
+    "solution": "caseStudiesPage.retail6.solution",
+    "benefit": [
+      "caseStudiesPage.retail6.benefit.benefit1",
+      "caseStudiesPage.retail6.benefit.benefit2",
+      "caseStudiesPage.retail6.benefit.benefit3",
+      "caseStudiesPage.retail6.benefit.benefit4",
+      "caseStudiesPage.retail6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail7.title",
+    "slug": "retail7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail7.challenge",
+    "solution": "caseStudiesPage.retail7.solution",
+    "benefit": [
+      "caseStudiesPage.retail7.benefit.benefit1",
+      "caseStudiesPage.retail7.benefit.benefit2",
+      "caseStudiesPage.retail7.benefit.benefit3",
+      "caseStudiesPage.retail7.benefit.benefit4",
+      "caseStudiesPage.retail7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail8.title",
+    "slug": "retail8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail8.challenge",
+    "solution": "caseStudiesPage.retail8.solution",
+    "benefit": [
+      "caseStudiesPage.retail8.benefit.benefit1",
+      "caseStudiesPage.retail8.benefit.benefit2",
+      "caseStudiesPage.retail8.benefit.benefit3",
+      "caseStudiesPage.retail8.benefit.benefit4",
+      "caseStudiesPage.retail8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail9.title",
+    "slug": "retail9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail9.challenge",
+    "solution": "caseStudiesPage.retail9.solution",
+    "benefit": [
+      "caseStudiesPage.retail9.benefit.benefit1",
+      "caseStudiesPage.retail9.benefit.benefit2",
+      "caseStudiesPage.retail9.benefit.benefit3",
+      "caseStudiesPage.retail9.benefit.benefit4",
+      "caseStudiesPage.retail9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.retail10.title",
+    "slug": "retail10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.retail10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.retail10.challenge",
+    "solution": "caseStudiesPage.retail10.solution",
+    "benefit": [
+      "caseStudiesPage.retail10.benefit.benefit1",
+      "caseStudiesPage.retail10.benefit.benefit2",
+      "caseStudiesPage.retail10.benefit.benefit3",
+      "caseStudiesPage.retail10.benefit.benefit4",
+      "caseStudiesPage.retail10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.retail10.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunications.title",
+    "slug": "telecomunications",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunications.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunications.challenge",
+    "solution": "caseStudiesPage.telecomunications.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunications.benefit.benefit1",
+      "caseStudiesPage.telecomunications.benefit.benefit2",
+      "caseStudiesPage.telecomunications.benefit.benefit3",
+      "caseStudiesPage.telecomunications.benefit.benefit4",
+      "caseStudiesPage.telecomunications.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunications.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication2.title",
+    "slug": "telecomunication2",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication2.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication2.challenge",
+    "solution": "caseStudiesPage.telecomunication2.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication2.benefit.benefit1",
+      "caseStudiesPage.telecomunication2.benefit.benefit2",
+      "caseStudiesPage.telecomunication2.benefit.benefit3",
+      "caseStudiesPage.telecomunication2.benefit.benefit4",
+      "caseStudiesPage.telecomunication2.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication2.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication3.title",
+    "slug": "telecomunication3",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication3.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication3.challenge",
+    "solution": "caseStudiesPage.telecomunication3.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication3.benefit.benefit1",
+      "caseStudiesPage.telecomunication3.benefit.benefit2",
+      "caseStudiesPage.telecomunication3.benefit.benefit3",
+      "caseStudiesPage.telecomunication3.benefit.benefit4",
+      "caseStudiesPage.telecomunication3.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication3.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication4.title",
+    "slug": "telecomunication4",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication4.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication4.challenge",
+    "solution": "caseStudiesPage.telecomunication4.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication4.benefit.benefit1",
+      "caseStudiesPage.telecomunication4.benefit.benefit2",
+      "caseStudiesPage.telecomunication4.benefit.benefit3",
+      "caseStudiesPage.telecomunication4.benefit.benefit4",
+      "caseStudiesPage.telecomunication4.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication4.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication5.title",
+    "slug": "telecomunication5",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication5.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication5.challenge",
+    "solution": "caseStudiesPage.telecomunication5.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication5.benefit.benefit1",
+      "caseStudiesPage.telecomunication5.benefit.benefit2",
+      "caseStudiesPage.telecomunication5.benefit.benefit3",
+      "caseStudiesPage.telecomunication5.benefit.benefit4",
+      "caseStudiesPage.telecomunication5.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication5.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication6.title",
+    "slug": "telecomunication6",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication6.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication6.challenge",
+    "solution": "caseStudiesPage.telecomunication6.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication6.benefit.benefit1",
+      "caseStudiesPage.telecomunication6.benefit.benefit2",
+      "caseStudiesPage.telecomunication6.benefit.benefit3",
+      "caseStudiesPage.telecomunication6.benefit.benefit4",
+      "caseStudiesPage.telecomunication6.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication6.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication7.title",
+    "slug": "telecomunication7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication7.challenge",
+    "solution": "caseStudiesPage.telecomunication7.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication7.benefit.benefit1",
+      "caseStudiesPage.telecomunication7.benefit.benefit2",
+      "caseStudiesPage.telecomunication7.benefit.benefit3",
+      "caseStudiesPage.telecomunication7.benefit.benefit4",
+      "caseStudiesPage.telecomunication7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication7.title",
+    "slug": "telecomunication7",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication7.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication7.challenge",
+    "solution": "caseStudiesPage.telecomunication7.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication7.benefit.benefit1",
+      "caseStudiesPage.telecomunication7.benefit.benefit2",
+      "caseStudiesPage.telecomunication7.benefit.benefit3",
+      "caseStudiesPage.telecomunication7.benefit.benefit4",
+      "caseStudiesPage.telecomunication7.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication7.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication8.title",
+    "slug": "telecomunication8",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication8.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication8.challenge",
+    "solution": "caseStudiesPage.telecomunication8.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication8.benefit.benefit1",
+      "caseStudiesPage.telecomunication8.benefit.benefit2",
+      "caseStudiesPage.telecomunication8.benefit.benefit3",
+      "caseStudiesPage.telecomunication8.benefit.benefit4",
+      "caseStudiesPage.telecomunication8.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication8.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication9.title",
+    "slug": "telecomunication9",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication9.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication9.challenge",
+    "solution": "caseStudiesPage.telecomunication9.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication9.benefit.benefit1",
+      "caseStudiesPage.telecomunication9.benefit.benefit2",
+      "caseStudiesPage.telecomunication9.benefit.benefit3",
+      "caseStudiesPage.telecomunication9.benefit.benefit4",
+      "caseStudiesPage.telecomunication9.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication9.future"
+  },
+  {
+    "titleKey": "caseStudiesPage.telecomunication10.title",
+    "slug": "telecomunication10",
+    "background": "/image/Home.jpg",
+    "icon": "/icons/education-white.svg",
+    "category": "education",
+    "backgroundDesc": "caseStudiesPage.telecomunication10.background",
+    "image": "/image/Contact Us.jpg",
+    "challenge": "caseStudiesPage.telecomunication10.challenge",
+    "solution": "caseStudiesPage.telecomunication10.solution",
+    "benefit": [
+      "caseStudiesPage.telecomunication10.benefit.benefit1",
+      "caseStudiesPage.telecomunication10.benefit.benefit2",
+      "caseStudiesPage.telecomunication10.benefit.benefit3",
+      "caseStudiesPage.telecomunication10.benefit.benefit4",
+      "caseStudiesPage.telecomunication10.benefit.benefit5"
+    ],
+    "future": "caseStudiesPage.telecomunication10.future"
   }
 ]

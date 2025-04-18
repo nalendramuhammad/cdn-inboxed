@@ -133,6 +133,7 @@ export default function CaseStudiesPage() {
         </div>
 
         {/* Pagination Controls */}
+        {/* Pagination Controls */}
         <div className="pagination">
           <button
             onClick={() => handlePageChange(currentPage - 1)}
@@ -140,15 +141,41 @@ export default function CaseStudiesPage() {
           >
             Prev
           </button>
-          {[...Array(totalPages)].map((_, i) => (
-            <button
-              key={i}
-              onClick={() => handlePageChange(i + 1)}
-              className={currentPage === i + 1 ? "active" : ""}
-            >
-              {i + 1}
-            </button>
-          ))}
+
+          {Array.from({ length: totalPages }, (_, i) => i + 1)
+            .filter((page) => {
+              return (
+                page === 1 ||
+                page === totalPages ||
+                (page >= currentPage - 1 && page <= currentPage + 1)
+              );
+            })
+            .reduce((acc: (number | string)[], page, i, arr) => {
+              if (i > 0 && page !== arr[i - 1] + 1) {
+                acc.push("ellipsis");
+              }
+              acc.push(page);
+              return acc;
+            }, [])
+            .map((page, i) =>
+              page === "ellipsis" ? (
+                <span
+                  key={i}
+                  className="ellipsis"
+                >
+                  ...
+                </span>
+              ) : (
+                <button
+                  key={i}
+                  onClick={() => handlePageChange(page as number)}
+                  className={currentPage === page ? "active" : ""}
+                >
+                  {page}
+                </button>
+              )
+            )}
+
           <button
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={currentPage === totalPages}
