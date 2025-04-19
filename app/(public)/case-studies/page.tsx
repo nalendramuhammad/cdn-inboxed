@@ -73,6 +73,14 @@ export default function CaseStudiesPage() {
           <h1>{t("caseStudiesPage.header")}</h1>
           <p>{t("caseStudiesPage.subHeader")}</p>
         </div>
+        <div className="arrow">
+          <Image
+            src="/icons/arrow-down.svg"
+            alt="icon"
+            width={30}
+            height={30}
+          />
+        </div>
       </section>
 
       <section className="our-studies-section">
@@ -132,8 +140,6 @@ export default function CaseStudiesPage() {
           ))}
         </div>
 
-        {/* Pagination Controls */}
-        {/* Pagination Controls */}
         <div className="pagination">
           <button
             onClick={() => handlePageChange(currentPage - 1)}

@@ -59,12 +59,12 @@ export default function IndustriesGrid() {
                   <h3>{t(item.titleKey)}</h3>
                   <p>{t(item.descriptionKey)}</p>
                 </div>
-                <Link
+                {/* <Link
                   href={item.link}
                   className="btn-learn-more"
                 >
                   {t("homePage.learnMore")}
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}

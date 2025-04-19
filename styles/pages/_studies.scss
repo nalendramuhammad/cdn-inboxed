@@ -64,6 +64,24 @@
       font-style: italic;
     }
   }
+  .arrow {
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounceUpDown 2s infinite ease-in-out;
+  }
+
+  @keyframes bounceUpDown {
+    0%,
+    100% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10px);
+    }
+  }
 }
 
 .our-studies-section {
@@ -173,7 +191,7 @@
       z-index: 0;
       text-decoration: none;
       padding: 2rem;
-      min-height: 18rem;
+      min-height: 20rem;
       overflow: hidden;
 
       &::before {
@@ -228,7 +246,7 @@
       .overlay {
         position: absolute;
         inset: 0;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.5);
         z-index: 1;
         border-radius: 0.5rem;
         pointer-events: none;

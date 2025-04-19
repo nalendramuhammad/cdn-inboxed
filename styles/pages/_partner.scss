@@ -62,102 +62,22 @@
       font-style: italic;
     }
   }
-}
-
-.our-partner-section {
-  color: v.$primary;
-  position: relative;
-  padding: 4rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  @include m.respond-to(md) {
-    padding: 2rem;
+  .arrow {
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounceUpDown 2s infinite ease-in-out;
   }
 
-  .our-partner-section-header {
-    position: relative;
-    z-index: 1;
-    margin: 0 auto 3rem;
-
-    .our-partner-section-title-wrap {
-      @include m.respond-to(md) {
-        margin: 0 3rem;
-      }
+  @keyframes bounceUpDown {
+    0%,
+    100% {
+      transform: translateX(-50%) translateY(0);
     }
-
-    .our-partner-section-subtitle {
-      color: #2563eb;
-      font-weight: 600;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      color: #1f2937;
-    }
-
-    p {
-      color: #4b5563;
-      font-size: 1rem;
-    }
-  }
-
-  .our-partner-section-grid {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    padding: 2rem;
-
-    @include m.respond-to(md) {
-      gap: 1rem;
-      padding: 1rem;
-      justify-content: space-between;
-    }
-
-    @include m.respond-to(sm) {
-      gap: 1rem;
-      padding: 0;
-      justify-content: center;
-    }
-
-    .our-partner-section-item {
-      background-color: #d1d5db;
-      border-radius: 0.5rem;
-      height: 18.125rem;
-      width: calc(33.33% - 1rem);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      img {
-        width: 50px;
-        height: 50px;
-        opacity: 0.6;
-      }
-
-      @include m.respond-to(lg) {
-        width: calc(33.33% - 1rem);
-        height: 15rem;
-      }
-
-      @include m.respond-to(md) {
-        width: calc(50% - 0.5rem);
-        height: 15rem;
-      }
-
-      @include m.respond-to(sm) {
-        width: 100%;
-        height: 15rem;
-      }
+    50% {
+      transform: translateX(-50%) translateY(-10px);
     }
   }
 }

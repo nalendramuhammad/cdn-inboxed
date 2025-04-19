@@ -69,21 +69,20 @@
 
     .our-grid-section-item {
       border-radius: 0.5rem;
-      height: auto; // Biarkan tinggi otomatis mengikuti konten
-      width: 100%; // Gunakan 100% agar item selalu menyesuaikan lebar konten
-      max-width: calc(
-        33.33% - 1rem
-      ); // Batasi lebar agar tidak lebih dari 1/3 layar
+      width: calc(33.33% - 1rem);
       display: flex;
-      flex-direction: column; // Tambahkan kolom untuk penataan konten
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       position: relative;
       overflow: hidden;
       z-index: 0;
+      text-decoration: none;
+      padding: 2rem;
+      min-height: 20rem;
       overflow: hidden;
 
       &::before {
@@ -103,18 +102,18 @@
       }
 
       @include m.respond-to(lg) {
-        max-width: calc(33.33% - 1rem);
-        height: auto; // Otomatis mengikuti konten
+        width: calc(33.33% - 1rem);
+        min-height: 15rem;
       }
 
       @include m.respond-to(md) {
-        max-width: calc(50% - 0.5rem);
-        height: auto;
+        width: calc(50% - 0.5rem);
+        min-height: 15rem;
       }
 
       @include m.respond-to(sm) {
-        max-width: 100%;
-        height: auto;
+        width: 100%;
+        min-height: 15rem;
       }
     }
 
@@ -138,7 +137,7 @@
       .overlay {
         position: absolute;
         inset: 0;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.5);
         z-index: 1;
         border-radius: 0.5rem;
         pointer-events: none;

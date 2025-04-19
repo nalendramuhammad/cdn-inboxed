@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
+import Image from "next/image";
 
 export default function AboutPage() {
   const { t } = useTranslation();
@@ -12,6 +13,14 @@ export default function AboutPage() {
         <div className="about-content">
           <h1>{t("aboutPage.heroTitle")}</h1>
           <p>{t("aboutPage.heroSubtitle")}</p>
+        </div>
+        <div className="arrow">
+          <Image
+            src="/icons/arrow-down.svg"
+            alt="icon"
+            width={30}
+            height={30}
+          />
         </div>
       </section>
 

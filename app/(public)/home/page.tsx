@@ -6,6 +6,7 @@ import partnersData from "../../../public/data/partners.json";
 import Solution from "../../../components/IndustriesGrid";
 import Service from "../../../components/ServiceGrid";
 import { useTranslation } from "react-i18next";
+import Image from "next/image";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -22,6 +23,14 @@ export default function HomePage() {
           <Link href="/about">
             <button className="ctaButton">{t("homePage.aboutButton")}</button>
           </Link>
+        </div>
+        <div className="arrow">
+          <Image
+            src="/icons/arrow-down.svg"
+            alt="icon"
+            width={30}
+            height={30}
+          />
         </div>
       </section>
 

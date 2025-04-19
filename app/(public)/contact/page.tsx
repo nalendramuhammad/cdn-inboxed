@@ -2,6 +2,7 @@
 
 import { useTranslation } from "react-i18next";
 import ContactForm from "../../../components/ContactForm";
+import Image from "next/image";
 
 export default function ContactPage() {
   const { t } = useTranslation();
@@ -13,6 +14,14 @@ export default function ContactPage() {
         <div className="contact-page-content">
           <h1>{t("contactPage.heroTitle")}</h1>
           <p>{t("contactPage.heroSubTitle")}</p>
+        </div>
+        <div className="arrow">
+          <Image
+            src="/icons/arrow-down.svg"
+            alt="icon"
+            width={30}
+            height={30}
+          />
         </div>
       </section>
 

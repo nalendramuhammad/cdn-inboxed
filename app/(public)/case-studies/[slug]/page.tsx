@@ -33,6 +33,14 @@ export default function CaseStudyDetailPage() {
           sizes="100vw"
         />
         <h1 className="text-overlay">{title}</h1>
+        <div className="arrow">
+          <Image
+            src="/icons/arrow-down.svg"
+            alt="icon"
+            width={30}
+            height={30}
+          />
+        </div>
       </section>
       <section className="slug-content">
         <div className="slug-kiri">
