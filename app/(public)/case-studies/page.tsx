@@ -4,29 +4,46 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 
 interface StudyItem {
   slug: string;
   titleKey: string;
   background: string;
-  category: string; // <- ditambahkan
+  category: string;
 }
 
 const ITEMS_PER_PAGE = 9;
 
 export default function CaseStudiesPage() {
   const { t } = useTranslation();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
   const [studies, setStudies] = useState<StudyItem[]>([]);
   const [filteredStudies, setFilteredStudies] = useState<StudyItem[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
+  // Ambil data dan set page & category dari URL
   useEffect(() => {
+    const pageParam = parseInt(searchParams.get("page") || "1", 10);
+    const categoryParam = searchParams.get("category") || "all";
+
+    setCurrentPage(pageParam);
+    setSelectedCategory(categoryParam);
+
     fetch("/data/studies.json")
       .then((res) => res.json())
       .then((data) => {
         setStudies(data);
-        setFilteredStudies(data); // default tampil semua
+        if (categoryParam === "all") {
+          setFilteredStudies(data);
+        } else {
+          setFilteredStudies(
+            data.filter((item: StudyItem) => item.category === categoryParam)
+          );
+        }
       });
   }, []);
 
@@ -35,9 +52,19 @@ export default function CaseStudiesPage() {
     ...Array.from(new Set(studies.map((s) => s.category))),
   ];
 
+  // Update URL saat page atau category berubah
+  const updateURL = (page: number, category: string) => {
+    const params = new URLSearchParams();
+    params.set("page", String(page));
+    params.set("category", category);
+    router.push(`?${params.toString()}`);
+  };
+
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
     setCurrentPage(1);
+    updateURL(1, category);
+
     if (category === "all") {
       setFilteredStudies(studies);
     } else {
@@ -55,6 +82,7 @@ export default function CaseStudiesPage() {
   const handlePageChange = (page: number) => {
     if (page >= 1 && page <= totalPages) {
       setCurrentPage(page);
+      updateURL(page, selectedCategory);
       const paginationElement = document.querySelector(".pagination");
       if (paginationElement) {
         paginationElement.scrollIntoView({
@@ -93,7 +121,6 @@ export default function CaseStudiesPage() {
             <p>{t("caseStudiesPage.description")}</p>
           </div>
 
-          {/* Filter Dropdown */}
           <div className="filter-wrapper">
             <select
               value={selectedCategory}
