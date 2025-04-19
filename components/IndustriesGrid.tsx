@@ -2,7 +2,6 @@
 
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 interface SolutionItem {
