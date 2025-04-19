@@ -15,7 +15,7 @@ interface StudyItem {
 
 const ITEMS_PER_PAGE = 9;
 
-export default function CaseStudiesPage() {
+export default function CaseStudiesComponent() {
   const { t } = useTranslation();
   const router = useRouter();
   const searchParams = useSearchParams();
