@@ -4,76 +4,76 @@
     "titleKey": "industriesSolutionPage.shop.title",
     "descriptionKey": "industriesSolutionPage.shop.description",
     "link": "/lorem/ipsum",
-    "background": "/image/Home.jpg"
+    "background": "/image/Retail&E-Commerce.jpg"
   },
   {
     "icon": "/icons/manufacturing.png",
     "titleKey": "industriesSolutionPage.manufacturing.title",
     "descriptionKey": "industriesSolutionPage.manufacturing.description",
     "link": "/dolor/sit",
-    "background": "/image/Home.jpg"
+    "background": "/image/Manufacturing&SupplyChain.jpg"
   },
   {
     "icon": "/icons/healthcare.png",
     "titleKey": "industriesSolutionPage.healthcare.title",
     "descriptionKey": "industriesSolutionPage.healthcare.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/Healthcare&LifeSciences.jpg"
   },
   {
     "icon": "/icons/financial.png",
     "titleKey": "industriesSolutionPage.financiial.title",
     "descriptionKey": "industriesSolutionPage.financiial.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/FinancialServices&Banking.jpg"
   },
   {
     "icon": "/icons/education.png",
     "titleKey": "industriesSolutionPage.education.title",
     "descriptionKey": "industriesSolutionPage.education.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/Education&E-Learning.jpg"
   },
   {
     "icon": "/icons/goverment.png",
     "titleKey": "industriesSolutionPage.government.title",
     "descriptionKey": "industriesSolutionPage.government.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/Government&PublicSector.jpg"
   },
   {
     "icon": "/icons/telecommunications.png",
     "titleKey": "industriesSolutionPage.telecommunications.title",
     "descriptionKey": "industriesSolutionPage.telecommunications.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/Telecommunications.jpg"
   },
   {
     "icon": "/icons/legal.png",
     "titleKey": "industriesSolutionPage.legal.title",
     "descriptionKey": "industriesSolutionPage.legal.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/Legal&Compliance.jpg"
   },
   {
     "icon": "/icons/energy.png",
     "titleKey": "industriesSolutionPage.energy.title",
     "descriptionKey": "industriesSolutionPage.energy.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/Energy&Utilities.jpg"
   },
   {
     "icon": "/icons/media.png",
     "titleKey": "industriesSolutionPage.media.title",
     "descriptionKey": "industriesSolutionPage.media.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/Media&Entertainment.jpg"
   },
   {
     "icon": "/icons/fleet.png",
     "titleKey": "industriesSolutionPage.fleet.title",
     "descriptionKey": "industriesSolutionPage.fleet.description",
     "link": "/consectetur/adipiscing",
-    "background": "/image/Home.jpg"
+    "background": "/image/Fleet&Logistics.jpg"
   }
 ]
