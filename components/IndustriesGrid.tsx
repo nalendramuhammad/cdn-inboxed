@@ -53,6 +53,7 @@ export default function IndustriesGrid() {
                   alt={t(item.titleKey)}
                   width={40}
                   height={40}
+                  quality={75}
                 />
                 <div className="title-desc">
                   <h3>{t(item.titleKey)}</h3>

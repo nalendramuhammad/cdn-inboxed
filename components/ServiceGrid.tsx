@@ -56,12 +56,6 @@ export default function ServiceGrid() {
                   <h3>{t(item.titleKey)}</h3>
                   <p>{t(item.descriptionKey)}</p>
                 </div>
-                {/* <Link
-                  href={item.link}
-                  className="btn-learn-more"
-                >
-                  {t("homePage.learnMore")}
-                </Link> */}
               </div>
             </div>
           ))}

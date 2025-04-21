@@ -1,6 +1,7 @@
 import "../styles/globals.scss";
 import { I18nProvider } from "./i18n-provider";
 import TransitionWrapper from "../components/TransitionWrapper";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function RootLayout({
   children,
@@ -29,6 +30,7 @@ export default function RootLayout({
         <I18nProvider>
           {/* <TawkToWidget /> */}
           <TransitionWrapper>{children}</TransitionWrapper>
+          <SpeedInsights />
         </I18nProvider>
       </body>
     </html>

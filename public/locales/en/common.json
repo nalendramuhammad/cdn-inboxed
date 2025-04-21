@@ -1713,7 +1713,7 @@
       },
       "future": "The MSP is now planning to offer “PBX-as-a-Service” on a Kubernetes-based infrastructure using containerized Asterisk deployments, allowing even more flexibility and scaling on demand."
     },
-    "telecomunications": {
+    "telecomunication5": {
       "title": "Hybrid Service Assurance in Urban Fiber Rollouts",
       "background": "A telecom startup deploying urban fiber internet in Latin America needed a scalable way to assure service quality during and after installation. They aimed to differentiate with exceptional uptime and customer experience.",
       "challenge": "Without significant investment capital, they couldn't afford enterprise-grade service assurance platforms. Manual health checks and customer complaints were the only source of network status, leading to inefficiencies and customer churn.",

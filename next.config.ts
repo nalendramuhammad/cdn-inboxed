@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
     });
     return config;
   },
+  images: {
+    domains: ["ik.imagekit.io"], // ImageKit domain
+  },
 };
 
 export default nextConfig;
