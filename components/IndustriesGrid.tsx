@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-interface SolutionItem {
+interface IndustriesItem {
   icon: string;
   titleKey: string;
   descriptionKey: string;
@@ -15,12 +15,12 @@ interface SolutionItem {
 export default function IndustriesGrid() {
   const { t } = useTranslation();
 
-  const [solutions, setSolutions] = useState<SolutionItem[]>([]);
+  const [industries, setIndustries] = useState<IndustriesItem[]>([]);
 
   useEffect(() => {
-    fetch("/data/solution.json")
+    fetch("/data/industries.json")
       .then((res) => res.json())
-      .then((data) => setSolutions(data));
+      .then((data) => setIndustries(data));
   }, []);
 
   return (
@@ -36,7 +36,7 @@ export default function IndustriesGrid() {
           </div>
         </div>
         <div className="grid-grid">
-          {solutions.map((item, index) => (
+          {industries.map((item, index) => (
             <div
               className="our-grid-section-item custom-box"
               key={index}
@@ -58,12 +58,6 @@ export default function IndustriesGrid() {
                   <h3>{t(item.titleKey)}</h3>
                   <p>{t(item.descriptionKey)}</p>
                 </div>
-                {/* <Link
-                  href={item.link}
-                  className="btn-learn-more"
-                >
-                  {t("homePage.learnMore")}
-                </Link> */}
               </div>
             </div>
           ))}

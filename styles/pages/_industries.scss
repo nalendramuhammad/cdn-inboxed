@@ -1,0 +1,81 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
+
+.industries-wrap {
+  position: relative;
+  height: 100vh;
+  background: url("/image/Industries.jpg") no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8rem;
+  color: white;
+
+  @include m.respond-to(lg) {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  @include m.respond-to(md) {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  @include m.respond-to(sm) {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .industries-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6); // efek gelap seperti di gambar
+    z-index: 1;
+  }
+
+  .industries-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+      text-transform: capitalize;
+      @include m.respond-to(lg) {
+        font-size: 1.75rem;
+      }
+      @include m.respond-to(md) {
+        font-size: 1.75rem;
+      }
+      @include m.respond-to(sm) {
+        font-size: 1.5rem;
+      }
+    }
+    p {
+      font-size: 1.75rem;
+      font-style: italic;
+    }
+  }
+  .arrow {
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounceUpDown 2s infinite ease-in-out;
+  }
+
+  @keyframes bounceUpDown {
+    0%,
+    100% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10px);
+    }
+  }
+}

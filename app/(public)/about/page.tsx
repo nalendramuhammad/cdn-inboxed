@@ -112,31 +112,6 @@ export default function AboutPage() {
             ))}
         </div>
       </section>
-
-      <section className="mission-section">
-        <div className="mission-section-header">
-          <div className="mission-section-title-wrap">
-            <span className="mission-section-subtitle">
-              {t("aboutPage.missionSubtitle")}
-            </span>
-          </div>
-        </div>
-        <div className="mission-section-grid">
-          {Array(3)
-            .fill(0)
-            .map((_, index) => (
-              <div
-                key={index}
-                className="mission-section-item"
-              >
-                <img
-                  src="/image/placeholder.png"
-                  alt={`Industry ${index + 1}`}
-                />
-              </div>
-            ))}
-        </div>
-      </section>
     </>
   );
 }

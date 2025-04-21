@@ -1,79 +1,142 @@
 [
   {
-    "icon": "/icons/shop.png",
-    "titleKey": "industriesSolutionPage.shop.title",
-    "descriptionKey": "industriesSolutionPage.shop.description",
+    "icon": "/icons/icon-solutions/CustomerRelationshipManagement(CRM)System.png",
+    "titleKey": "ourSolutionPage.crm.title",
+    "descriptionKey": "ourSolutionPage.crm.description",
     "link": "/lorem/ipsum",
-    "background": "/image/Retail&E-Commerce.jpg"
+    "background": "/image/solutions/CustomerRelationshipManagementSystem.jpg"
   },
   {
-    "icon": "/icons/manufacturing.png",
-    "titleKey": "industriesSolutionPage.manufacturing.title",
-    "descriptionKey": "industriesSolutionPage.manufacturing.description",
-    "link": "/dolor/sit",
-    "background": "/image/Manufacturing&SupplyChain.jpg"
+    "icon": "/icons/icon-solutions/EnterpriseResourcePlanning(ERP).png",
+    "titleKey": "ourSolutionPage.erp.title",
+    "descriptionKey": "ourSolutionPage.erp.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/EnterpriseResourcePlanning.jpg"
   },
   {
-    "icon": "/icons/healthcare.png",
-    "titleKey": "industriesSolutionPage.healthcare.title",
-    "descriptionKey": "industriesSolutionPage.healthcare.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/Healthcare&LifeSciences.jpg"
+    "icon": "/icons/icon-solutions/ProjectManagementSoftware.png",
+    "titleKey": "ourSolutionPage.pm.title",
+    "descriptionKey": "ourSolutionPage.pm.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/ProjectManagementSoftware.jpg"
   },
   {
-    "icon": "/icons/financial.png",
-    "titleKey": "industriesSolutionPage.financiial.title",
-    "descriptionKey": "industriesSolutionPage.financiial.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/FinancialServices&Banking.jpg"
+    "icon": "/icons/icon-solutions/DocumentManagementSystem(DMS).png",
+    "titleKey": "ourSolutionPage.dms.title",
+    "descriptionKey": "ourSolutionPage.dms.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/DocumentManagementSystem.jpg"
   },
   {
-    "icon": "/icons/education.png",
-    "titleKey": "industriesSolutionPage.education.title",
-    "descriptionKey": "industriesSolutionPage.education.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/Education&E-Learning.jpg"
+    "icon": "/icons/icon-solutions/E-commercePlatform.png",
+    "titleKey": "ourSolutionPage.ecom.title",
+    "descriptionKey": "ourSolutionPage.ecom.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/E-commercePlatform.jpg"
   },
   {
-    "icon": "/icons/goverment.png",
-    "titleKey": "industriesSolutionPage.government.title",
-    "descriptionKey": "industriesSolutionPage.government.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/Government&PublicSector.jpg"
+    "icon": "/icons/icon-solutions/AccountingSoftware.png",
+    "titleKey": "ourSolutionPage.accounting.title",
+    "descriptionKey": "ourSolutionPage.accounting.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/AccountingSoftware.jpg"
   },
   {
-    "icon": "/icons/telecommunications.png",
-    "titleKey": "industriesSolutionPage.telecommunications.title",
-    "descriptionKey": "industriesSolutionPage.telecommunications.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/Telecommunications.jpg"
+    "icon": "/icons/icon-solutions/LearningManagementSystem(LMS).png",
+    "titleKey": "ourSolutionPage.lms.title",
+    "descriptionKey": "ourSolutionPage.lms.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/LearningManagementSystem.jpg"
   },
   {
-    "icon": "/icons/legal.png",
-    "titleKey": "industriesSolutionPage.legal.title",
-    "descriptionKey": "industriesSolutionPage.legal.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/Legal&Compliance.jpg"
+    "icon": "/icons/icon-solutions/InventoryManagementSystem.png",
+    "titleKey": "ourSolutionPage.ims.title",
+    "descriptionKey": "ourSolutionPage.ims.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/InventoryManagementSystem.jpg"
   },
   {
-    "icon": "/icons/energy.png",
-    "titleKey": "industriesSolutionPage.energy.title",
-    "descriptionKey": "industriesSolutionPage.energy.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/Energy&Utilities.jpg"
+    "icon": "/icons/icon-solutions/HumanResourceManagementSystem(HRMS).png",
+    "titleKey": "ourSolutionPage.hrms.title",
+    "descriptionKey": "ourSolutionPage.hrms.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/HumanResourceManagementSystem.jpg"
   },
   {
-    "icon": "/icons/media.png",
-    "titleKey": "industriesSolutionPage.media.title",
-    "descriptionKey": "industriesSolutionPage.media.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/Media&Entertainment.jpg"
+    "icon": "/icons/icon-solutions/HelpDesk&TicketingSystem.png",
+    "titleKey": "ourSolutionPage.ticketing.title",
+    "descriptionKey": "ourSolutionPage.ticketing.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/HelpDesk&TicketingSystem.jpg"
   },
   {
-    "icon": "/icons/fleet.png",
-    "titleKey": "industriesSolutionPage.fleet.title",
-    "descriptionKey": "industriesSolutionPage.fleet.description",
-    "link": "/consectetur/adipiscing",
-    "background": "/image/Fleet&Logistics.jpg"
+    "icon": "/icons/icon-solutions/MarketingAutomationSoftware.png",
+    "titleKey": "ourSolutionPage.marketing.title",
+    "descriptionKey": "ourSolutionPage.marketing.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/MarketingAutomationSoftware.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/BusinessIntelligence(BI)Tools.png",
+    "titleKey": "ourSolutionPage.bi.title",
+    "descriptionKey": "ourSolutionPage.bi.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/BusinessIntelligenceTools.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/ContentManagementSystem(CMS).png",
+    "titleKey": "ourSolutionPage.cms.title",
+    "descriptionKey": "ourSolutionPage.cms.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/ContentManagementSystem.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/CollaborationandCommunicationPlatform.png",
+    "titleKey": "ourSolutionPage.collaboration.title",
+    "descriptionKey": "ourSolutionPage.collaboration.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/CollaborationandCommunicationPlatform.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/ITSecurity&MonitoringSoftware.png",
+    "titleKey": "ourSolutionPage.it.title",
+    "descriptionKey": "ourSolutionPage.it.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/ITSecurity&MonitoringSoftware.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/CloudStorage&FileSharing.png",
+    "titleKey": "ourSolutionPage.cloud.title",
+    "descriptionKey": "ourSolutionPage.cloud.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/CloudStorage&FileSharing.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/CustomerSupportChatbots.png",
+    "titleKey": "ourSolutionPage.cs.title",
+    "descriptionKey": "ourSolutionPage.cs.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/CustomerSupportChatbots.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/MobileAppDevelopmentFrameworks.png",
+    "titleKey": "ourSolutionPage.mobile.title",
+    "descriptionKey": "ourSolutionPage.mobile.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/MobileAppDevelopmentFrameworks.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/VideoConferencingSoftware.png",
+    "titleKey": "ourSolutionPage.video.title",
+    "descriptionKey": "ourSolutionPage.video.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/VideoConferencingSoftware.jpg"
+  },
+  {
+    "icon": "/icons/icon-solutions/SupplyChainManagementSoftware.png",
+    "titleKey": "ourSolutionPage.supply.title",
+    "descriptionKey": "ourSolutionPage.supply.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/solutions/SupplyChainManagementSoftware.jpg"
   }
 ]

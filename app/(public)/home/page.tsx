@@ -3,7 +3,8 @@
 import Link from "next/link";
 import ContactForm from "../../../components/ContactForm";
 import partnersData from "../../../public/data/partners.json";
-import Solution from "../../../components/IndustriesGrid";
+import Industries from "../../../components/IndustriesGrid";
+import Solution from "../../../components/OurSolutionGrid";
 import Service from "../../../components/ServiceGrid";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
@@ -100,63 +101,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* <section className="industries-section">
-        <div className="wrap">
-          <div className="industries-section-header">
-            <div className="industries-section-title-wrap">
-              <span className="industries-section-subtitle">
-                {t("homePage.industryTagline")}
-              </span>
-              <h2>{t("homePage.industryTitle")}</h2>
-              <p>{t("homePage.industryDesc")}</p>
-            </div>
-          </div>
-          <div className="industries-section-grid">
-            {Array(6)
-              .fill(0)
-              .map((_, index) => (
-                <div
-                  key={index}
-                  className="industries-section-item"
-                >
-                  <img
-                    src="/image/placeholder.png"
-                    alt={`Industry ${index + 1}`}
-                  />
-                </div>
-              ))}
-          </div>
-        </div>
-
-        <div className="wrap">
-          <div className="industries-section-header">
-            <div className="industries-section-title-wrap">
-              <span className="industries-section-subtitle">
-                {t("homePage.serviceTagline")}
-              </span>
-              <h2>{t("homePage.serviceTitle")}</h2>
-              <p>{t("homePage.serviceDesc")}</p>
-            </div>
-          </div>
-          <div className="industries-section-grid">
-            {Array(6)
-              .fill(0)
-              .map((_, index) => (
-                <div
-                  key={index}
-                  className="industries-section-item"
-                >
-                  <img
-                    src="/image/placeholder.png"
-                    alt={`Service ${index + 1}`}
-                  />
-                </div>
-              ))}
-          </div>
-        </div>
-      </section> */}
-
       <section className="industries-section">
+        <Industries />
+
         <Solution />
 
         <Service />

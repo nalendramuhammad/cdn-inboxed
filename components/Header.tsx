@@ -82,8 +82,14 @@ export default function Header() {
             {t("about")}
           </Link>
           <Link
-            href="/solution"
-            className={getLinkClassName("/solution")}
+            href="/industries"
+            className={getLinkClassName("/industries")}
+          >
+            {t("industries")}
+          </Link>
+          <Link
+            href="/our-solution"
+            className={getLinkClassName("/our-solution")}
           >
             {t("solution")}
           </Link>

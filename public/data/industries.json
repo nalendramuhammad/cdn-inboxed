@@ -1,7 +1,79 @@
 [
   {
-    "title": "Lorem Ipsum",
-    "icon": "/icons/education-white.svg",
-    "image": "/image/About Us 2.jpg"
+    "icon": "/icons/shop.png",
+    "titleKey": "industriesSolutionPage.shop.title",
+    "descriptionKey": "industriesSolutionPage.shop.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/industries/Retail&E-Commerce.jpg"
+  },
+  {
+    "icon": "/icons/manufacturing.png",
+    "titleKey": "industriesSolutionPage.manufacturing.title",
+    "descriptionKey": "industriesSolutionPage.manufacturing.description",
+    "link": "/dolor/sit",
+    "background": "/image/industries/Manufacturing&SupplyChain.jpg"
+  },
+  {
+    "icon": "/icons/healthcare.png",
+    "titleKey": "industriesSolutionPage.healthcare.title",
+    "descriptionKey": "industriesSolutionPage.healthcare.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/Healthcare&LifeSciences.jpg"
+  },
+  {
+    "icon": "/icons/financial.png",
+    "titleKey": "industriesSolutionPage.financiial.title",
+    "descriptionKey": "industriesSolutionPage.financiial.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/FinancialServices&Banking.jpg"
+  },
+  {
+    "icon": "/icons/education.png",
+    "titleKey": "industriesSolutionPage.education.title",
+    "descriptionKey": "industriesSolutionPage.education.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/Education&E-Learning.jpg"
+  },
+  {
+    "icon": "/icons/goverment.png",
+    "titleKey": "industriesSolutionPage.government.title",
+    "descriptionKey": "industriesSolutionPage.government.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/Government&PublicSector.jpg"
+  },
+  {
+    "icon": "/icons/telecommunications.png",
+    "titleKey": "industriesSolutionPage.telecommunications.title",
+    "descriptionKey": "industriesSolutionPage.telecommunications.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/Telecommunications.jpg"
+  },
+  {
+    "icon": "/icons/legal.png",
+    "titleKey": "industriesSolutionPage.legal.title",
+    "descriptionKey": "industriesSolutionPage.legal.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/Legal&Compliance.jpg"
+  },
+  {
+    "icon": "/icons/energy.png",
+    "titleKey": "industriesSolutionPage.energy.title",
+    "descriptionKey": "industriesSolutionPage.energy.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/Energy&Utilities.jpg"
+  },
+  {
+    "icon": "/icons/media.png",
+    "titleKey": "industriesSolutionPage.media.title",
+    "descriptionKey": "industriesSolutionPage.media.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/Media&Entertainment.jpg"
+  },
+  {
+    "icon": "/icons/fleet.png",
+    "titleKey": "industriesSolutionPage.fleet.title",
+    "descriptionKey": "industriesSolutionPage.fleet.description",
+    "link": "/consectetur/adipiscing",
+    "background": "/image/industries/Fleet&Logistics.jpg"
   }
 ]

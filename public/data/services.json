@@ -4,41 +4,41 @@
     "titleKey": "servicesPage.software.title",
     "descriptionKey": "servicesPage.software.description",
     "link": "/lorem/ipsum",
-    "background": "/image/SoftwareDevelopmentServices.jpg"
+    "background": "/image/services/SoftwareDevelopmentServices.jpg"
   },
   {
     "icon": "/icons/open.png",
     "titleKey": "servicesPage.open.title",
     "descriptionKey": "servicesPage.open.description",
     "link": "/lorem/ipsum",
-    "background": "/image/OpenSourceSolutions&Distribution.jpg"
+    "background": "/image/services/OpenSourceSolutions&Distribution.jpg"
   },
   {
     "icon": "/icons/business.png",
     "titleKey": "servicesPage.business.title",
     "descriptionKey": "servicesPage.business.description",
     "link": "/lorem/ipsum",
-    "background": "/image/BusinessSolutions&DigitalTransformation.jpg"
+    "background": "/image/services/BusinessSolutions&DigitalTransformation.jpg"
   },
   {
     "icon": "/icons/platform.png",
     "titleKey": "servicesPage.platform.title",
     "descriptionKey": "servicesPage.platform.description",
     "link": "/lorem/ipsum",
-    "background": "/image/PlatformDevelopment&SaaSSolutions.jpg"
+    "background": "/image/services/PlatformDevelopment&SaaSSolutions.jpg"
   },
   {
     "icon": "/icons/ai.png",
     "titleKey": "servicesPage.ai.title",
     "descriptionKey": "servicesPage.ai.description",
     "link": "/lorem/ipsum",
-    "background": "/image/Automation&AI_MLServices.jpg"
+    "background": "/image/services/Automation&AI_MLServices.jpg"
   },
   {
     "icon": "/icons/maintenance.png",
     "titleKey": "servicesPage.maintenance.title",
     "descriptionKey": "servicesPage.maintenance.description",
     "link": "/lorem/ipsum",
-    "background": "/image/Maintenance&SupportServices.jpg"
+    "background": "/image/services/Maintenance&SupportServices.jpg"
   }
 ]

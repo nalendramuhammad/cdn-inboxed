@@ -1,7 +1,8 @@
 {
   "home": "Home",
   "about": "About Us",
-  "solution": "Industries Solution",
+  "industries": "Industries",
+  "solution": "Our Solution",
   "services": "Our Services",
   "partner": "Our Partner",
   "caseStudies": "Case Studies",
@@ -50,12 +51,17 @@
     "subHeader": "Tailored Solutions, Real-World Impact."
   },
 
+  "ourSolution": {
+    "header": "lorem ipsum",
+    "subHeader": "lorem ipsum"
+  },
+
   "aboutPage": {
     "heroTitle": "We are dedicated to delivering innovative software solutions tailored to your business needs.",
     "heroSubtitle": "Empowering Your Success with Cutting-Edge Software.",
     "subtitle": "About Us",
-    "sectionTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "sectionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "sectionTitle": "A Digital Space for Reflective Work",
+    "sectionParagraph": "Inboxed is more than a studio. It’s a space to slow down, reflect, and create systems that truly matter. We craft software through dialogue and intentionality — because when thought leads, technology follows with purpose.",
     "visionTitle": "Our Vision",
     "visionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "visionList": ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
@@ -140,6 +146,92 @@
     "maintenance": {
       "title": "Maintenance & Support Services",
       "description": "Ensuring performance, stability, and continuity—so your systems evolve, not just survive."
+    }
+  },
+
+  "ourSolutionPage": {
+    "header": "Our Solution",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "subtitle": "Lorem ipsum",
+    "crm": {
+      "title": "Customer Relationship Management (CRM) System",
+      "description": "An open-source CRM platform that allows businesses to manage customer interactions, track leads, and streamline sales processes without proprietary licensing fees."
+    },
+    "erp": {
+      "title": "Enterprise Resource Planning (ERP)",
+      "description": "A comprehensive open-source ERP solution to manage core business processes such as inventory, procurement, and accounting with real-time data integration."
+    },
+    "pm": {
+      "title": "Project Management Software",
+      "description": "A versatile open-source tool to plan, track, and manage projects, assign tasks, set deadlines, and collaborate within teams."
+    },
+    "dms": {
+      "title": "Document Management System (DMS)",
+      "description": "An open-source DMS for storing, sharing, and managing digital documents while ensuring version control, security, and accessibility."
+    },
+    "ecom": {
+      "title": "E-commerce Platform",
+      "description": "An open-source e-commerce solution for creating online stores, offering customizable features for product listings, payments, and customer management."
+    },
+    "accounting": {
+      "title": "Accounting Software",
+      "description": "A user-friendly open-source accounting solution to handle bookkeeping, invoicing, and financial reporting for businesses of all sizes."
+    },
+    "lms": {
+      "title": "Learning Management System (LMS)",
+      "description": "Open-source software for creating, managing, and delivering online courses and training programs, complete with tracking and certification tools."
+    },
+    "ims": {
+      "title": "Inventory Management System",
+      "description": "An open-source tool for businesses to track and manage their inventory, reduce stockouts, and optimize warehouse operations."
+    },
+    "hrms": {
+      "title": "Human Resource Management System (HRMS)",
+      "description": "An open-source HR platform that automates HR tasks such as employee records, payroll, benefits, and recruitment processes."
+    },
+    "ticketing": {
+      "title": "Help Desk & Ticketing System",
+      "description": "Open-source software that enables businesses to provide customer support by managing and tracking service tickets and inquiries."
+    },
+    "marketing": {
+      "title": "Marketing Automation Software",
+      "description": "An open-source marketing platform to automate campaigns, analyze customer behavior, and track ROI across email, social media, and other channels."
+    },
+    "bi": {
+      "title": "Business Intelligence (BI) Tools",
+      "description": "Open-source BI software for data analysis, visualization, and reporting to support decision-making and uncover business insights."
+    },
+    "cms": {
+      "title": "Content Management System (CMS)",
+      "description": "An open-source CMS that allows users to create, manage, and modify digital content on websites without needing specialized technical knowledge."
+    },
+    "collaboration": {
+      "title": "Collaboration and Communication Platform",
+      "description": "Open-source solutions that provide team chat, video conferencing, file sharing, and project collaboration features to enhance remote work and team communication."
+    },
+    "it": {
+      "title": "IT Security & Monitoring Software",
+      "description": "An open-source solution for network monitoring, intrusion detection, and security event management to protect business data from cyber threats."
+    },
+    "cloud": {
+      "title": "Cloud Storage & File Sharing",
+      "description": "Open-source software that enables businesses to store and share files securely across teams while maintaining full control over their data."
+    },
+    "cs": {
+      "title": "Customer Support Chatbots",
+      "description": "Open-source chatbot platforms that provide automated customer support, reduce response time, and improve user engagement through AI-based conversation handling."
+    },
+    "mobile": {
+      "title": "Mobile App Development Frameworks",
+      "description": "Open-source frameworks that allow businesses to build cross-platform mobile applications quickly and efficiently with reusable components."
+    },
+    "video": {
+      "title": "Video Conferencing Software",
+      "description": "Open-source video conferencing tools for businesses to host meetings, webinars, and virtual collaboration with high security and customization options."
+    },
+    "supply": {
+      "title": "Supply Chain Management Software",
+      "description": "An open-source solution designed to optimize the movement of goods, track shipments, manage suppliers, and streamline procurement and distribution processes."
     }
   },
 
@@ -684,7 +776,7 @@
       "future": "The federation plans to integrate cross-cooperative payment channels and credit bureau analytics, creating a collaborative banking ecosystem that strengthens the entire network."
     },
     "fsi8": {
-      "title": "Shared Services, Separate Brands: Building a Multi-Tenant Core for Cooperative Banks",
+      "title": "Banking Beyond Borders: Supporting Refugees with Portable Financial Identities",
       "background": "An international NGO sought to deliver basic banking services to refugees in multiple host countries. These individuals often lacked national IDs and faced legal or technical barriers to opening accounts in traditional banks.",
       "challenge": "Refugees had no access to formal financial systems due to the lack of national identification and legal complexities across host countries. The fragmented Know Your Customer (KYC) requirements made it difficult to design a compliant onboarding process. A further challenge was the need for financial identities that were portable and traceable across borders while maintaining user privacy and regulatory adherence.",
       "solution": "The NGO deployed Mifos X in combination with decentralized identity standards. Using biometric registration and encrypted digital wallets linked to Fineract, refugees could access savings, remittances, and small loans across borders. The system supported federated identity checks to comply with host-country regulations.",
@@ -824,7 +916,7 @@
       "future": "The archive plans to incorporate AI-driven optical character recognition (OCR) for handwritten materials and blockchain-based timestamping to certify document authenticity in historical research."
     },
     "government8": {
-      "title": "Smart Archives for National Memory",
+      "title": "Unified Service Desks for Citizens",
       "background": "A regional government launched a public service improvement program aimed at centralizing citizen services—licenses, taxes, permits, and complaints—into a single online platform. Existing systems were scattered across various departments and lacked real-time integration.",
       "challenge": "Citizens often had to visit multiple offices for a single request. Fragmented records made it hard for officials to verify documents or track issue resolution, leading to inefficiencies and public frustration.",
       "solution": "The solution integrated Alfresco Community for managing citizen-facing documents and workflows. Each service request triggered an automated routing path to the relevant department, and all communications and responses were logged within the platform. Citizens could track their requests via a public dashboard.",
