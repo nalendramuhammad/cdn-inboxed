@@ -9,6 +9,33 @@
   "contact": "Contact",
   "demoLogin": "Demo Login",
 
+  "footer": {
+    "description": "We curate, recommend, and deliver software with the care of a boutique service provider and the insight of a strategic partner. What we offer is not just what's available, but what's aligned. Every solution is selected with purpose — tailored to your business goals, scalable for growth, and supported with genuine expertise.",
+    "servicesFooter": {
+      "title": "Services",
+      "ai": "Automation & AI/ML Services",
+      "business": "Business Solutions & Digital Transformation",
+      "maintanance": "Maintenance & Support Services",
+      "os": "Open Source Solutions & Distribution",
+      "saas": "Platform Development & SaaS Solutions",
+      "software": "Software Development Services"
+    },
+    "industries": {
+      "title": "industries",
+      "education": "Education & E-Learning",
+      "energy": "Energy & Utilities",
+      "bank": "Financial Services & Banking",
+      "fleet": "Fleet & Logistics",
+      "government": "Government & Public Sector",
+      "healthcare": "Healthcare & Life Sciences",
+      "legal": "Legal & Compliance",
+      "manufacturing": "Manufacturing & Supply Chain",
+      "media": "Media & Entertainment",
+      "retail": "Retail & E-Commerce",
+      "telecommunications": "Telecommunications"
+    }
+  },
+
   "homePage": {
     "heroTitle": "We turn your ideas into digital solutions that are smart, efficient, and ready to scale.",
     "heroSubtitle": "Bring your Vision into Inboxed Reality",
@@ -63,10 +90,25 @@
     "sectionTitle": "A Digital Space for Reflective Work",
     "sectionParagraph": "Inboxed is more than a studio. It’s a space to slow down, reflect, and create systems that truly matter. We craft software through dialogue and intentionality — because when thought leads, technology follows with purpose.",
     "visionTitle": "Our Vision",
-    "visionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "visionList": ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
-    "missionSubtitle": "Our Mission",
-    "visionSubtitle": "Our Vision"
+    "visionParagraph": "To shape the future of technology through thoughtful design, human-centered innovation, and continuous improvement.",
+    "missionList": [
+      "Bring human creativity and technical expertise together to solve real-world challenges.",
+      "Design systems that evolve seamlessly with user needs, global trends, and ongoing improvements.",
+      "Focus on creating digital solutions that leave a lasting impact, while continually refining and enhancing every aspect."
+    ],
+    "missionTitle": "Our Mission"
+  },
+
+  "cultureGrid": {
+    "title": "Our Culture",
+    "inovation": {
+      "titleKey": "Inovation",
+      "description": "We lead with fresh ideas and creative approaches to solve complex challenges and drive progress."
+    },
+    "network": {
+      "titleKey": "Network",
+      "description": "Building strong, collaborative relationships with our partners and clients to achieve shared goals and success."
+    }
   },
 
   "industriesSolutionPage": {

@@ -1,59 +1,61 @@
+"use client";
+
 import Logo from "../public/logo/inboxed.svg";
+import { useTranslation } from "react-i18next";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <Logo />
-          <p>
-            We curate, recommend, and deliver software with the care of a
-            boutique service provider and the insight of a strategic partner.
-            What we offer is not just what&apos;s available, but what&apos;s
-            aligned. Every solution is selected with purpose — tailored to your
-            business goals, scalable for growth, and supported with genuine
-            expertise.
-          </p>
+          <Image
+            src="/logo/inboxed-white.png"
+            alt="logo"
+            width={100}
+            height={25}
+          />
+          <p>{t("footer.description")}</p>
         </div>
 
         <div className="footer-links">
-          <div>
-            <ul className="navigation-footer">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Industries Solution</li>
-              <li>Our Service</li>
-              <li>Our Partner</li>
-              <li>Case Studies</li>
-              <li>Contact</li>
-            </ul>
+          <div className="navigation-footer">
+            <Link href="/home">{t("home")}</Link>
+            <Link href="/about">{t("about")}</Link>
+            <Link href="/industries">{t("industries")}</Link>
+            <Link href="/solution">{t("solution")}</Link>
+            <Link href="/services">{t("services")}</Link>
+            <Link href="/partner">{t("partner")}</Link>
+            <Link href="/caseStudies">{t("caseStudies")}</Link>
+            <Link href="/contact">{t("contact")}</Link>
           </div>
-          <div>
-            <h4>Services</h4>
-            <ul>
-              <li>Automation & AI/ML Services</li>
-              <li>Business Solutions & Digital Transformation</li>
-              <li>Maintenance & Support Services</li>
-              <li>Open Source Solutions & Distribution</li>
-              <li>Platform Development & SaaS Solutions</li>
-              <li>Software Development Services</li>
-            </ul>
+          <div className="services-footer">
+            <Link href="Services">{t("footer.servicesFooter.title")}</Link>
+            <Link href="/home">{t("footer.servicesFooter.ai")}</Link>
+            <Link href="/home">{t("footer.servicesFooter.business")}</Link>
+            <Link href="/home">{t("footer.servicesFooter.maintanance")}</Link>
+            <Link href="/home">{t("footer.servicesFooter.os")}</Link>
+            <Link href="/home">{t("footer.servicesFooter.saas")}</Link>
+            <Link href="/home">{t("footer.servicesFooter.software")}</Link>
           </div>
-          <div>
-            <h4>Industries</h4>
-            <ul>
-              <li>Education & E-Learning</li>
-              <li>Energy & Utilities</li>
-              <li>Financial Services & Banking</li>
-              <li>Fleet & Logistics</li>
-              <li>Government & Public Sector</li>
-              <li>Healthcare & Life Sciences</li>
-              <li>Legal & Compliance</li>
-              <li>Manufacturing & Supply Chain</li>
-              <li>Media & Entertainment</li>
-              <li>Retail & E-Commerce</li>
-              <li>Telecommunications</li>
-            </ul>
+          <div className="industries-footer">
+            <Link href="/">{t("footer.industries.title")}</Link>
+            <Link href="/home">{t("footer.industries.education")}</Link>
+            <Link href="/home">{t("footer.industries.energy")}</Link>
+            <Link href="/home">{t("footer.industries.bank")}</Link>
+            <Link href="/home">{t("footer.industries.fleet")}</Link>
+            <Link href="/home">{t("footer.industries.government")}</Link>
+            <Link href="/home">{t("footer.industries.healthcare")}</Link>
+            <Link href="/home">{t("footer.industries.legal")}</Link>
+            <Link href="/home">{t("footer.industries.manufacturing")}</Link>
+            <Link href="/home">{t("footer.industries.media")}</Link>
+            <Link href="/home">{t("footer.industries.retail")}</Link>
+            <Link href="/home">
+              {t("footer.industries.telecommunications")}
+            </Link>
           </div>
         </div>
       </div>

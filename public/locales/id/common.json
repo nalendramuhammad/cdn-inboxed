@@ -8,6 +8,33 @@
   "contact": "Kontak",
   "demoLogin": "Login Demo",
 
+  "footer": {
+    "description": "Kami mengkurasi, merekomendasikan, dan menyediakan perangkat lunak dengan perhatian seperti penyedia layanan butik dan wawasan seperti mitra strategis. Apa yang kami tawarkan bukan hanya apa yang tersedia, tetapi apa yang teralignasi. Setiap solusi dipilih dengan tujuan — disesuaikan dengan tujuan bisnis Anda, dapat berkembang untuk masa depan, dan didukung dengan keahlian yang tulus.",
+    "servicesFooter": {
+      "title": "Layanan",
+      "ai": "Layanan Otomatisasi & AI/ML",
+      "business": "Solusi Bisnis & Transformasi Digital",
+      "maintanance": "Layanan Pemeliharaan & Dukungan",
+      "os": "Solusi & Distribusi Open Source",
+      "saas": "Pengembangan Platform & Solusi SaaS",
+      "software": "Layanan Pengembangan Perangkat Lunak"
+    },
+    "industries": {
+      "title": "Industri",
+      "education": "Pendidikan & E-Learning",
+      "energy": "Energi & Utilitas",
+      "bank": "Layanan Keuangan & Perbankan",
+      "fleet": "Armada & Logistik",
+      "government": "Pemerintah & Sektor Publik",
+      "healthcare": "Kesehatan & Ilmu Hayat",
+      "legal": "Hukum & Kepatuhan",
+      "manufacturing": "Manufaktur & Rantai Pasokan",
+      "media": "Media & Hiburan",
+      "retail": "Ritel & E-Commerce",
+      "telecommunications": "Telekomunikasi"
+    }
+  },
+
   "homePage": {
     "heroTitle": "Kami mengubah ide Anda menjadi solusi digital yang cerdas, efisien, dan siap untuk berkembang.",
     "heroSubtitle": "Wujudkan Visi Anda bersama Inboxed",
@@ -16,9 +43,8 @@
     "ourPartner": "Mitra Kami",
 
     "aboutUsTagline": "— Tentang Kami",
-    "aboutUsTitle": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
-    "aboutUsPara1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "aboutUsPara2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "aboutUsTitle": "Ruang Digital untuk Pekerjaan yang Reflektif",
+    "aboutUsPara1": "Inboxed lebih dari sekadar sebuah studio. Ini adalah ruang untuk memperlambat, merenung, dan menciptakan sistem yang benar-benar berarti. Kami merancang perangkat lunak melalui dialog dan niat — karena ketika pemikiran memimpin, teknologi mengikuti dengan tujuan.",
     "learnMore": "Pelajari lebih lanjut",
 
     "serviceTagline": "Layanan Kami",

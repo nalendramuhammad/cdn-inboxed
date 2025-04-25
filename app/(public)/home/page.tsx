@@ -4,7 +4,6 @@ import Link from "next/link";
 import ContactForm from "../../../components/ContactForm";
 import partnersData from "../../../public/data/partners.json";
 import Industries from "../../../components/IndustriesGrid";
-import Solution from "../../../components/OurSolutionGrid";
 import Service from "../../../components/ServiceGrid";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
@@ -103,8 +102,6 @@ export default function HomePage() {
 
       <section className="industries-section">
         <Industries />
-
-        <Solution />
 
         <Service />
       </section>

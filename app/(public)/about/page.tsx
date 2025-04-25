@@ -2,6 +2,7 @@
 
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import Culture from "../../../components/CultureGrid";
 
 export default function AboutPage() {
   const { t } = useTranslation();
@@ -46,20 +47,14 @@ export default function AboutPage() {
             <div className="vision-text">
               <h2>{t("aboutPage.visionTitle")}</h2>
               <p>{t("aboutPage.visionParagraph")}</p>
-              <ul className="vision-list">
-                {(
-                  t("aboutPage.visionList", { returnObjects: true }) as string[]
-                ).map((item: string, index: number) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
             </div>
             <div className="vision-text">
-              <h2>{t("aboutPage.missionSubtitle")}</h2>
-              <p>{t("aboutPage.visionParagraph")}</p>
+              <h2>{t("aboutPage.missionTitle")}</h2>
               <ul className="vision-list">
                 {(
-                  t("aboutPage.visionList", { returnObjects: true }) as string[]
+                  t("aboutPage.missionList", {
+                    returnObjects: true,
+                  }) as string[]
                 ).map((item: string, index: number) => (
                   <li key={index}>{item}</li>
                 ))}
@@ -88,30 +83,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="vision-section-mobile">
-        <div className="vision-section-header-mobile">
-          <div className="vision-section-title-wrap-mobile">
-            <span className="vision-section-subtitle-mobile">
-              {t("aboutPage.visionSubtitle")}
-            </span>
-          </div>
-        </div>
-        <div className="vision-section-grid">
-          {Array(3)
-            .fill(0)
-            .map((_, index) => (
-              <div
-                key={index}
-                className="vision-section-item-mobile"
-              >
-                <img
-                  src="/image/placeholder.png"
-                  alt={`Industry ${index + 1}`}
-                />
-              </div>
-            ))}
-        </div>
-      </section>
+      <Culture />
     </>
   );
 }

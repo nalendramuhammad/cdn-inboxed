@@ -1,0 +1,14 @@
+[
+  {
+    "titleKey": "cultureGrid.inovation.titleKey",
+    "descriptionKey": "cultureGrid.inovation.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/industries/Retail&E-Commerce.jpg"
+  },
+  {
+    "titleKey": "cultureGrid.network.titleKey",
+    "descriptionKey": "cultureGrid.network.description",
+    "link": "/lorem/ipsum",
+    "background": "/image/industries/Retail&E-Commerce.jpg"
+  }
+]

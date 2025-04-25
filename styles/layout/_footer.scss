@@ -25,6 +25,7 @@
   .footer-top {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin-bottom: 3rem;
     gap: 3rem;
@@ -45,6 +46,7 @@
 
     .footer-links {
       display: flex;
+      flex-direction: row;
       gap: 4rem;
       flex-wrap: wrap;
 
@@ -54,38 +56,76 @@
         justify-content: space-between;
       }
 
-      div {
-        h4 {
-          font-weight: 600;
-          margin-bottom: 1rem;
-        }
+      .navigation-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
 
-        ul {
-          list-style: none;
-          padding: 0;
+        a {
+          color: v.$light;
+          text-decoration: none;
+          font-weight: bold;
+          transition: color 0.3s ease-in-out;
+          @include m.respond-to(xxxxl) {
+            font-size: 2rem;
+          }
 
-          li {
-            margin-bottom: 0.5rem;
-            color: #cbd5e1;
-            cursor: pointer;
-
-            &:hover {
-              color: white;
-            }
+          &:hover {
+            color: v.$gray;
           }
         }
+      }
 
-        ul:nth-child(1) {
-          font-weight: 600;
-          margin-bottom: 1rem;
-          li {
-            margin-bottom: 0.5rem;
-            color: white;
-            cursor: pointer;
+      .services-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
 
-            &:hover {
-              color: #cbd5e1;
-            }
+        a:nth-child(1) {
+          cursor: default;
+          font-weight: bold;
+          color: v.$light;
+          pointer-events: none;
+        }
+
+        a {
+          color: v.$light;
+          text-decoration: none;
+          transition: color 0.3s ease-in-out;
+
+          @include m.respond-to(xxxxl) {
+            font-size: 2rem;
+          }
+
+          &:hover {
+            color: v.$gray;
+          }
+        }
+      }
+
+      .industries-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        a:nth-child(1) {
+          cursor: default;
+          font-weight: bold;
+          color: v.$light;
+          pointer-events: none;
+        }
+
+        a {
+          color: v.$light;
+          text-decoration: none;
+          transition: color 0.3s ease-in-out;
+
+          @include m.respond-to(xxxxl) {
+            font-size: 2rem;
+          }
+
+          &:hover {
+            color: v.$gray;
           }
         }
       }

@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import Logo from "../public/logo/inboxed.svg";
 import { useState, useEffect, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import i18n from "../lib/i18n";
+import Image from "next/image";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -59,11 +59,17 @@ export default function Header() {
   return (
     <header>
       <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
-        <div className="logo">
-          <Link href="/home">
-            <Logo className="logo" />
-          </Link>
-        </div>
+        <Link
+          className="logo"
+          href="/home"
+        >
+          <Image
+            src="/logo/inboxed-white.png"
+            alt="logo"
+            width={100}
+            height={25}
+          />
+        </Link>
 
         <div
           ref={menuRef}
