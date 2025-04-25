@@ -1,6 +1,5 @@
 "use client";
 
-import Logo from "../public/logo/inboxed.svg";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import Image from "next/image";
