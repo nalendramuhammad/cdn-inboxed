@@ -2,7 +2,6 @@
 
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
-import Solution from "../../../components/OurSolutionGrid";
 
 export default function SolutionPage() {
   const { t } = useTranslation();
