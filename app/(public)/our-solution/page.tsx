@@ -24,7 +24,6 @@ export default function SolutionPage() {
           />
         </div>
       </section>
-      <Solution />
     </>
   );
 }

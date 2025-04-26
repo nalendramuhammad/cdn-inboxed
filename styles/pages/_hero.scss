@@ -14,9 +14,13 @@
   color: white;
   overflow: hidden;
 
+  @include m.respond-to(xl) {
+    padding: 4rem;
+  }
+
   @include m.respond-to(lg) {
     width: 100%;
-    padding: 3rem;
+    padding: 4rem;
   }
 
   @include m.respond-to(md) {
@@ -249,7 +253,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // max-width: 1200px;
     margin: 0 auto;
     padding: 6rem;
     position: relative;
@@ -257,13 +260,16 @@
     flex-wrap: wrap;
     gap: 2rem;
 
+    @include m.respond-to(xl) {
+      padding: 4rem;
+    }
+
     @include m.respond-to(lg) {
-      max-width: 900px;
       padding: 3rem;
     }
 
     @include m.respond-to(md) {
-      padding: 2rem 4rem;
+      padding: 3rem;
     }
 
     @include m.respond-to(sm) {
@@ -285,6 +291,9 @@
       font-size: 2.5rem;
       font-weight: bold;
       margin: 1rem 0;
+      @include m.respond-to(md) {
+        font-size: 1.45rem;
+      }
       @include m.respond-to(sm) {
         font-size: 1.45rem;
       }
@@ -322,6 +331,18 @@
     width: 50%;
     top: 0;
 
+    @include m.respond-to(xxl) {
+      position: absolute;
+      left: 50%;
+      width: 60%;
+    }
+
+    @include m.respond-to(xl) {
+      position: absolute;
+      left: 50%;
+      width: 60%;
+    }
+
     img {
       height: auto;
       width: 100%;
@@ -338,30 +359,3 @@
     }
   }
 }
-
-// .industries-section {
-//   background: url("/image/Home.jpg") no-repeat center center/cover;
-//   color: white;
-//   position: relative;
-//   text-align: center;
-//   display: flex;
-//   flex-direction: column;
-
-//   @include m.respond-to(md) {
-//     padding: 2rem;
-//   }
-
-//   @include m.respond-to(sm) {
-//     padding: 2rem 3rem;
-//     gap: 5rem;
-//   }
-
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     inset: 0;
-//     background: linear-gradient(to bottom, #ffffff, #2f84d9);
-//     opacity: 0.95;
-//     z-index: 0;
-//   }
-// }

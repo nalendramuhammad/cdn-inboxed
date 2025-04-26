@@ -2,7 +2,7 @@
   {
     "titleKey": "caseStudiesPage.education.title",
     "slug": "education",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/LearningBeyondLimits-DemocratizingEducationinRemoteCommunities.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education.background",
@@ -21,7 +21,7 @@
   {
     "titleKey": "caseStudiesPage.education2.title",
     "slug": "education2",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/TheSmartCampusShift-ADigitalReinventionforPrivateInstitutions.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education2.background",
@@ -40,7 +40,7 @@
   {
     "titleKey": "caseStudiesPage.education3.title",
     "slug": "education3",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/VirtualClassrooms,RealImpact.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education3.background",
@@ -59,7 +59,7 @@
   {
     "titleKey": "caseStudiesPage.education4.title",
     "slug": "education4",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/Data-DrivenDecisionMakingforLargeHealthSystems.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education4.background",
@@ -78,7 +78,7 @@
   {
     "titleKey": "caseStudiesPage.education5.title",
     "slug": "education5",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/LMSWithoutBoundaries.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education5.background",
@@ -97,7 +97,7 @@
   {
     "titleKey": "caseStudiesPage.education6.title",
     "slug": "education6",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/RebuildingTrustinDigitalLearning.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education6.background",
@@ -116,7 +116,7 @@
   {
     "titleKey": "caseStudiesPage.education7.title",
     "slug": "education7",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/OpenAccessLearning.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education7.background",
@@ -135,7 +135,7 @@
   {
     "titleKey": "caseStudiesPage.education8.title",
     "slug": "education8",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/BeyondClassroom.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education8.background",
@@ -154,7 +154,7 @@
   {
     "titleKey": "caseStudiesPage.education9.title",
     "slug": "education9",
-    "background": "/image/Home.jpg",
+    "background": "/image/case-studies/ChalkboardstoClickboards.jpg",
     "icon": "/icons/education-white.svg",
     "category": "education",
     "backgroundDesc": "caseStudiesPage.education9.background",

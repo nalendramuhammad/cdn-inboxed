@@ -51,6 +51,12 @@ export default function SolutionGrid() {
                   alt={t(item.titleKey)}
                   width={40}
                   height={40}
+                  layout="intrinsic"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
                 />
                 <div className="title-desc">
                   <h3>{t(item.titleKey)}</h3>

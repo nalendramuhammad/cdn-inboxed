@@ -1,14 +1,44 @@
 [
   {
-    "titleKey": "cultureGrid.inovation.titleKey",
-    "descriptionKey": "cultureGrid.inovation.description",
-    "link": "/lorem/ipsum",
-    "background": "/image/industries/Retail&E-Commerce.jpg"
+    "titleKey": "I",
+    "titleKeyBawah": "INNOVATION",
+    "descriptionKey": "We lead with fresh ideas and creative approaches to solve complex challenges and drive progress.",
+    "link": "/lorem/ipsum"
   },
   {
-    "titleKey": "cultureGrid.network.titleKey",
-    "descriptionKey": "cultureGrid.network.description",
-    "link": "/lorem/ipsum",
-    "background": "/image/industries/Retail&E-Commerce.jpg"
+    "titleKey": "N",
+    "titleKeyBawah": "NETWORK",
+    "descriptionKey": "Building strong, collaborative relationships with our partners and clients to achieve shared goals and success.",
+    "link": "/lorem/ipsum"
+  },
+  {
+    "titleKey": "B",
+    "titleKeyBawah": "BREAKTHROUGH",
+    "descriptionKey": "We embrace bold thinking and actions to break through barriers, discovering new possibilities and innovations along the way.",
+    "link": "/lorem/ipsum"
+  },
+  {
+    "titleKey": "O",
+    "titleKeyBawah": "OPPORTUNITY",
+    "descriptionKey": "We view every challenge as an opportunity to grow, innovate, and create meaningful change.",
+    "link": "/lorem/ipsum"
+  },
+  {
+    "titleKey": "X",
+    "titleKeyBawah": "XCELLENCE",
+    "descriptionKey": "We uphold excellence in all aspects of our work, continuously striving to exceed expectations.",
+    "link": "/lorem/ipsum"
+  },
+  {
+    "titleKey": "E",
+    "titleKeyBawah": "EDUCATION",
+    "descriptionKey": "We foster continuous learning and knowledge sharing as the foundation of personal growth, innovation, and organizational development.",
+    "link": "/lorem/ipsum"
+  },
+  {
+    "titleKey": "D",
+    "titleKeyBawah": "DIVERSITY",
+    "descriptionKey": "We foster continuous learning and knowledge sharing as the foundation of personal growth, innovation, and organizational development.",
+    "link": "/lorem/ipsum"
   }
 ]

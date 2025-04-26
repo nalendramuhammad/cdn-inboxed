@@ -11,7 +11,7 @@
   flex-direction: column;
 
   @include m.respond-to(lg) {
-    padding: 3rem 2rem;
+    padding: 4rem;
   }
 
   @include m.respond-to(md) {
@@ -50,6 +50,10 @@
       gap: 4rem;
       flex-wrap: wrap;
 
+      @include m.respond-to(xl) {
+        font-size: 1rem;
+      }
+
       @include m.respond-to(md) {
         width: 100%;
         display: flex;
@@ -66,9 +70,6 @@
           text-decoration: none;
           font-weight: bold;
           transition: color 0.3s ease-in-out;
-          @include m.respond-to(xxxxl) {
-            font-size: 2rem;
-          }
 
           &:hover {
             color: v.$gray;
@@ -93,10 +94,6 @@
           text-decoration: none;
           transition: color 0.3s ease-in-out;
 
-          @include m.respond-to(xxxxl) {
-            font-size: 2rem;
-          }
-
           &:hover {
             color: v.$gray;
           }
@@ -119,10 +116,6 @@
           color: v.$light;
           text-decoration: none;
           transition: color 0.3s ease-in-out;
-
-          @include m.respond-to(xxxxl) {
-            font-size: 2rem;
-          }
 
           &:hover {
             color: v.$gray;

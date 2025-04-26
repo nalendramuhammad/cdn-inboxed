@@ -1,6 +1,10 @@
 // MEDIA QUERY
 @mixin respond-to($breakpoint) {
-  @if $breakpoint == xs {
+  @if $breakpoint == xxs {
+    @media (max-width: 320px) {
+      @content;
+    }
+  } @else if $breakpoint == xs {
     @media (max-width: 375px) {
       @content;
     }
@@ -25,11 +29,11 @@
       @content;
     }
   } @else if $breakpoint == xxxl {
-    @media (min-width: 1401px) {
+    @media (min-width: 1401px) and (max-width: 1600px) {
       @content;
     }
   } @else if $breakpoint == xxxxl {
-    @media (min-width: 2560px) {
+    @media (min-width: 1601px) {
       @content;
     }
   }

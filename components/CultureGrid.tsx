@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 interface CultureItem {
   icon: string;
   titleKey: string;
+  titleKeyBawah: string;
   descriptionKey: string;
   link: string;
   background: string;
@@ -23,37 +24,31 @@ export default function CultureGrid() {
   }, []);
 
   return (
-    <>
-      <section className="culture-grid">
-        <div className="culture-grid-header">
-          <div className="culture-grid-title-wrap">
-            <span className="culture-grid-subtitle">
-              {t("cultureGrid.title")}
-            </span>
-          </div>
+    <section className="culture-grid">
+      <div className="culture-grid-header">
+        <div className="culture-grid-title-wrap">
+          <span className="culture-grid-subtitle">
+            {t("cultureGrid.title")}
+          </span>
         </div>
-        <div className="culture-grid-grid">
-          {culture.map((item, index) => (
-            <div
-              className="culture-our-grid-section-item custom-box"
-              key={index}
-              style={{
-                backgroundImage: `url(${item.background})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            >
-              <div className="overlay"></div>
-              <div className="content">
-                <div className="title-desc">
-                  <h3>{t(item.titleKey)}</h3>
-                  <p>{t(item.descriptionKey)}</p>
-                </div>
-              </div>
+      </div>
+
+      <div className="culture-grid-grid">
+        {culture.map((item, index) => (
+          <div
+            className="culture-grid-item-wrapper"
+            key={index}
+          >
+            <div className="culture-our-grid-section-item">
+              <span className="inside-text">{t(item.titleKey)}</span>
             </div>
-          ))}
-        </div>
-      </section>
-    </>
+            <div className="culture-grid-item-text">
+              <h3>{t(item.titleKeyBawah)}</h3>
+              <p>{t(item.descriptionKey)}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
