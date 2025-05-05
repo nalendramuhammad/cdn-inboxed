@@ -58,16 +58,16 @@ export default function SolutionPage() {
             </h1>
             <p>
               Unlock the full potential of your business with a complete digital
-              ecosystem tailored to your needs. Whether you're optimizing daily
-              operations, boosting team productivity, or enhancing customer
-              experience, our comprehensive solution pillars are designed to
-              support your growth. From ERP and CRM to AI-powered insights,
-              collaboration tools, and secure cloud services—everything you need
-              is seamlessly integrated and available via On-Premises, SaaS, or
-              Managed Service. Start with what you need today, scale as you
-              grow, and experience the agility and efficiency that modern
-              businesses demand. Let us simplify your digital transformation—try
-              it now and see the difference.
+              ecosystem tailored to your needs. Whether you&apos;re optimizing
+              daily operations, boosting team productivity, or enhancing
+              customer experience, our comprehensive solution pillars are
+              designed to support your growth. From ERP and CRM to AI-powered
+              insights, collaboration tools, and secure cloud
+              services—everything you need is seamlessly integrated and
+              available via On-Premises, SaaS, or Managed Service. Start with
+              what you need today, scale as you grow, and experience the agility
+              and efficiency that modern businesses demand. Let us simplify your
+              digital transformation—try it now and see the difference.
             </p>
             <Link href="/about">
               <button className="ctaButton">Try it Now</button>

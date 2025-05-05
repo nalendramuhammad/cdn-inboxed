@@ -13,8 +13,6 @@ import Image from "next/image";
 export default function HomePage() {
   const { t } = useTranslation();
 
-  const { partners, partners2 } = partnersData;
-
   return (
     <>
       <section className="hero">
