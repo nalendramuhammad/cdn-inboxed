@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import ContactForm from "../../../components/ContactForm";
-import partnersData from "../../../public/data/partners.json";
 import Partners from "../../../components/PartnerGrid";
 import Industries from "../../../components/IndustriesGrid";
 import Service from "../../../components/ServiceGrid";

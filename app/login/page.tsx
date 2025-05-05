@@ -32,7 +32,7 @@ export default function LoginPage() {
       } else {
         setMessage(data.message);
       }
-    } catch (error) {
+    } catch {
       setMessage("Server error, please try again later.");
     }
   };
