@@ -3,14 +3,6 @@
 import { useTranslation } from "react-i18next";
 import partnersData from "../public/data/partners.json";
 
-interface PartnerItem {
-  icon: string;
-  titleKey: string;
-  descriptionKey: string;
-  link: string;
-  background: string;
-}
-
 export default function PartnerGrid() {
   const { t } = useTranslation();
 
