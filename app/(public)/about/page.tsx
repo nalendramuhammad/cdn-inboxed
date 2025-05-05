@@ -41,6 +41,12 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="about-story">
+        <p>{t("aboutPage.aboutStory.paragraph1")}</p>
+        <p>{t("aboutPage.aboutStory.paragraph2")}</p>
+        <p>{t("aboutPage.aboutStory.paragraph3")}</p>
+      </section>
+
       <section className="vision-section">
         <div className="vision-container">
           <div className="vision-text-wrap">

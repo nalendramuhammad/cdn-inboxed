@@ -79,3 +79,141 @@
     }
   }
 }
+
+.pembatas {
+  background: linear-gradient(280deg, #ffffff7b, v.$primary);
+  position: relative;
+  overflow: hidden;
+  .pembatas-wrap {
+    display: flex;
+    margin: 0 auto;
+    padding: 8rem;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      font-size: 3rem;
+      padding: 1rem;
+      color: v.$white;
+      width: 800px;
+    }
+    .image-kiri {
+      position: absolute;
+      right: 0;
+      bottom: -2%;
+    }
+  }
+}
+
+.solution-kedua {
+  padding: 8rem;
+  text-align: justify;
+  .kedua-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    .kedua-wrap-kiri {
+      img {
+        border-radius: 0.25rem;
+      }
+    }
+    .kedua-wrap-kanan {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+      .ctaButton {
+        background-color: #2d30e5;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        filter: drop-shadow(0 0 0.2rem rgb(98, 142, 219));
+
+        @include m.respond-to(sm) {
+          padding: 0.5rem 1rem;
+          border-radius: 0;
+          font-size: 0.75rem;
+        }
+
+        &:hover {
+          background-color: #1e40af;
+        }
+      }
+    }
+  }
+}
+
+.solution-ketiga {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  gap: 5rem;
+
+  .solution-ketiga-wrap-satu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: v.$white;
+    text-align: justify;
+
+    img {
+      width: 500px;
+      height: 300px;
+      object-fit: cover;
+      flex-shrink: 0;
+      border-radius: 0.25rem;
+    }
+
+    .solution-ketiga-wrap-satu-kanan {
+      position: relative;
+      padding: 3rem;
+      overflow: hidden;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: v.$primary;
+        cursor: default;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        transition: color 0.3s ease;
+      }
+
+      p {
+        opacity: 0.8;
+        color: v.$dark;
+        transition: opacity 0.3s ease, color 0.3s ease;
+        font-size: 1.25rem;
+      }
+
+      .login-btn {
+        background-color: #2d30e5;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        filter: drop-shadow(0 0 0.2rem rgb(98, 142, 219));
+        transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+
+        &:hover {
+          background-color: v.$primary;
+          filter: drop-shadow(0 0 0.4rem rgb(98, 142, 219));
+        }
+      }
+    }
+  }
+}

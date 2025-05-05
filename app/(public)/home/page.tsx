@@ -3,8 +3,10 @@
 import Link from "next/link";
 import ContactForm from "../../../components/ContactForm";
 import partnersData from "../../../public/data/partners.json";
+import Partners from "../../../components/PartnerGrid";
 import Industries from "../../../components/IndustriesGrid";
 import Service from "../../../components/ServiceGrid";
+import About from "../../../components/About";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
 
@@ -34,71 +36,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="partner">
-        <h3>{t("homePage.ourPartner")}</h3>
-        <div className="marquee-wrap">
-          <div className="marquee">
-            <div className="marquee-content">
-              {partners.map((logo, index) => (
-                <img
-                  key={index}
-                  src={logo}
-                  alt="Partner Logo"
-                  className="partner-logo"
-                />
-              ))}
-              {partners.map((logo, index) => (
-                <img
-                  key={`duplicate-${index}`}
-                  src={logo}
-                  alt="Partner Logo"
-                  className="partner-logo"
-                />
-              ))}
-            </div>
-          </div>
-          <div className="marquee-2">
-            <div className="marquee-content">
-              {partners2.map((logo, index) => (
-                <img
-                  key={index}
-                  src={logo}
-                  alt="Partner Logo"
-                  className="partner-logo"
-                />
-              ))}
-              {partners2.map((logo, index) => (
-                <img
-                  key={`duplicate-${index}`}
-                  src={logo}
-                  alt="Partner Logo"
-                  className="partner-logo"
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <Partners />
 
-      <section className="about">
-        <div className="about-overlay" />
-        <div className="about-container">
-          <div className="about-text">
-            <span className="about-subtitle">
-              {t("homePage.aboutUsTagline")}
-            </span>
-            <h2>{t("homePage.aboutUsTitle")}</h2>
-            <p>{t("homePage.aboutUsPara1")}</p>
-            <button className="about-button">{t("homePage.learnMore")}</button>
-          </div>
-          <div className="about-image">
-            <img
-              src="/image/woman pointing.png"
-              alt="About Us"
-            />
-          </div>
-        </div>
-      </section>
+      <About />
 
       <section className="industries-section">
         <Industries />

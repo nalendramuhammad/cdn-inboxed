@@ -3,7 +3,7 @@
 
 .culture-grid {
   color: v.$primary;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -20,21 +20,22 @@
     }
   }
 
-  .culture-grid-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
+  .culture-grid-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .culture-grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
     width: 100%;
 
-    @include m.respond-to(md) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    @include m.respond-to(sm) {
-      grid-template-columns: 1fr;
+    &.centered-row {
+      justify-content: center;
     }
   }
 
@@ -42,10 +43,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
-    max-width: 200px;
+    max-width: 400px;
     width: 100%;
+    flex: 1 1 calc(25% - 2.25rem);
+
+    @include m.respond-to(md) {
+      flex: 1 1 calc(50% - 1.5rem);
+    }
+
+    @include m.respond-to(sm) {
+      flex: 1 1 100%;
+    }
   }
 
   .culture-our-grid-section-item {
@@ -63,15 +73,25 @@
     color: white;
     transition: transform 0.3s ease;
 
-    .content-inside {
+    .inside-text {
       z-index: 1;
+      font-size: 4rem;
+      font-weight: bold;
+    }
+  }
 
-      h3 {
-        font-size: 1.25rem;
-        font-weight: bold;
-        margin: 0;
-        padding: 1rem;
-      }
+  .culture-grid-item-text {
+    margin-top: 1rem;
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: v.$primary;
     }
   }
 }

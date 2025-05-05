@@ -12,7 +12,7 @@
   "footer": {
     "description": "We curate, recommend, and deliver software with the care of a boutique service provider and the insight of a strategic partner. What we offer is not just what's available, but what's aligned. Every solution is selected with purpose — tailored to your business goals, scalable for growth, and supported with genuine expertise.",
     "servicesFooter": {
-      "title": "Services",
+      "title": "SERVICES",
       "ai": "Automation & AI/ML Services",
       "business": "Business Solutions & Digital Transformation",
       "maintanance": "Maintenance & Support Services",
@@ -21,7 +21,7 @@
       "software": "Software Development Services"
     },
     "industries": {
-      "title": "industries",
+      "title": "INDUSTRIES",
       "education": "Education & E-Learning",
       "energy": "Energy & Utilities",
       "bank": "Financial Services & Banking",
@@ -79,8 +79,8 @@
   },
 
   "ourSolution": {
-    "header": "lorem ipsum",
-    "subHeader": "lorem ipsum"
+    "header": "We make application not just accessible, but strategic for every Industry",
+    "subHeader": "Empowering Your Digital Journey From idea to execution, we help turn your vision into scalable, future-proof solutions."
   },
 
   "aboutPage": {
@@ -96,7 +96,12 @@
       "Design systems that evolve seamlessly with user needs, global trends, and ongoing improvements.",
       "Focus on creating digital solutions that leave a lasting impact, while continually refining and enhancing every aspect."
     ],
-    "missionTitle": "Our Mission"
+    "missionTitle": "Our Mission",
+    "aboutStory": {
+      "paragraph1": "Founded in 2025, INBOXED was born from a bold vision—to redefine how technology is built, delivered, and experienced across industries. We believe that digital transformation should not be limited by complexity, cost, or closed ecosystems. Our mission is to provide purposeful, adaptable, and impactful software solutions that empower businesses of all sizes to thrive in a rapidly changing world.",
+      "paragraph2": "The name INBOXED carries deep meaning. A box can store, organize, and protect—but it can also spark ideas, serve as a creative space, or deliver powerful messages. To us, inboxed is not just a container—it's a platform for innovation. It symbolizes clarity amidst complexity, action amidst noise, and structure amidst chaos. It is where ideas become tools, and sparks turn into scalable systems.",
+      "paragraph3": "As a software solution provider, INBOXED focuses on building systems that matter. Whether it's enabling smarter workflows, enhancing digital infrastructures, or helping organizations solve specific operational challenges, our solutions are grounded in usability, flexibility, and long-term value. We don’t just deliver software—we partner with our clients to create lasting digital momentum."
+    }
   },
 
   "cultureGrid": {
@@ -274,6 +279,32 @@
     "supply": {
       "title": "Supply Chain Management Software",
       "description": "An open-source solution designed to optimize the movement of goods, track shipments, manage suppliers, and streamline procurement and distribution processes."
+    },
+    "lists": {
+      "business": {
+        "titleKey": "Business Operations & Management",
+        "descriptionKey": "This pillar includes a suite of systems designed to streamline core business activities such as customer relationship management, human resources, finance, and supply chain. It enables organizations to improve efficiency, automate routine processes, and maintain control over their entire operations from a centralized platform."
+      },
+      "collaboration": {
+        "titleKey": "Collaboration & Communication",
+        "descriptionKey": "This pillar empowers teams to work more effectively with tools like help desk systems, chat platforms, video conferencing, and marketing automation. It enhances internal and external communications, improves customer support, and ensures everyone stays aligned regardless of where they work."
+      },
+      "technology": {
+        "titleKey": "Technology & Security",
+        "descriptionKey": "Aimed at modernizing and protecting your digital infrastructure, this pillar includes e-commerce platforms, CMS, cloud storage, cybersecurity tools, and business intelligence software. It ensures your technology stack is secure, scalable, and data-driven for smarter decisions."
+      },
+      "ai": {
+        "titleKey": "⁠Artificial Intelligence & Analytic",
+        "descriptionKey": "Leverage intelligent tools for automation and insights with solutions like AI ticketing, Gen AI Studio, social media listening, and smart parking systems. This pillar helps businesses boost customer engagement, predict trends, and personalize experiences through advanced analytics and AI-driven automation."
+      },
+      "learning": {
+        "titleKey": "⁠Learning & Development",
+        "descriptionKey": "Focused on upskilling teams and continuous learning, this pillar offers Learning Management Systems (LMS) and mobile development frameworks. It ensures workforce readiness and supports digital transformation through structured training and development."
+      },
+      "development": {
+        "titleKey": "⁠Custom Development",
+        "descriptionKey": "Tailor-made to meet specific business needs, this pillar includes tools for web/mobile app development, system integration, and low-code/no-code platforms. It allows companies to build scalable digital solutions quickly and cost-effectively, without heavy reliance on traditional coding."
+      }
     }
   },
 

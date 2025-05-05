@@ -31,7 +31,7 @@
     gap: 3rem;
 
     .footer-brand {
-      max-width: 400px;
+      max-width: 500px;
 
       @include m.respond-to(lg) {
         max-width: 300px;
@@ -40,7 +40,8 @@
       p {
         margin-top: 0.5rem;
         color: #dbeafe;
-        font-size: 0.95rem;
+        font-size: 1.1rem;
+        text-align: justify;
       }
     }
 
@@ -64,6 +65,7 @@
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        text-transform: uppercase;
 
         a {
           color: v.$light;
@@ -76,26 +78,30 @@
           }
         }
       }
-
-      .services-footer {
+      .footer-wrap {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 2rem;
+        .services-footer {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
 
-        a:nth-child(1) {
-          cursor: default;
-          font-weight: bold;
-          color: v.$light;
-          pointer-events: none;
-        }
+          a:nth-child(1) {
+            cursor: default;
+            font-weight: bold;
+            color: v.$light;
+            pointer-events: none;
+          }
 
-        a {
-          color: v.$light;
-          text-decoration: none;
-          transition: color 0.3s ease-in-out;
+          a {
+            color: v.$light;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
 
-          &:hover {
-            color: v.$gray;
+            &:hover {
+              color: v.$gray;
+            }
           }
         }
       }

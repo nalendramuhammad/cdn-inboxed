@@ -1,0 +1,38 @@
+[
+  {
+    "titleKey": "ourSolutionPage.lists.business.titleKey",
+    "descriptionKey": "ourSolutionPage.lists.business.descriptionKey",
+    "link": "/lorem/ipsum",
+    "image": "/image/our-solution/businesspeople.jpg"
+  },
+  {
+    "titleKey": "ourSolutionPage.lists.collaboration.titleKey",
+    "descriptionKey": "ourSolutionPage.lists.collaboration.descriptionKey",
+    "link": "/lorem/ipsum",
+    "image": "/image/our-solution/collaboration.jpg"
+  },
+  {
+    "titleKey": "ourSolutionPage.lists.technology.titleKey",
+    "descriptionKey": "ourSolutionPage.lists.technology.descriptionKey",
+    "link": "/lorem/ipsum",
+    "image": "/image/our-solution/Technology.jpg"
+  },
+  {
+    "titleKey": "ourSolutionPage.lists.ai.titleKey",
+    "descriptionKey": "ourSolutionPage.lists.ai.descriptionKey",
+    "link": "/lorem/ipsum",
+    "image": "/image/our-solution/ArtificialIntelligence.jpg"
+  },
+  {
+    "titleKey": "ourSolutionPage.lists.learning.titleKey",
+    "descriptionKey": "ourSolutionPage.lists.learning.descriptionKey",
+    "link": "/lorem/ipsum",
+    "image": "/image/our-solution/⁠Learning.jpg"
+  },
+  {
+    "titleKey": "ourSolutionPage.lists.development.titleKey",
+    "descriptionKey": "ourSolutionPage.lists.development.descriptionKey",
+    "link": "/lorem/ipsum",
+    "image": "/image/our-solution/Development.jpg"
+  }
+]

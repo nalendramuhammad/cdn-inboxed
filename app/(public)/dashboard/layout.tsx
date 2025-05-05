@@ -1,12 +1,12 @@
-export default function DashboardLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+import { ReactNode } from "react";
+
+export default function DashboardLayout({ children }: { children: ReactNode }) {
   return (
-    <section className="dashboard-layout">
-      <h1>Dashboard</h1>
-      {children}
-    </section>
+    <div className="dashboard-layout">
+      <div className="dashboard-container">
+        <p>iouasjdiuefoieroiiofdje</p>
+        <main className="dashboard-content">{children}</main>
+      </div>
+    </div>
   );
 }

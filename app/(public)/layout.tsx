@@ -12,6 +12,10 @@ export default function PublicLayout({
       <Header />
       <main>{children}</main>
       <ContactButton />
+
+      <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
+      <script src="https://files.bpcontent.cloud/2025/04/15/06/20250415064935-3P4HDT8Z.js"></script>
+
       <Footer />
     </>
   );

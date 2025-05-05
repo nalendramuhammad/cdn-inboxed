@@ -14,9 +14,13 @@
   color: white;
   overflow: hidden;
 
+  @include m.respond-to(xl) {
+    padding: 4rem;
+  }
+
   @include m.respond-to(lg) {
     width: 100%;
-    padding: 3rem;
+    padding: 4rem;
   }
 
   @include m.respond-to(md) {
@@ -41,6 +45,25 @@
     z-index: 2;
     max-width: 1000px;
 
+    @include m.respond-to(lg) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @include m.respond-to(md) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    @include m.respond-to(sm) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
     h1 {
       font-size: 3rem;
       font-weight: 800;
@@ -60,6 +83,14 @@
     p {
       font-size: 1.75rem;
       font-style: italic;
+
+      @include m.respond-to(md) {
+        font-size: 1rem;
+      }
+
+      @include m.respond-to(sm) {
+        font-size: 0.75rem;
+      }
     }
   }
 
@@ -92,6 +123,13 @@
   flex-direction: column;
   justify-content: space-between;
 
+  @include m.respond-to(md) {
+    margin-bottom: 0;
+  }
+  @include m.respond-to(sm) {
+    padding: 3rem;
+  }
+
   .about-header {
     position: relative;
     z-index: 1;
@@ -117,7 +155,6 @@
     h2 {
       font-size: 2rem;
       font-weight: 700;
-      margin-bottom: 1rem;
       color: #1f2937;
     }
 
@@ -129,7 +166,7 @@
 
   .about-us-image {
     img {
-      width: 100%;
+      width: 80%;
 
       @include m.respond-to(md) {
         width: 100%;
@@ -142,24 +179,33 @@
   }
 }
 
-.vision-section {
+.about-story {
   padding: 6rem;
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.vision-section {
+  padding: 1rem 6rem;
   position: relative;
   height: 90vh;
 
   @include m.respond-to(md) {
-    display: none;
+    justify-content: center;
+    align-items: center;
   }
 
   @include m.respond-to(sm) {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
   }
 
   .vision-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    // padding: 2rem 10rem;
+    align-items: center;
     gap: 3rem;
     position: relative;
 
@@ -170,6 +216,13 @@
       .vision-text {
         flex: 1;
         max-width: 600px;
+
+        @include m.respond-to(sm) {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
 
         h2 {
           color: #2563eb;
@@ -182,6 +235,7 @@
           color: #111827;
           margin-bottom: 1.5rem;
           line-height: 1.6;
+          font-size: 1.25rem;
         }
 
         .vision-list {
@@ -192,7 +246,7 @@
             margin-bottom: 1rem;
             position: relative;
             padding-left: 1.2rem;
-            font-size: 1rem;
+            font-size: 1.25rem;
             color: #111827;
 
             &::before {
@@ -211,8 +265,20 @@
       align-items: center;
       gap: 1rem;
       position: absolute;
-      left: 70%;
+      right: -10%;
       top: 10%;
+
+      @include m.respond-to(lg) {
+        display: none;
+      }
+
+      @include m.respond-to(md) {
+        display: none;
+      }
+
+      @include m.respond-to(sm) {
+        display: none;
+      }
 
       .main-image {
         width: 300px;
@@ -233,168 +299,6 @@
           object-fit: cover;
           border-radius: 0.5rem;
         }
-      }
-    }
-  }
-}
-
-.vision-section-mobile {
-  color: white;
-  position: relative;
-  padding: 4rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: none;
-
-  @include m.respond-to(md) {
-    display: flex;
-  }
-
-  @include m.respond-to(sm) {
-    display: flex;
-  }
-
-  .vision-section-header-mobile {
-    .vision-section-title-wrap-mobile {
-      margin-bottom: 5rem;
-    }
-
-    .vision-section-subtitle-mobile {
-      color: #2563eb;
-      font-weight: 600;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      color: #1f2937;
-    }
-
-    p {
-      color: #4b5563;
-      font-size: 1rem;
-    }
-  }
-
-  .vision-section-grid {
-    max-width: 100px;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    margin: 0 auto 10rem;
-
-    @include m.respond-to(md) {
-      grid-template-columns: repeat(2, 1fr);
-      margin: 0 auto 5rem;
-    }
-
-    @include m.respond-to(sm) {
-      grid-template-columns: 1fr;
-      margin: 0 auto 5rem;
-    }
-  }
-
-  .vision-section-item-mobile {
-    background-color: #d1d5db;
-    width: 18.125rem;
-    height: 18.125rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-.mission-section {
-  color: white;
-  position: relative;
-  padding: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  @include m.respond-to(md) {
-    padding: 2rem;
-  }
-
-  @include m.respond-to(sm) {
-    padding: 2rem 3rem;
-    gap: 5rem;
-  }
-
-  .mission-section-header {
-    .mission-section-title-wrap {
-      margin-bottom: 2rem;
-      @include m.respond-to(md) {
-        margin: 0 3rem;
-      }
-    }
-
-    .mission-section-subtitle {
-      color: #2563eb;
-      font-weight: 600;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      color: #1f2937;
-    }
-
-    p {
-      color: #4b5563;
-      font-size: 1rem;
-    }
-  }
-
-  .mission-section-grid {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    margin: 0 auto 2rem;
-
-    @include m.respond-to(md) {
-      margin: 0 auto 5rem;
-      gap: 1rem;
-    }
-
-    @include m.respond-to(sm) {
-      gap: 1rem;
-      margin: 0 auto 5rem;
-    }
-
-    .mission-section-item {
-      background-color: #d1d5db;
-      border-radius: 0.5rem;
-      width: calc(33.33% - 1rem);
-      height: 18.125rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      @include m.respond-to(md) {
-        width: calc(48%);
-        height: 15rem;
-      }
-
-      @include m.respond-to(sm) {
-        width: 100%;
-        height: 15rem;
       }
     }
   }

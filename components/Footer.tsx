@@ -14,8 +14,8 @@ export default function Footer() {
           <Image
             src="/logo/inboxed-white.png"
             alt="logo"
-            width={100}
-            height={25}
+            width={150}
+            height={35}
           />
           <p>{t("footer.description")}</p>
         </div>
@@ -31,14 +31,25 @@ export default function Footer() {
             <Link href="/caseStudies">{t("caseStudies")}</Link>
             <Link href="/contact">{t("contact")}</Link>
           </div>
-          <div className="services-footer">
-            <Link href="Services">{t("footer.servicesFooter.title")}</Link>
-            <Link href="/home">{t("footer.servicesFooter.ai")}</Link>
-            <Link href="/home">{t("footer.servicesFooter.business")}</Link>
-            <Link href="/home">{t("footer.servicesFooter.maintanance")}</Link>
-            <Link href="/home">{t("footer.servicesFooter.os")}</Link>
-            <Link href="/home">{t("footer.servicesFooter.saas")}</Link>
-            <Link href="/home">{t("footer.servicesFooter.software")}</Link>
+          <div className="footer-wrap">
+            <div className="services-footer">
+              <Link href="Services">{t("footer.servicesFooter.title")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.ai")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.business")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.maintanance")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.os")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.saas")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.software")}</Link>
+            </div>
+            <div className="services-footer">
+              <Link href="Services">{t("footer.servicesFooter.title")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.ai")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.business")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.maintanance")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.os")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.saas")}</Link>
+              <Link href="/home">{t("footer.servicesFooter.software")}</Link>
+            </div>
           </div>
           <div className="industries-footer">
             <Link href="/">{t("footer.industries.title")}</Link>
@@ -60,7 +71,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <div className="contact-links">
+        {/* <div className="contact-links">
           <h4>Contact</h4>
           <ul>
             <li>Lorem Ipsum</li>
@@ -68,7 +79,7 @@ export default function Footer() {
             <li>Lorem Ipsum</li>
             <li>Lorem Ipsum</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Garis pindah ke sini */}
         <div className="footer-divider" />
@@ -76,7 +87,7 @@ export default function Footer() {
         <div className="footer-meta">
           <span>© Copyright 2025, All Rights Reserved by Inboxed.id</span>
           <div className="meta-links">
-            <a href="#">Privacy Policy</a>
+            <a href="/privacy">Privacy Policy</a>
             <a href="#">Terms & Conditions</a>
           </div>
         </div>

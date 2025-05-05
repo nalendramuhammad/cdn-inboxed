@@ -14,7 +14,6 @@ interface CultureItem {
 
 export default function CultureGrid() {
   const { t } = useTranslation();
-
   const [culture, setCulture] = useState<CultureItem[]>([]);
 
   useEffect(() => {
@@ -33,21 +32,42 @@ export default function CultureGrid() {
         </div>
       </div>
 
-      <div className="culture-grid-grid">
-        {culture.map((item, index) => (
-          <div
-            className="culture-grid-item-wrapper"
-            key={index}
-          >
-            <div className="culture-our-grid-section-item">
-              <span className="inside-text">{t(item.titleKey)}</span>
+      <div className="culture-grid-container">
+        {/* Baris pertama: 4 item */}
+        <div className="culture-grid-row">
+          {culture.slice(0, 4).map((item, index) => (
+            <div
+              className="culture-grid-item-wrapper"
+              key={index}
+            >
+              <div className="culture-our-grid-section-item">
+                <span className="inside-text">{t(item.titleKey)}</span>
+              </div>
+              <div className="culture-grid-item-text">
+                <h3>{t(item.titleKeyBawah)}</h3>
+                <p>{t(item.descriptionKey)}</p>
+              </div>
             </div>
-            <div className="culture-grid-item-text">
-              <h3>{t(item.titleKeyBawah)}</h3>
-              <p>{t(item.descriptionKey)}</p>
+          ))}
+        </div>
+
+        {/* Baris kedua: 3 item */}
+        <div className="culture-grid-row centered-row">
+          {culture.slice(4).map((item, index) => (
+            <div
+              className="culture-grid-item-wrapper"
+              key={index + 4}
+            >
+              <div className="culture-our-grid-section-item">
+                <span className="inside-text">{t(item.titleKey)}</span>
+              </div>
+              <div className="culture-grid-item-text">
+                <h3>{t(item.titleKeyBawah)}</h3>
+                <p>{t(item.descriptionKey)}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -1,9 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import partnersData from "../public/data/partners.json";
 
 interface PartnerItem {
   icon: string;
@@ -13,59 +11,56 @@ interface PartnerItem {
   background: string;
 }
 
-export default function ServiceGrid() {
+export default function PartnerGrid() {
   const { t } = useTranslation();
 
-  const [service, setService] = useState<PartnerItem[]>([]);
-
-  useEffect(() => {
-    fetch("/data/partners-grid.json")
-      .then((res) => res.json())
-      .then((data) => setService(data));
-  }, []);
+  const { partners, partners2 } = partnersData;
 
   return (
     <>
-      <section className="grid">
-        <div className="grid-header">
-          <div className="grid-title-wrap">
-            <span className="grid-subtitle">{t("ourService.subtitle")}</span>
-            <h2>{t("ourService.title")}</h2>
-            <p>{t("ourService.description")}</p>
-          </div>
-        </div>
-        <div className="grid-grid">
-          {service.map((item, index) => (
-            <div
-              className="our-grid-section-item custom-box"
-              key={index}
-              style={{
-                backgroundImage: `url(${item.background})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            >
-              <div className="overlay"></div>
-              <div className="content">
-                <Image
-                  src={item.icon}
-                  alt={t(item.titleKey)}
-                  width={40}
-                  height={40}
+      <section className="partner">
+        <h3>{t("homePage.ourPartner")}</h3>
+        <div className="marquee-wrap">
+          <div className="marquee">
+            <div className="marquee-content">
+              {partners.map((logo, index) => (
+                <img
+                  key={index}
+                  src={logo}
+                  alt="Partner Logo"
+                  className="partner-logo"
                 />
-                <div className="title-desc">
-                  <h3>{t(item.titleKey)}</h3>
-                  <p>{t(item.descriptionKey)}</p>
-                </div>
-                <Link
-                  href={item.link}
-                  className="btn-learn-more"
-                >
-                  {t("homePage.learnMore")}
-                </Link>
-              </div>
+              ))}
+              {partners.map((logo, index) => (
+                <img
+                  key={`duplicate-${index}`}
+                  src={logo}
+                  alt="Partner Logo"
+                  className="partner-logo"
+                />
+              ))}
             </div>
-          ))}
+          </div>
+          <div className="marquee-2">
+            <div className="marquee-content">
+              {partners2.map((logo, index) => (
+                <img
+                  key={index}
+                  src={logo}
+                  alt="Partner Logo"
+                  className="partner-logo"
+                />
+              ))}
+              {partners2.map((logo, index) => (
+                <img
+                  key={`duplicate-${index}`}
+                  src={logo}
+                  alt="Partner Logo"
+                  className="partner-logo"
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </section>
     </>

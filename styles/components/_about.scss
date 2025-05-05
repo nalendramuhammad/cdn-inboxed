@@ -1,0 +1,71 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/functions" as f;
+
+.about {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(280deg, #ffffff7b, v.$primary);
+
+  .about-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 8rem;
+    justify-content: space-between;
+    align-items: center;
+
+    .about-text {
+      flex: 1;
+      max-width: 700px;
+
+      .about-subtitle {
+        font-size: 1rem;
+        color: #ffffffcc;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 1rem 0;
+        @include m.respond-to(md) {
+          font-size: 1.45rem;
+        }
+        @include m.respond-to(sm) {
+          font-size: 1.45rem;
+        }
+      }
+
+      p {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        line-height: 1.6;
+        @include m.respond-to(sm) {
+          font-size: 0.75rem;
+        }
+      }
+
+      .about-button {
+        background-color: #2d30e5;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        filter: drop-shadow(0 0 0.2rem rgb(98, 142, 219));
+
+        &:hover {
+          background-color: #2d30e5;
+          color: white;
+        }
+      }
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: -2%;
+    }
+  }
+}
