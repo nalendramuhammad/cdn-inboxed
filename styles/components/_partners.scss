@@ -10,6 +10,10 @@
   background-color: #f0f8ff;
   text-align: center;
 
+  @include m.respond-to(xl) {
+    padding: 1rem;
+  }
+
   h3 {
     font-size: 2.75rem;
     font-weight: 600;

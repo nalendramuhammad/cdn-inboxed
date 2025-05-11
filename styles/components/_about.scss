@@ -15,6 +15,20 @@
     justify-content: space-between;
     align-items: center;
 
+    @include m.respond-to(md) {
+      background: linear-gradient(350deg, #ffffff7b, v.$primary);
+      padding: 4rem;
+    }
+
+    @include m.respond-to(sm) {
+      background: linear-gradient(350deg, #ffffff7b, v.$primary);
+      padding: 2rem;
+    }
+
+    @include m.respond-to(xs) {
+      padding: 2rem;
+    }
+
     .about-text {
       flex: 1;
       max-width: 700px;
@@ -34,13 +48,22 @@
         @include m.respond-to(sm) {
           font-size: 1.45rem;
         }
+        @include m.respond-to(xs) {
+          font-size: 1.45rem;
+        }
       }
 
       p {
         margin-bottom: 1rem;
         font-size: 1rem;
         line-height: 1.6;
+        @include m.respond-to(md) {
+          font-size: 1rem;
+        }
         @include m.respond-to(sm) {
+          font-size: 0.75rem;
+        }
+        @include m.respond-to(xs) {
           font-size: 0.75rem;
         }
       }
@@ -62,10 +85,19 @@
       }
     }
 
-    img {
+    .about-image {
       position: absolute;
       right: 0;
       bottom: -2%;
+      @include m.respond-to(md) {
+        display: none;
+      }
+      @include m.respond-to(sm) {
+        display: none;
+      }
+      @include m.respond-to(xs) {
+        display: none;
+      }
     }
   }
 }

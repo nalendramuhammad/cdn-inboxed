@@ -9,7 +9,14 @@ const nextConfig: NextConfig = {
     return config;
   },
   images: {
-    domains: ["ik.imagekit.io"], // ImageKit domain
+    domains: ["ik.imagekit.io"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "example.com", // Replace with your actual domain
+        pathname: "/path/to/images/**",
+      },
+    ],
   },
 };
 

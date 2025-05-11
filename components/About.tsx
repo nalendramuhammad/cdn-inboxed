@@ -22,6 +22,7 @@ export default function HomePage() {
             src="/image/aboutus.png"
             width={750}
             height={500}
+            className="about-image"
             alt="business"
           />
         </div>

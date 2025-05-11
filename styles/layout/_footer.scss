@@ -15,7 +15,7 @@
   }
 
   @include m.respond-to(md) {
-    padding: 3rem 2rem;
+    padding: 3rem;
   }
 
   @include m.respond-to(sm) {
@@ -30,6 +30,11 @@
     margin-bottom: 3rem;
     gap: 3rem;
 
+    img {
+      width: 30%;
+      height: auto;
+    }
+
     .footer-brand {
       max-width: 500px;
 
@@ -42,6 +47,18 @@
         color: #dbeafe;
         font-size: 1.1rem;
         text-align: justify;
+
+        @include m.respond-to(md) {
+          font-size: 0.75rem;
+        }
+
+        @include m.respond-to(sm) {
+          font-size: 0.75rem;
+        }
+
+        @include m.respond-to(xs) {
+          font-size: 0.75rem;
+        }
       }
     }
 
@@ -56,9 +73,15 @@
       }
 
       @include m.respond-to(md) {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
+        font-size: 0.75rem;
+      }
+
+      @include m.respond-to(sm) {
+        font-size: 0.75rem;
+      }
+
+      @include m.respond-to(xs) {
+        font-size: 0.75rem;
       }
 
       .navigation-footer {
@@ -161,6 +184,14 @@
       gap: 1rem;
       font-size: 0.85rem;
       color: #cbd5e1;
+
+      @include m.respond-to(sm) {
+        font-size: 0.75rem;
+      }
+
+      @include m.respond-to(xs) {
+        font-size: 0.75rem;
+      }
 
       .meta-links {
         display: flex;

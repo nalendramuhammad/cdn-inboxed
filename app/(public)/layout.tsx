@@ -14,14 +14,13 @@ export default function PublicLayout({
       <main>{children}</main>
       <ContactButton />
 
-      {/* Add async or defer to load the scripts asynchronously */}
       <Script
         src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"
-        strategy="afterInteractive" // Load script after interactive
+        strategy="afterInteractive"
       />
       <Script
-        src="https://files.bpcontent.cloud/2025/04/15/06/20250415064935-3P4HDT8Z.js"
-        strategy="afterInteractive" // Load script after interactive
+        src="https://files.bpcontent.cloud/2025/05/05/13/20250505135014-JKAVRT4B.js"
+        strategy="afterInteractive"
       />
 
       <Footer />
