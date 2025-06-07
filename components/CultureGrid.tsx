@@ -36,7 +36,7 @@ export default function CultureGrid() {
 
       <div className="culture-content">
         <div className="culture-left">
-          {culture.slice(0, 3).map((item, idx) => (
+          {culture.slice(0, 3).map((item) => (
             <div className="culture-item" key={item.titleKeyBawah}>
               <h3>{item.titleKeyBawah}</h3>
               <p>{item.descriptionKey}</p>
@@ -55,7 +55,7 @@ export default function CultureGrid() {
         </div>
 
         <div className="culture-right">
-          {culture.slice(3).map((item, idx) => (
+          {culture.slice(3).map((item) => (
             <div className="culture-item" key={item.titleKeyBawah}>
               <h3>{item.titleKeyBawah}</h3>
               <p>{item.descriptionKey}</p>
