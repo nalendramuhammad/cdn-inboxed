@@ -36,20 +36,12 @@ export default function HomePage() {
             />
           </div>
           <div className="kedua-wrap-kanan">
-            <h1>We Craft the Logic Behind Your Leap Forward</h1>
-            <p>
-              Inboxed is a digital solution provider that empowers businesses to
-              achieve transformation and growth through innovative technology
-              and strategic collaboration. With a strong focus on quality,
-              security, and scalability, Inboxed delivers end-to-end
-              support—from planning and implementation to optimization and
-              training. By combining expert insights, modern development
-              practices, and continuous support, Inboxed helps organizations
-              streamline operations, enhance digital capabilities, and adapt
-              effectively to changing demands.
-            </p>
+            <h1>{t("ourService.serviceSecond.header")}</h1>
+            <p>{t("ourService.serviceSecond.description")}</p>
             <Link href="/about">
-              <button className="ctaButton">Try it Now</button>
+              <button className="ctaButton">
+                {t("ourService.serviceSecond.ctaButton")}
+              </button>
             </Link>
           </div>
         </div>

@@ -52,25 +52,12 @@ export default function SolutionPage() {
             />
           </div>
           <div className="kedua-wrap-kanan">
-            <h1>
-              A Complete Digital Ecosystem to Streamline Operations, Enhance
-              Collaboration, and Accelerate Business Growth.
-            </h1>
-            <p>
-              Unlock the full potential of your business with a complete digital
-              ecosystem tailored to your needs. Whether you&apos;re optimizing
-              daily operations, boosting team productivity, or enhancing
-              customer experience, our comprehensive solution pillars are
-              designed to support your growth. From ERP and CRM to AI-powered
-              insights, collaboration tools, and secure cloud
-              services—everything you need is seamlessly integrated and
-              available via On-Premises, SaaS, or Managed Service. Start with
-              what you need today, scale as you grow, and experience the agility
-              and efficiency that modern businesses demand. Let us simplify your
-              digital transformation—try it now and see the difference.
-            </p>
+            <h1>{t("ourSolution.solutionKedua.header")}</h1>
+            <p>{t("ourSolution.solutionKedua.description")}</p>
             <Link href="/about">
-              <button className="ctaButton">Try it Now</button>
+              <button className="ctaButton">
+                {t("ourSolution.solutionKedua.ctaButton")}
+              </button>
             </Link>
           </div>
         </div>
@@ -78,7 +65,7 @@ export default function SolutionPage() {
       <Partners />
       <section className="pembatas">
         <div className="pembatas-wrap">
-          <h1>Unlock Seamless Growth with Scalable Business Tools</h1>
+          <h1>{t("ourSolution.pembatas")}</h1>
           <div className="image-kiri">
             <Image
               src="/image/our-solution/Bussinessssss.png"

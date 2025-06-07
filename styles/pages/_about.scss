@@ -183,6 +183,12 @@
   padding: 6rem;
   font-size: 1.25rem;
   text-align: justify;
+
+  @include m.respond-to(xxs) {
+    padding: 3rem;
+    font-size: 1rem;
+    text-align: left;
+  }
 }
 
 .vision-section {

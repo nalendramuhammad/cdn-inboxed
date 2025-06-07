@@ -80,7 +80,13 @@
 
   "ourSolution": {
     "header": "We make application not just accessible, but strategic for every Industry",
-    "subHeader": "Empowering Your Digital Journey From idea to execution, we help turn your vision into scalable, future-proof solutions."
+    "subHeader": "Empowering Your Digital Journey From idea to execution, we help turn your vision into scalable, future-proof solutions.",
+    "solutionKedua": {
+      "header": "A Complete Digital Ecosystem to Streamline Operations, Enhance Collaboration, and Accelerate Business Growth.",
+      "description": "Unlock the full potential of your business with a complete digital ecosystem tailored to your needs. Whether you're optimizing daily operations, boosting team productivity, or enhancing customer experience, our comprehensive solution pillars are designed to support your growth. From ERP and CRM to AI-powered insights, collaboration tools, and secure cloud services—everything you need is seamlessly integrated and available via On-Premises, SaaS, or Managed Service. Start with what you need today, scale as you grow, and experience the agility and efficiency that modern businesses demand. Let us simplify your digital transformation—try it now and see the difference.",
+      "ctaButton": "Try it Now"
+    },
+    "pembatas": "Unlock Seamless Growth with Scalable Business Tools"
   },
 
   "aboutPage": {
@@ -313,7 +319,12 @@
     "subHeader": "Building Solutions, Delivering Excellence.",
     "subtitle": "Our Service",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "serviceSecond": {
+      "header": "We Craft the Logic Behind Your Leap Forward",
+      "description": "Inboxed is a digital solution provider that empowers businesses to achieve transformation and growth through innovative technology and strategic collaboration. With a strong focus on quality, security, and scalability, Inboxed delivers end-to-end support—from planning and implementation to optimization and training. By combining expert insights, modern development practices, and continuous support, Inboxed helps organizations streamline operations, enhance digital capabilities, and adapt effectively to changing demands.",
+      "ctaButton": "Contact Us"
+    }
   },
 
   "ourPartner": {

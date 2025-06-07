@@ -14,6 +14,10 @@
     padding: 8rem;
     justify-content: space-between;
     align-items: center;
+    @include m.respond-to(lg) {
+      background: linear-gradient(350deg, #ffffff7b, v.$primary);
+      padding: 4rem;
+    }
 
     @include m.respond-to(md) {
       background: linear-gradient(350deg, #ffffff7b, v.$primary);
@@ -89,6 +93,14 @@
       position: absolute;
       right: 0;
       bottom: -2%;
+      
+      @include m.respond-to(xl) {
+        display: none;
+      }
+      
+      @include m.respond-to(lg) {
+        display: none;
+      }
       @include m.respond-to(md) {
         display: none;
       }

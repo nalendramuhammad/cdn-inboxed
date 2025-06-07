@@ -51,6 +51,7 @@ export default function ServiceGrid() {
                   alt={t(item.titleKey)}
                   width={40}
                   height={40}
+                  loading="lazy"
                 />
                 <div className="title-desc">
                   <h3>{t(item.titleKey)}</h3>

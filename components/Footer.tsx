@@ -71,7 +71,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        {/* <div className="contact-links">
+        <div className="contact-links">
           <h4>Contact</h4>
           <ul>
             <li>Lorem Ipsum</li>
@@ -79,7 +79,7 @@ export default function Footer() {
             <li>Lorem Ipsum</li>
             <li>Lorem Ipsum</li>
           </ul>
-        </div> */}
+        </div>
 
         {/* Garis pindah ke sini */}
         <div className="footer-divider" />

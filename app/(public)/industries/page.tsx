@@ -21,6 +21,7 @@ export default function IndustriesPage() {
             alt="icon"
             width={30}
             height={30}
+            loading="lazy"
           />
         </div>
       </section>
