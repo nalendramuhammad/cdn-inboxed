@@ -34,7 +34,7 @@ export default function PartnerPage() {
         </div>
       </section>
       <section className="partner-list-section">
-        <h2 className="partner-list-heading">Our Partner</h2>
+        <h2 className="partner-list-heading">Our Partnerrrrrrrrrr</h2>
         <div className="partner-list-grid">
           {partnerImages.map((src, idx) => (
             <Image
